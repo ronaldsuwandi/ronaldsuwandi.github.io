@@ -1,0 +1,16 @@
+/* custom css */
+footer #footer {
+  text-align:center;
+}
+
+.content {
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+
+.button {
+  margin: 10px 10px 10px 10px;
+
+}
