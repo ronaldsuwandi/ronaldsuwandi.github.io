@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ronald suwandi</title>
 
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/foundation.css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" href="css/custom.css" />
   <link class="favicon" rel="shortcut-icon" />
   <link class="favicon" rel="icon" />
-
-  <script src="js/lib/custom.modernizr.js"></script>
 </head>
 <body>
   <script type="text/javascript">
@@ -28,39 +23,78 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
-  <header>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Projects</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns" id='description'>
-        <p>List of my projects</p>
-        <hr/> 
-      </div>
-    </div>
-  </header>
 
-  <section class='content'>
-    <div class="row">
-      <div class="large-6 large-centered columns">
-        <a href="le-markdown" class="button">le markdown</a>
-        <a href="le-simplepage" class="button">le simplepage</a>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="span12">
+          <h1>ronald suwandi</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          <ul class="nav nav-pills" id="navigation">
+            <li>
+              <a href="#about" data-toggle="pill">About</a>
+            </li>
+            <li>
+              <a href="#projects" data-toggle="pill">Projects</a>
+            </li>
+            <li>
+              <!-- <a href="http:\/\/blog.ronaldsuwandi.com\/">Blog</a> -->
+            </li>
+          </ul>
+        </div>
+        <div class="span2">
+          <!-- <button class="btn">1</button> -->
+          <!-- <button class="btn">2</button> -->
+          <!-- <button class="btn">3</button> -->
+        </div>
+      </div>
+    </header>
+
+    <hr/>
+    <div class="pill-content">
+      <div class="pill-pane" id="about">
+        software engineer
+      </div>
+      <div class="pill-pane" id="projects">
+        <div class="row">
+          <div class="span2 offset4">
+            <a href="le-markdown" class="btn">le markdown</a>
+          </div>
+          <div class="span2 offset1">
+            <a href="le-simplepage" class="btn">le simplepage</a>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-  <div class="row">
-    <footer>
-      <div class="large-12 columns" id='footer'>
-        <hr />
-        &copy; Ronald Suwandi 2013
-      </div>
-    </footer>
+
+    <section class='content'>
+    </section>
+    <div class="row">
+      <footer>
+        <div class="row span12" id='footer'>
+          <hr />
+          &copy; Ronald Suwandi 2013
+        </div>
+      </footer>
+    </div>
   </div>
 
   <script src="js/lib/jquery.min.js"></script>
-  <script src="js/lib/Markdown.Converter.min.js"></script>
-  <script src="js/lib/foundation.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+
+
+  <script>
+    $(function () {
+      $('#navigation a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      });
+
+      $('#navigation a:first').tab('show'); // Select first tab
+    })
+  </script>
 </body>
 </html>
