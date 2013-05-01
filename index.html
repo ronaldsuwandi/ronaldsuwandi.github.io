@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ronald suwandi</title>
+  <title>Ronald Suwandi</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -33,11 +33,11 @@
     <div class="page-header">
       <!-- <div class="row"> -->
         <!-- <div class="span12"> -->
-          <h1>ronald suwandi</h1>
+          <h1>Ronald Suwandi</h1>
         <!-- </div> -->
       <!-- </div> -->
       <div class="row">
-        <div class="span7">
+        <div class="span5">
           <ul class="nav nav-pills" id="navigation">
             <li>
               <a href="#about" data-toggle="pill">About</a>
@@ -45,15 +45,17 @@
             <li>
               <a href="#projects" data-toggle="pill">Projects</a>
             </li>
-            <li>
-              <!-- <a href="http:\/\/blog.ronaldsuwandi.com\/">Blog</a> -->
-            </li>
           </ul>
         </div>
-        <div class="span2">
-          <!-- <button class="btn">1</button> -->
-          <!-- <button class="btn">2</button> -->
-          <!-- <button class="btn">3</button> -->
+        <div class="span2 text-right">
+          <a href="http://au.linkedin.com/in/ronaldsuwandi"
+             class="social" id="linkedin"></a>
+          <a href="https://twitter.com/SuwandiRonald"
+             class="social" id="twitter"></a>
+          <a href="https://github.com/ronaldsuwandi"
+             class="social" id="github"></a>
+          <a href="http://blog.ronaldsuwandi.com"
+             class="social" id="tumblr"></a>
         </div>
       </div>
     </div>
@@ -61,7 +63,7 @@
     <div class="pill-content">
       <div class="pill-pane" id="about">
         <div class="row">
-          <div class ="span7">
+          <div class ="span5">
             <ul>
               <li>Awesome / amazing / superb dude (pick one)</li>
               <li>Passionate in developing awesome and high quality software</li>
@@ -76,37 +78,59 @@
               </li>
             </ul>
           </div>
-          <div class="span2">
+          <div class="span2 text-center">
             <img src="img/avatar-small.png">
           </div>
         </div>
       </div>
+
       <div class="pill-pane" id="projects">
         <div class="row">
-          <div class="span2 offset3">
+          <div class="span2">
             <a href="le-markdown" class="btn">le markdown</a>
           </div>
+          <div class="span5 text-left">
+            a simple online plain text editor with Markdown support developed
+            completely using JavaScript (Node.js for the server, Backbone.js
+            for the client)
+          </div>
+        </div>
+        <div class="row">
+          &nbsp;
+        </div>
+        <div class="row">
           <div class="span2">
             <a href="le-simplepage" class="btn">le simplepage</a>
+          </div>
+          <div class="span5 text-left">
+            <p>
+              A simple ZURB's Foundation based page template.
+            </p>
+            <p>
+              Contents for the pages are stored in a separate files in Markdown
+              format. Le simplepage then reads the settings in javascript file
+              and loads all the contents and uses Pagedown to handle markdown
+              to html conversion.
+            </p>
           </div>
         </div>
       </div>
     </div>
+
     <footer class="footer">
-      <div class="container">
-        <hr/>
-        &copy; Ronald Suwandi 2013
+      <div class="row">
+        <div class="span7">
+          <hr>
+        </div>
+        <div class="span7">
+          &copy; Ronald Suwandi 2013
+        </div>
       </div>
     </footer>
   </div>
 
   <script>
     $(function () {
-      // $('#navigation a').click(function (e) {
-      //   e.preventDefault();
-      //   $(this).tab('show');
-      // });
-
       $('#navigation a:first').tab('show'); // Select first tab
     })
   </script>
