@@ -37,7 +37,7 @@
         <!-- </div> -->
       <!-- </div> -->
       <div class="row">
-        <div class="span5">
+        <div class="span4">
           <ul class="nav nav-pills" id="navigation">
             <li>
               <a href="#about" data-toggle="pill">About</a>
@@ -47,7 +47,9 @@
             </li>
           </ul>
         </div>
-        <div class="span2 text-right">
+        <div class="span3 text-right">
+          <a href="mailto:ronald@ronaldsuwandi.com"
+             class="social" id="email"></a>
           <a href="http://au.linkedin.com/in/ronaldsuwandi"
              class="social" id="linkedin"></a>
           <a href="https://twitter.com/SuwandiRonald"
@@ -65,8 +67,16 @@
         <div class="row">
           <div class ="span5">
             <ul>
-              <li>Awesome / amazing / superb dude (pick one)</li>
+              <li>Awesome / amazing / superb dude - take your pick :)</li>
               <li>Passionate in developing awesome and high quality software</li>
+              <li>Knows
+                <ul>
+                  <li>Java, Swing, OOP, Design Patterns</li>
+                  <li>HTML, JavaScript, HTML, CSS</li>
+                  <li>Backbone.js, Node.js, jQuery, Bootstrap</li>
+                  <li>SQL, ORM, SQL Server</li>
+                </ul>
+              </li>
               <li>Loves to learn new things and organize stuff</li>
               <li>
                 Other things that I love
@@ -79,7 +89,9 @@
             </ul>
           </div>
           <div class="span2 text-center">
-            <img src="img/avatar-small.png">
+            <a herf="#" class="avatar">
+              <img src="img/avatar-small.png">
+            </a>
           </div>
         </div>
       </div>
@@ -122,7 +134,7 @@
         <div class="span7">
           <hr>
         </div>
-        <div class="span7">
+        <div class="span7 text-center">
           &copy; Ronald Suwandi 2013
         </div>
       </div>
@@ -132,7 +144,25 @@
   <script>
     $(function () {
       $('#navigation a:first').tab('show'); // Select first tab
-    })
+      $('.avatar').popover({
+        content: function randomQuote() {
+          return quotes[parseInt(Math.random() * quotes.length)];
+        },
+      });
+    });
+
+    var quotes = [
+      'derp',
+      'oh hai!',
+      'I can do JavaScript!',
+      'le le le le',
+      'ಠ_ಠ',
+      'I can do Java!',
+      '(´･ω･`)',
+      'ʘ‿ʘ',
+      '( ͡° ͜ʖ ͡°)',
+      'hurr durr'
+    ];
   </script>
 </body>
 </html>
