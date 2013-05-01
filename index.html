@@ -49,15 +49,15 @@
         </div>
         <div class="span3 text-right">
           <a href="mailto:ronald@ronaldsuwandi.com"
-             class="social" id="email"></a>
+             class="social-img" id="email"></a>
           <a href="http://au.linkedin.com/in/ronaldsuwandi"
-             class="social" id="linkedin"></a>
+             class="social-img" id="linkedin"></a>
           <a href="https://twitter.com/SuwandiRonald"
-             class="social" id="twitter"></a>
+             class="social-img" id="twitter"></a>
           <a href="https://github.com/ronaldsuwandi"
-             class="social" id="github"></a>
+             class="social-img" id="github"></a>
           <a href="http://blog.ronaldsuwandi.com"
-             class="social" id="tumblr"></a>
+             class="social-img" id="tumblr"></a>
         </div>
       </div>
     </div>
@@ -143,11 +143,23 @@
 
   <script>
     $(function () {
+      // preload images
+      $.each(preloadImages, function(index, image) {
+        new Image().src=image;
+      });
+
       $('#navigation a:first').tab('show'); // Select first tab
       $('.avatar').popover({
         content: function randomQuote() {
-          return quotes[parseInt(Math.random() * quotes.length)];
+          return quotes[parseInt(Math.random()*quotes.length)];
         },
+        placement: function placement(context, source) {
+          var position = $(source).position();
+          // if image is dropped to the bottom, display popup at the top
+          if (position.left < 126) return 'top';
+          // default return on the right
+          return 'right';
+        }
       });
     });
 
@@ -163,6 +175,14 @@
       '( ͡° ͜ʖ ͡°)',
       'hurr durr'
     ];
+
+    var preloadImages = [
+      'img/linkedin_hover.png',
+      'img/github_hover.png',
+      'img/twitter_hover.png',
+      'img/tumblr_hover.png',
+      'img/email_hover.png'
+    ]
   </script>
 </body>
 </html>

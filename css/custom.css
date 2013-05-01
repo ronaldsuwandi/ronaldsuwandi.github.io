@@ -1,36 +1,13 @@
 /* custom css */
-footer #footer {
-  text-align:center;
-}
-
-.content {
-  text-align: center;
-}
-header {
-  text-align: center;
-}
-
-.button {
-  margin: 10px 10px 10px 10px;
-}
-
 .text-justify {
   text-align: justify;
 }
-
-.social {
+.social-img {
   -moz-transition: all .3s linear;
   -webkit-transition: all .3s linear;
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
-
-  /* hover image preload */
-  background:url('../img/linkedin_hover.png');
-  background:url('../img/github_hover.png');
-  background:url('../img/twitter_hover.png');
-  background:url('../img/tumblr_hover.png');
-  background:url('../img/email_hover.png');
 
   background:transparent;
   background-position: center;
@@ -42,33 +19,37 @@ header {
   display:inline-block;
   text-decoration:none;
 }
-.social#linkedin{
+.social-img#linkedin{
   background-image:url('../img/linkedin.png');
 }
-.social:hover#linkedin{
+.social-img:hover#linkedin{
   background-image:url('../img/linkedin_hover.png');
 }
-.social#twitter{
+.social-img#twitter{
   background-image:url('../img/twitter.png');
 }
-.social:hover#twitter{
+.social-img:hover#twitter{
   background-image:url('../img/twitter_hover.png');
 }
-.social#github{
+.social-img#github{
   background-image:url('../img/github.png');
 }
-.social:hover#github{
+.social-img:hover#github{
   background-image:url('../img/github_hover.png');
 }
-.social#tumblr{
+.social-img#tumblr{
   background-image:url('../img/tumblr.png');
 }
-.social:hover#tumblr{
+.social-img:hover#tumblr{
   background-image:url('../img/tumblr_hover.png');
 }
-.social#email{
+.social-img#email{
   background-image:url('../img/email.png');
 }
-.social:hover#email{
+.social-img:hover#email{
   background-image:url('../img/email_hover.png');
+}
+
+.avatar {
+  display:inline-block;
 }
