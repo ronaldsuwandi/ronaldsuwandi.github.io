@@ -2,4 +2,4 @@ db.json
 node_modules
 public
 debug.log
-
+.DS_Store

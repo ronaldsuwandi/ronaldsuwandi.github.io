@@ -1,0 +1,9 @@
+{
+  "name": "hexo",
+  "version": "2.2.0",
+  "private": true,
+  "dependencies": {
+    "hexo-generator-sitemap": "0.0.6",
+    "hexo-generator-feed": "0.0.10"
+  }
+}
