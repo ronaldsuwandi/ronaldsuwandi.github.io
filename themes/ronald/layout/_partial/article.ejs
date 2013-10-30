@@ -1,0 +1,74 @@
+<article class="l-article article l-<%= item.layout %> <%= item.layout %>">
+  <% if (item.photos){ %>
+    <%- partial('post/gallery') %>
+  <% } %>
+
+  <header class="l-article-header article-header">
+    <% if (item.link){ %>
+      <% if (item.title){ %>
+          <h1 class="l-article-header-title article-header-title"><a class="article-header-title-link" href="<%- item.link %>" target="_blank"><%= item.title %> <i class="external-link fa fa-external-link"></i></a></h1>
+      <% } else { %>
+          <h1 class="l-article-header-title article-header-title"><a class="article-header-title-link" href="<%- item.link %>" target="_blank"><%= item.link %> <i class="external-link fa fa-external-link"></i></a></h1>
+      <% } %>
+    <% } else { %>
+      <% if (list) { %>
+          <h1 class="l-article-header-title article-header-title"><a class="article-header-title-link" href="<%- config.root %><%- item.path %>"><%= item.title %></a></h1>
+      <% } else { %>
+          <h1 class="l-article-header-title article-header-title"><%= item.title %></h1>
+      <% } %>
+    <% } %>
+
+    <% if (item.layout != 'page'){ %>
+      <% if (list) { %>
+          <div class="l-article-header-time article-header-time" datetime="<%= item.date.toDate().toISOString() %>"><a class="article-header-time-link" href="<%- config.root %><%- item.path %>"><%= item.date.format(config.date_format) %></a></div>
+      <% } else { %>
+          <div class="l-article-header-time article-header-time" datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></div>
+      <% } %>
+    <% } %>
+  </header>
+
+  <section class="l-article-content article-content">
+    <% if (item.excerpt){ %>
+      <%- item.excerpt %>
+      <div class="l-more-link">
+        <a href="<%- config.root %><%- item.path %>#more" class="l-more-link more-link"><%= theme.excerpt_link %></a>
+      </div>
+    <% } else { %>
+      <%- item.content %>
+    <% } %>
+  </section>
+
+  <footer class="l-article-footer article-footer">
+
+  </footer>
+
+
+  <section class="l-post-content post-content">
+    <section class="l-post-content-entry post-content-entry">
+
+    <%- partial('post/share') %>
+
+    <footer class="l-post-content-footer post-content-footer">
+      <% if (list){ %>
+        <div class="float-left">
+          <%- partial('post/category') %>
+          <%- partial('post/tag') %>
+        </div>
+        <% if (item.comments && config.disqus_shortname){ %>
+        <div class="float-right">
+          <span class="comment">
+            <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
+          </span>
+        </div>
+        <% } %>
+      <% } else { %>
+        <%- partial('post/category') %>
+        <%- partial('post/tag') %>
+      <% } %>
+      <div class="clearfix"></div>
+    </footer>
+  </section>
+</article>
+
+<%- partial('comment') %>
+<div class="clearfix"></div>

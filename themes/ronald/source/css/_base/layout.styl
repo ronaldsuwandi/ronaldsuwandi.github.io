@@ -1,0 +1,49 @@
+/**
+ * Base classes
+ */
+
+*
+  box-sizing(border-box)
+  text-size-adjust(none)
+  margin 0
+  padding 0
+  text-rendering optimizeLegibility;
+
+h1, h2, h3, h4, h5, h6
+  font-family font-title
+
+h1
+  font-size 1.8em
+  line-height 1.1em
+  @media (max-width: 767px)
+    font-size 1.5em
+
+h2
+  font-size 1.5em
+  line-height 1.1em
+  @media (max-width: 767px)
+    font-size 1.3em
+
+h3
+  font-size 1.3em
+  line-height 1em
+  @media (max-width: 767px)
+    font-size 1.1em
+
+a
+  text-decoration none
+  color color-link
+  transition color 0.2s ease;
+  &:hover
+    color darken(color-link, 10)
+  &:active
+    color lighten(color-link, 10)
+  &:visited
+    color none //TODO FIX
+
+p, blockquote, ul, ol, dl, table, iframe, h3, h4, h5, h6, .video-container
+  margin-top 15px
+ul, ol, dl
+  margin-left 20px
+  ul, ol, dl
+    margin-top 0

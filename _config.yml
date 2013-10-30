@@ -4,7 +4,7 @@
 
 # Site
 title: Ronald Suwandi
-subtitle:
+subtitle: developer (´･ω･`)
 description:
 author: Ronald Suwandi
 email: ronald@ronaldsuwandi.com
@@ -31,8 +31,8 @@ multi_thread: true
 filename_case: 0
 highlight:
   enable: true
-  line_number: true
-  tab_replace:
+  line_number: false
+  tab_replace: true
 
 # Category & Tag
 default_category: uncategorized
@@ -76,9 +76,10 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: wearther
+theme: ronald
 exclude_generator:
 plugins:
+- hexo-migrator-rss
 - hexo-generator-sitemap
 - hexo-generator-feed
 

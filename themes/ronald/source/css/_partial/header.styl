@@ -1,0 +1,206 @@
+.l-main-header
+  position relative
+
+.main-header
+  width 100%
+  background-color darken(color-header-background,10)
+
+.l-main-header-inner-width
+  margin auto
+  position relative
+
+.main-header-inner-width
+  max-width header-width
+
+.l-main-logo-link
+  display inline-block
+
+.main-header-link
+  color #fff
+  &:hover
+    color #fff
+  @media (min-width: 768px) // from tablet horizontal
+    height auto
+    .title-container
+      height auto
+
+.l-main-header-container
+  padding-top 10px
+  padding-bottom 10px
+  @media (max-width: 767px) // to tablet horizontal
+    display block
+
+.main-header-container
+  color color-header
+
+.l-main-header-title-container
+  margin-top 5px
+
+.l-main-header-title
+  margin auto
+
+.main-header-title
+  font-weight normal
+  font-size 1.4em
+  line-height 1
+  @media (max-width: 767px) // to tablet horizontal
+    font-size 1em
+
+.logo
+  width 80px
+  height 80px
+  border-radius(18px)
+  @media (min-width: 768px) // from tablet horizontal
+    width 120px
+    height 120px
+    border-radius(27px)
+
+
+// menubar
+.l-main-nav
+  display inline-block
+  padding-top 0
+  padding-bottom 5px
+  position absolute
+  right 0
+  bottom 10px
+  ul
+    margin 0
+    display inline-block
+    li
+      display inline-block
+  @media (max-width: 767px) // to tablet horizontal
+    position static
+    display block
+    bottom 0
+    padding-top 10px
+    padding-bottom 10px
+
+
+.main-nav
+  vertical-align bottom
+  ul, ol, dl
+    list-style none
+    width inherit
+  @media (max-width: 767px) // to tablet horizontal
+    background-color darken(color-header-background, 30)
+    width 100%
+
+.main-nav-item
+  font-size 0.8em
+
+.l-main-nav-link
+  padding-bottom 0
+  margin 0 5px
+  @media (min-width: 980px) // from desktop
+    margin 0 5px
+
+.main-nav-link
+  color color-main-nav
+  border-bottom 2px solid transparent
+  transition all 0.2s ease
+  cursor pointer
+  &:hover, &.current
+    color color-main-nav-hover
+    border-color color-main-nav-underline
+    padding-bottom 4px
+  &:active
+    color lighten(color-main-nav-hover, 30)
+
+.l-main-nav-link-menu
+  position absolute
+  top 0.3em
+  right 0.3em
+  @media (min-width: 980px) // from desktop
+    position relative
+    bottom 0
+
+.main-nav-link-menu
+  font-size 1.8em
+  line-height 1em
+  &:hover
+    border-color transparent
+    padding-bottom 0
+
+// side menu
+.l-main-nav-side-container
+  position fixed
+  left 0
+  right 0
+  top 0
+  bottom 0
+  z-index -10
+  opacity 0
+  pointer-events none
+
+.l-main-nav-side-container:target
+  opacity 1
+  z-index 1
+  pointer-events auto
+
+.main-nav-side-container:target
+  .main-nav-side
+    transform(translateX(0px))
+  .close-main-nav-side:before
+    opacity 0.65
+
+.l-main-nav-side
+  position fixed
+  z-index 99
+  right 0
+  top 0
+  bottom 0
+
+.main-nav-side
+  transition all 0.4s ease
+  transform(translateX(250px))
+  width 250px
+  background-color #fff
+  box-shadow 0 0 5px color-shadow
+  margin-top 0
+  padding-top 0
+  li, ul, dl, ol
+    border-bottom 1px solid color-border
+    list-style none
+    padding 1em 0
+
+.l-close-main-nav-side:before
+  content ""
+  display block
+  position fixed
+  left -250px //from width
+  top 0
+  right 0
+  bottom 0
+  z-index 10
+
+.close-main-nav-side:before
+  transition all 0.4s ease
+  background-color #000
+  opacity 0
+
+.close-main-nav-side
+  cursor default
+
+.l-close-main-nav-side-button
+  position absolute
+  left 10px
+  top 10px
+
+.close-main-nav-side-button
+  color color-main-nav-side-link
+  &:hover
+    color darken(color-main-nav-side-link, 20)
+  &:active
+    color lighten(color-main-nav-side-link, 20)
+
+.main-nav-item-side-entry.current
+  background-color darken(#fff,5)
+
+.main-nav-item-side-link
+  font-size 1.2em
+  color color-main-nav-side-link
+  &:hover
+    color darken(color-main-nav-side-link, 20)
+  &:active
+    color lighten(color-main-nav-side-link, 20)

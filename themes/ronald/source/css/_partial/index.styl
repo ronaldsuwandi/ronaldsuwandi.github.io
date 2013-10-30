@@ -1,0 +1,161 @@
+.main
+  max-width page-width
+  background #fff
+  color color-font
+  font-family font-default
+  font-size 1em
+  text-shadow 0 0 1px transparent
+  line-height 1.4em
+
+.l-main
+  margin auto
+  position relative
+  padding 0 10px
+
+.l-main-footer
+  float left
+  margin-bottom 30px
+  @media (max-width: 767px)
+    float none
+
+.l-menu-button
+  display block
+  position absolute
+  right 20px
+.menu-button
+  width 30px
+  height 30px
+  &:before
+    font 30px font-icon
+    color #fff
+    content '\f0c9'
+    vertical-align middle
+    text-align center
+  &:hover
+    text-shadow 0 0 3px #fff
+
+.l-menu-side-close
+  position absolute
+  top 0
+  left 0
+  margin 5px 15px
+.menu-side-close
+  width 30px
+  height 30px
+  &:before
+    font 30px font-icon
+    color color-side-button
+    content '\f105'
+    vertical-align middle
+    text-align center
+  &:hover
+    text-shadow 0 0 3px color-side-button
+
+.l-menu-side
+  position fixed
+  z-index 999
+  right 0
+  top 0
+  bottom 0
+  width 250px
+  transform(translateX(250px))
+  transition-property(default-transition-property)
+  transition-duration(default-transition-duration)
+  transition-timing-function(default-transition-function)
+  .l-widget
+    padding-left 35px
+  .l-widget-entry
+    padding 5px
+    li, ul, dl
+      margin-bottom 0.5em
+      padding-bottom 0.5em
+  .l-widget-title
+    display none
+.l-menu-side.isvisible
+  transform(translateX(0px))
+  transition-property(default-transition-property)
+  transition-duration(default-transition-duration)
+  transition-timing-function(default-transition-function)
+
+.menu-side
+  background darken(color-background,5)
+  box-shadow 0 0 5px color-shadow
+  .widget
+    background-color inherit
+    color #fff
+  .widget-entry
+    font-size 1.5em
+    li, ul, dl
+      border-bottom 1px solid color-border
+    a:hover
+      text-decoration none
+
+
+// social buttons
+.l-social
+  display inline-block
+  margin 15px 0
+  li
+    display inline-block
+
+.social
+  width 100%
+
+.l-social-item
+  display inline-block
+  left 0
+
+.social-facebook
+  &:hover
+    color blue
+  &:active
+    color lighten(blue, 15)
+.social-twitter
+  &:hover
+    color blue
+  &:active
+    color lighten(blue, 15)
+.social-linkedin
+  &:hover
+    color blue
+  &:active
+    color lighten(blue, 15)
+.social-github
+  &:hover
+    color black
+  &:active
+    color lighten(black, 15)
+.social-email
+  &:hover
+    color red
+  &:active
+    color lighten(red, 15)
+
+.pagination
+  a
+    display block
+    padding 5px 10px
+    background color-border
+    color color-meta
+    font-family font-title
+    text-shadow 0 0 1px #fff
+    margin-bottom 10px
+    &:hover
+      background color-link
+      color #fff
+      text-decoration none
+      text-shadow none
+
+
+.pagination-prev
+    &:before
+      content '\f053'
+      padding-right 10px
+      font-family font-icon
+
+.pagination-next
+    &:after
+      content '\f054'
+      padding-left 10px
+      font-family font-icon
+

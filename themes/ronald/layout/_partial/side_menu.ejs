@@ -1,0 +1,9 @@
+<div class="l-main-nav-side-container main-nav-side-container align-center" id="side-menu">
+  <a href="#" class="l-close-main-nav-side close-main-nav-side"></a>
+  <ul class="l-main-nav-side main-nav-side">
+    <a href="#" class="fa fa-times l-close-main-nav-side-button close-main-nav-side-button"></a>
+    <% _.each(theme.side_menu, function(menu, title) { %>
+      <li class="l-main-nav-item-side-entry main-nav-item-side-entry uppercase <% if(menu.length > 1 && is_current(menu.slice(1)) || (is_home() && menu === '/')){ %>current<% } %>"><a class="main-nav-item-side-link" href="<%- menu %>"><%= title %></a></li>
+    <% }); %>
+  </ul>
+</div>

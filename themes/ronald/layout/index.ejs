@@ -1,0 +1,7 @@
+<article class="l-article article">
+  <% page.posts.each(function(item){ %>
+    <%- partial('_partial/article', {item: item, list: true}) %>
+  <% }); %>
+
+  <%- partial('_partial/pagination') %>
+</article>
