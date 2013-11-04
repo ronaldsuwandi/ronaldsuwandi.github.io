@@ -1,25 +1,24 @@
 title:
-date: 2013-10-23 08:50:22
+date: 2013-10-24 09:05:53
 comments: false
-share: true
-layout: about
+share: false
+layout: page
 ---
-* Awesome / amazing / superb dude - take your pick :)
+Hi! My name is Ronald, I build [things.](/works) (´･ω･`)
 
-* Passionate in developing awesome and high quality software
+Things I like:
 
-* Knows
+* Building high quality software, learning new things
+* JavaScript, Node.js, Backbone
+* Design Patterns, OOP
+* Responsive Design
+* CSS (love / hate relationship)
+* Strength training
+* Suit, watches, shoes
+* Coffee
 
-  * Java, Swing, OOP, Design Patterns
-  * HTML, JavaScript, HTML, CSS, AJAX, REST, Regular Expressions
-  * Backbone.js, Node.js, jQuery, Bootstrap
-  * Responsive design
-  * SQL, ORM, SQL Server
+<div class="about-img-containe">
+  <img class='about-img' src='/img/about/coffeefest.jpg'> <img class='about-img' src='/img/about/js.jpg'> <img class='about-img' src='/img/about/coffee.jpg'>
+</div>
 
-* Loves to learn new things and organize stuff
 
-* Other things that I love
-
-  * Strength training
-  * Suit, watches, shoes and leather
-  * COFFEE
