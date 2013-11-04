@@ -8,13 +8,13 @@ layout: page
 
 [wearther][] is a weather forecasting webapp that can quickly suggests you the best clothing combinations for the given temperature.
 
-Built on top of mobile-first responsive design with performance as the top priority, [wearther][] can be accessed quickly on modern smartphones. It is also compatible with tablet and desktop browser.
+Built on top of a mobile-first responsive design, with performance as the top priority, [wearther][] can be accessed quickly on your modern smartphones. It is also compatible with tablet and desktop browsers.
 
 {% img /img/works/wearther/phones.png %}
 
-[wearther][] speedy optimizer takes many variables into account when performing calculations: wind speed, humidity, and a weighted average apparent temperatures for the next few hours.
+[wearther][]'s blazingly fast optimizer takes many variables into account when performing calculations: wind speed, humidity, and a weighted average apparent temperatures for the next few hours.
 
-The default duration setting (*long*) is useful if you are planning to go out for the whole day as it takes the weighted average apparent temperature for the next 6 to 12 hours. On the other hand, *short* duration will take the temperatures for the next 2 to 3 hours ahead.
+The default duration setting -- *long* -- takes the weighted average apparent temperature for the next 6 to 12 hours; it works great if you are planning to be outside for the whole day. Otherwise, use -- *short* --  duration if you are planning to be outside for a short period of time (up to 2 to 3 hours).
 
 {% img /img/works/wearther/laptop.png %}
 
