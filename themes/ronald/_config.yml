@@ -1,7 +1,7 @@
 menu:
   Blog: /
   About: /about/
-  Projects: /projects/
+  Works: /works/
   Archives: /archives/
 
 # side_menu:
@@ -27,19 +27,20 @@ share:
   google: true
   linkedin: true
 
-subscribe:
-  #facebook requires app id to display like box
-  facebook:
-  facebookid:
-  #twitter account
-  twitter: SuwandiRonald
-  #path to feed
+social:
+  twitter: https://twitter.com/SuwandiRonald
+  linkedin: http://au.linkedin.com/in/ronaldsuwandi/
+  github: https://github.com/ronaldsuwandi
+  email: mailto:ronald@ronaldsuwandi.com?subject=I LOVE YOU
   feed: /atom.xml
 
-google_analytics:
+google_analytics: UA-28913151-4
 # Fill this one to allow tracking for multiple subdomains
 google_analytics_domain:
 
 logo:
-  url: /img/avatar.png
+  url: /img/avatar/onepiece.jpg
   text: Ronald Suwandi
+
+# if custom.js is required
+custom_js: true

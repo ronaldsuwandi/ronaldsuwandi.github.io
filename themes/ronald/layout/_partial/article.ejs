@@ -3,7 +3,7 @@
     <%- partial('post/gallery') %>
   <% } %>
 
-  <header class="l-article-header article-header">
+  <header class="l-article-header article-header <% if (!list && page.title) { %> l-article-header-underline article-header-underline <% } %>">
     <% if (item.link){ %>
       <% if (item.title){ %>
           <h1 class="l-article-header-title article-header-title"><a class="article-header-title-link" href="<%- item.link %>" target="_blank"><%= item.title %> <i class="external-link fa fa-external-link"></i></a></h1>
@@ -36,38 +36,30 @@
     <% } else { %>
       <%- item.content %>
     <% } %>
+
+    <%- partial('post/share') %>
   </section>
 
   <footer class="l-article-footer article-footer">
-
-  </footer>
-
-
-  <section class="l-post-content post-content">
-    <section class="l-post-content-entry post-content-entry">
-
-    <%- partial('post/share') %>
-
-    <footer class="l-post-content-footer post-content-footer">
-      <% if (list){ %>
-        <div class="float-left">
-          <%- partial('post/category') %>
-          <%- partial('post/tag') %>
-        </div>
-        <% if (item.comments && config.disqus_shortname){ %>
-        <div class="float-right">
-          <span class="comment">
-            <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
-          </span>
-        </div>
-        <% } %>
-      <% } else { %>
+    <% if (list){ %>
+      <div class="float-left article-footer-content-left">
         <%- partial('post/category') %>
         <%- partial('post/tag') %>
+      </div>
+      <% if (item.comments && config.disqus_shortname){ %>
+      <div class="float-right article-footer-content-right">
+        <div class="comment">
+          <a href="<%- item.permalink %>#disqus_thread" class="comment-link"><i class="fa fa-comment l-icon"></i> Comments</a>
+        </div>
+      </div>
       <% } %>
-      <div class="clearfix"></div>
-    </footer>
-  </section>
+    <% } else { %>
+      <%- partial('post/category') %>
+      <%- partial('post/tag') %>
+    <% } %>
+
+    <div class="clearfix"></div>
+  </footer>
 </article>
 
 <%- partial('comment') %>

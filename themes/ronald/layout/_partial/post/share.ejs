@@ -1,7 +1,7 @@
-<% if (theme.share && item.share && !list){ %>
+<% if (theme.share && item.share){ %>
   <div class="l-share share">
     <span class="share-text hidden-phone hidden-small-tablet">
-      Share:
+      Share
     </span>
     <span class="l-share-buttons share-buttons">
       <% if (theme.share.facebook){ %>
@@ -12,7 +12,7 @@
               'facebook-share-dialog',
               'width=626,height=436');
             return false;
-        "><img src="/img/social/facebook.svg" class="l-share-icon share-icon"></a>
+        "><i class="fa fa-facebook fa-fw social-item social-facebook"></i></a>
       <% } %>
       <% if (theme.share.twitter){ %>
         <a class="twitter-share l-twitter-share" href="#"
@@ -22,7 +22,7 @@
               'twitter-share-dialog',
               'width=626,height=260');
             return false;
-        "><img src="/img/social/twitter.svg" class="l-share-icon share-icon"></a>
+        "><i class="fa fa-twitter fa-fw social-item social-twitter"></i></a>
       <% } %>
       <% if (theme.share.google){ %>
         <a class="google-share l-google-share" href="#"
@@ -32,7 +32,7 @@
               'google-share-dialog',
               'width=510,height=380');
             return false;
-        "><img src="/img/social/google.svg" class="l-share-icon share-icon"></a>
+        "><i class="fa fa-google-plus fa-fw social-item social-googleplus"></i></a>
       <% } %>
       <% if (theme.share.linkedin){ %>
         <a class="linkedin-share l-linkedin-share" href="#"
@@ -42,7 +42,7 @@
               'linkedin-share-dialog',
               'width=600,height=380');
             return false;
-        "><img src="/img/social/linkedin.svg" class="l-share-icon share-icon"></a>
+        "><i class="fa fa-linkedin fa-fw social-item social-linkedin"></i></a>
       <% } %>
     </span>
   </div>

@@ -1,35 +1,53 @@
 <footer class="l-main-footer main-footer align-center">
   <ul class="l-social social align-center">
-    <li>
-      <a href="#" class="l-social-item social-item fa-stack fa-lg social-facebook">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-      </a>
-    </li>
-    <li>
-      <a href="#" class="l-social-item social-item fa-stack fa-lg social-twitter">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-      </a>
-    </li>
-    <li>
-      <a href="#" class="l-social-item social-item fa-stack fa-lg social-linkedin">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-      </a>
-    </li>
-    <li>
-      <a href="#" class="l-social-item social-item fa-stack fa-lg social-github">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-      </a>
-    </li>
-    <li>
-      <a href="#" class="l-social-item social-item fa-stack fa-lg social-email">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-      </a>
-    </li>
+    <% if (theme.social.facebook) { %>
+      <li>
+        <a href="<%- theme.social.facebook %>" class="l-social-item social-item fa-stack fa-lg social-facebook">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+        </a>
+      </li>
+    <% } %>
+    <% if (theme.social.twitter) { %>
+      <li>
+        <a href="<%- theme.social.twitter %>" target="_blank" class="l-social-item social-item fa-stack fa-lg social-twitter">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </a>
+      </li>
+		<% } %>
+    <% if (theme.social.linkedin) { %>
+      <li>
+        <a href="<%- theme.social.linkedin %>" target="_blank" class="l-social-item social-item fa-stack fa-lg social-linkedin">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </a>
+      </li>
+		<% } %>
+    <% if (theme.social.github) { %>
+      <li>
+        <a href="<%- theme.social.github %>" target="_blank" class="l-social-item social-item fa-stack fa-lg social-github">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </a>
+      </li>
+		<% } %>
+    <% if (theme.social.email) { %>
+      <li>
+        <a href="<%- theme.social.email %>" target="_blank" class="l-social-item social-item fa-stack fa-lg social-email">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </a>
+      </li>
+		<% } %>
+    <% if (theme.social.feed) { %>
+      <li>
+        <a href="<%- theme.social.feed %>" target="_blank" class="l-social-item social-item fa-stack fa-lg social-feed">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </a>
+      </li>
+    <% } %>
   </ul>
 
   <div class="l-copyright copyright">

@@ -1,7 +1,7 @@
 <%- partial('google_analytics') %>
 
-<script src="<%- config.root %>js/jquery-2.0.3.min.js"></script>
-<script src="<%- config.root %>js/menu-button.js"></script>
+<script src="<%- config.root %>js/retina-1.1.0.min.js"></script>
+<% if (theme.custom_js) { %> <script src="<%- config.root %>js/custom.js"></script> <% } %>
 
 <% if (config.disqus_shortname){ %>
 <script type="text/javascript">

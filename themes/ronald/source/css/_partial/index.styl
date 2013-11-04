@@ -3,9 +3,6 @@
   background #fff
   color color-font
   font-family font-default
-  font-size 1em
-  text-shadow 0 0 1px transparent
-  line-height 1.4em
 
 .l-main
   margin auto
@@ -90,72 +87,27 @@
     a:hover
       text-decoration none
 
+.l-pagination
+  margin-top 20px
 
-// social buttons
-.l-social
-  display inline-block
-  margin 15px 0
-  li
-    display inline-block
+.l-pagination-button
+  display block
+  padding 5px 10px
+  margin-bottom 10px
 
-.social
-  width 100%
-
-.l-social-item
-  display inline-block
-  left 0
-
-.social-facebook
+.pagination-button
+  text-transform uppercase
+  background color-border
+  color color-meta
+  font-family font-title
+  font-size 0.8em
   &:hover
-    color blue
-  &:active
-    color lighten(blue, 15)
-.social-twitter
-  &:hover
-    color blue
-  &:active
-    color lighten(blue, 15)
-.social-linkedin
-  &:hover
-    color blue
-  &:active
-    color lighten(blue, 15)
-.social-github
-  &:hover
-    color black
-  &:active
-    color lighten(black, 15)
-.social-email
-  &:hover
-    color red
-  &:active
-    color lighten(red, 15)
+    background color-link
+    color #fff
 
-.pagination
-  a
-    display block
-    padding 5px 10px
-    background color-border
-    color color-meta
-    font-family font-title
-    text-shadow 0 0 1px #fff
-    margin-bottom 10px
-    &:hover
-      background color-link
-      color #fff
-      text-decoration none
-      text-shadow none
+.l-pagination-button-prev-icon
+  margin-right 10px
 
-
-.pagination-prev
-    &:before
-      content '\f053'
-      padding-right 10px
-      font-family font-icon
-
-.pagination-next
-    &:after
-      content '\f054'
-      padding-left 10px
-      font-family font-icon
+.l-pagination-button-next-icon
+  margin-left 10px
 

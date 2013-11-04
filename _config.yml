@@ -71,7 +71,7 @@ per_page: 5
 pagination_dir: page
 
 # Disqus
-# disqus_shortname: ronaldsuwandi
+disqus_shortname: ronaldsuwandi
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
@@ -87,5 +87,5 @@ plugins:
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
 deploy:
   type: github
-  repository: git@github.com:ronaldsuwandi/wearther-blog.git
+  repository: git@github.com:ronaldsuwandi/ronaldsuwandi.github.io.git
 

@@ -4,25 +4,37 @@
   padding 0
   color color-font
 
-  .l-post-content-footer
-    margin-top 15px
-    padding-top 10px
-    position relative
-
   .l-gallery
     overflow hidden
     position relative
     &:hover
       .control
         opacity 1
+  img
+    margin-top 15px
+
+.article
+  text-align left
+  @media (max-width:767px)
+    // full width on vertical tablet and phone
+    width 100%
+
+.article-header-title
+  font-weight normal
+
+.l-article-header-underline
+  padding-bottom 10px
+  margin-top 20px
+.article-header-underline
+  border-bottom 1px solid color-border
 
 .l-article-header-title
   margin 0 0 10px 0
 
 .article-header-time
-  font-size 1em
+  font-size 0.8em
   line-height 1em
-  color color-article-header
+  color color-meta
   @media (max-width: 767px)
     font-size 0.8em
   .article-header-time-link
@@ -32,17 +44,10 @@
   font-size 0.4em
   vertical-align top
 
-.article
-  text-align left
-  line-height 1.5em
-
-  @media (max-width:767px)
-    // full width on vertical tablet and phone
-    width 100%
-
 
 // content
 .l-article-content
+  padding 10px 0
   blockquote
     padding 0 30px 15px
   footer
@@ -51,10 +56,6 @@
     cite
       &:before
         padding 0 0.5em
-  p:before
-    float left
-  p:after
-    float right
   code
     padding 0 5px
     margin 0 2px
@@ -66,11 +67,6 @@
     code
       padding 0
       margin 0
-
-  h1, h2
-    border-bottom 1px solid color-border
-    padding-bottom 10px
-    margin-top 20px
 
   .caption
     margin-top 5px
@@ -105,10 +101,13 @@
     margin 1em 0 0.5em 1.5em
 
 .article-content
+  // line-height 1.8em
+  // font-size 18px
   blockquote
     font-style italic
     font-family font-serif
-    font-size 1.1em
+    font-size 1em
+    line-height 1.5em
     text-align center
     footer
       border-top none
@@ -119,14 +118,14 @@
           content '—'
           color #ccc
     p:before
-      content '“'
+      content '“ '
       color #c8c8c8
-      font-size 2em
+      font-size 1.5em
       line-height 1em
     p:after
-      content '”'
+      content ' ”'
       color #c8c8c8
-      font-size 2em
+      font-size 1.5em
       line-height 1em
 
   code, pre
@@ -150,7 +149,6 @@
 
   h1, h2
     font-weight normal
-    border-bottom 1px solid color-border
 
   h3, h4, h5, h6
     font-weight normal
@@ -169,7 +167,6 @@
     width 45%
     font-size 1.5em
 
-
 // more
 .l-more-link
   margin-top 1em
@@ -181,7 +178,49 @@
     color color-link
     text-decoration none
 
-.post-content-footer
+// work
+.l-work-item-list
+  margin 0 auto
+.l-work-logo
+  margin 5px 10px
+.work-logo
+  width 148px
+  height 148px
+  border-radius 148px
+
+.l-work-item-link
+  display inline-block
+
+.l-work-item-container
+  display inline-block
+  margin 20px
+.work-item-container
+  text-align center
+  width 250px
+  &:hover
+    background-color #f2f2f2
+  &:active
+    background-color #fffcbf
+
+.l-work-item-title
+.work-item-title
+  font-family font-title
+  font-size 1em
+  margin 0
+
+.l-work-item-description
+.work-item-description
+  font-size 0.8em
+  color color-font
+
+
+// footer
+.l-article-footer
+  margin-top 15px
+  padding-top 10px
+  position relative
+
+.article-footer
   border-top 1px solid color-border
   color color-meta
   font-size 0.9em
@@ -198,59 +237,22 @@
       vertical-align middle
 
 
-.comment
-  &:before
-    font 1.1em font-icon
-    content '\f075'
 
-.categories, .tags
-  &:before
-    font 1.1em font-icon
+.l-article-footer
+  .l-icon
+    margin-right 5px
 
-.l-post-content-footer
-  .categories, .tags
-    position relative
-    padding-left 25px
-    margin 5px 0
-    &:before
-      position absolute
+.article-footer-content-left
+  max-width 67%
+.article-footer-content-right
+  max-width 31%
 
-  .categories
-    &:before
-      content '\f07b'
-      top 0
-      left 1px
 
-  .tags
-    &:before
-      content '\f02b'
-      top 0
-      left 2px
-
-.l-share
-  margin-top 2em
-  iframe
-    margin-top 0
 .share
   text-align right
-  font-size 1em
-  color color-meta
-
-.l-share-icon
-  margin-left 5px
-  display inline-block
-  // up to vertical tablet
-  @media (max-width: 768px)
-    margin-left 12px
-.share-icon
-  width 16px
-  height 16px
-  background color-background
-  // up to vertical tablet
-  @media (max-width: 768px)
-    width 20px
-    height 20px
-
+  font-size 0.8em
+  color color-footer
+  text-transform uppercase
 
 .l-social-menu-icon
   margin-right 10px
@@ -275,3 +277,9 @@
 .l-screenshot
   margin-top 20px
   margin-bottom 20px
+
+.article-content
+  .about-img-container
+    text-align center
+  img.about-img
+    border 1px solid #c1c1c1
