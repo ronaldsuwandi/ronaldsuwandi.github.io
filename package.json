@@ -1,10 +1,12 @@
 {
-  "name": "hexo",
-  "version": "2.4.5",
-  "private": true,
+  "name": "website",
   "dependencies": {
-    "hexo-generator-sitemap": "0.0.6",
-    "hexo-generator-feed": "0.0.10",
-    "hexo-migrator-rss": "0.0.5"
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.3",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "start": "gulp"
   }
 }
