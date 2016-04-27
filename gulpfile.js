@@ -19,7 +19,12 @@ gulp.task('less', function () {
 });
 
 gulp.task('copy', function() {
-  return gulp.src(['src/**/*', '!src/less{,/**}', '!src/js{,/**}'])
+  return gulp.src(['src/**/*', '!src/lib{,/**}', '!src/less{,/**}', '!src/js{,/**}'])
+    .pipe(gulp.dest('./target'));
+});
+
+gulp.task('copy-lib', function() {
+  return gulp.src(['src/lib/**'])
     .pipe(gulp.dest('./target'));
 });
 
@@ -30,11 +35,12 @@ gulp.task('uglify', function() {
 });
 
 gulp.task('watch', ['compile'], function() {
-  gulp.watch(['src/*', 'src/img/**', 'src/css/**'], ['copy']);
+  gulp.watch(['src/*', 'src/img/**', 'src/lib/**'], ['copy']);
+  gulp.watch('src/lib/**', ['copy-lib'])
   gulp.watch('src/less/**', ['less']);
   gulp.watch('src/js/**', ['uglify']);
 });
 
-gulp.task('compile', ['less', 'copy', 'uglify'])
+gulp.task('compile', ['less', 'copy-lib', 'copy', 'uglify']);
 
 gulp.task('default', ['watch', 'webserver']);
