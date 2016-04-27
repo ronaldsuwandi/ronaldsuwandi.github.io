@@ -7,7 +7,7 @@ gulp.task('webserver', function() {
   gulp.src(['target'])
     .pipe(webserver({
       livereload: true,
-      port: 3000,
+      port: 4000,
     }));
 });
 
