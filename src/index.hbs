@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ronald Suwandi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TODO - use template to use cdn for prod -->
+    <link rel="stylesheet" type="text/css" href="/css/basscss-8.0.1.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/basscss-addons.css">
+    <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <section class="main flex items-center justify-center md-p4">
+        <div class="box p3 max-width-2">
+            <h1>Hi, I'm Ronald</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et mauris maximus, malesuada urna at, ultricies nulla. Pellentesque a posuere libero. Ut dictum facilisis lobortis. Fusce quis est vitae sapien blandit vehicula. Integer egestas, augue non suscipit mattis, orci nisl accumsan velit, eu tristique nunc lectus vitae erat. Aliquam sodales eu neque a convallis. Quisque dignissim odio sit amet justo varius, id tristique erat egestas. Sed at euismod lorem.</p>
+        </div>
+    </section>
+
+    <section class="works md-p4 p2">
+        <h1 class="center">What I have been up to...</h1>
+
+        {{#each works}}
+          <div class="entry flex">
+            <div class="entry-icon">
+              <img src="{{icon}}">
+            </div>
+            <div class="entry-content">
+              <div class="entry-content-title">
+                <p class="m0">{{title}}</p>
+                <p class="mt0">{{subtitle}}</p>
+              </div>
+              <div class="entry-content-period">{{period}}</div>
+              <div class="entry-content-description">{{{description}}}
+              </div>
+            </div>
+        {{/each}}
+        </div>
+
+      <h2>yay</h2>
+    </section>
+    <section class="stream">
+    </section>
+    <section class="contact">
+    </section>
+
+    <script src="/js/velocity-1.2.3.min.js"></script>
+    <script src="/js/scrollmagic-2.0.5.min.js"></script>
+    <script src="/js/scrollmagic-2.0.5.velocity.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
