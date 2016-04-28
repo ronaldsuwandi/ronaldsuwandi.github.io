@@ -10,44 +10,53 @@
     <link rel="stylesheet" type="text/css" href="/css/basscss-addons.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Oswald' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <section class="main flex items-center justify-center md-p4">
+    <section class="main flex items-center justify-center md-p4 border-box">
         <div class="box p3 max-width-2">
             <h1>Hi, I'm Ronald</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et mauris maximus, malesuada urna at, ultricies nulla. Pellentesque a posuere libero. Ut dictum facilisis lobortis. Fusce quis est vitae sapien blandit vehicula. Integer egestas, augue non suscipit mattis, orci nisl accumsan velit, eu tristique nunc lectus vitae erat. Aliquam sodales eu neque a convallis. Quisque dignissim odio sit amet justo varius, id tristique erat egestas. Sed at euismod lorem.</p>
         </div>
     </section>
-
     <section class="works md-p4 p2">
-        <h1 class="center">What I have been up to...</h1>
-
         {{#each works}}
-          <div class="entry flex max-width-3 mx-auto">
-            <div class="entry-icon">
-              <img src="{{icon}}">
+        <h1 class="center">{{title}}</h1>
+        <div class="works-entry-container flex flex-column max-width-3 mx-auto">
+            {{#each list}}
+            <div class="entry flex my2">
+                <div class="entry-icon">
+                    <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                </div>
+                <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content-title">
+                        <p class="m0"><strong>{{title}}</strong></p>
+                        <p class="mt0 mb1"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
+                    </div>
+                    <div class="entry-content-period">
+                      <small>
+                        <em>{{period}}</em><span class="entry-content-location"> | {{location}}</span>
+                      </small>
+                    </div>
+                    <div class="entry-content-description">{{{description}}}
+                    </div>
+                </div>
             </div>
-            <div class="entry-content ml1 sm-ml2">
-              <div class="entry-content-title">
-                <p class="m0">{{title}}</p>
-                <p class="mt0">{{subtitle}}</p>
-              </div>
-              <div class="entry-content-period">{{period}}</div>
-              <div class="entry-content-description">{{{description}}}
-              </div>
-            </div>
-        {{/each}}
+            {{/each}}
         </div>
-
-      <h2>yay</h2>
+        {{/each}}
     </section>
     <section class="stream">
+        <!-- LightWidget WIDGET -->
+        <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+        <div class="instagram-wrapper max-width-2 mx-auto">
+            <iframe src="//lightwidget.com/widgets/44e0f961481950ed95cf05d886efd204.html" id="lightwidget_44e0f96148" name="lightwidget_44e0f96148"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+        </div>
     </section>
     <section class="contact">
+    instagram facebook linkedin twitter goodreads
     </section>
-
     <script src="/js/velocity-1.2.3.min.js"></script>
     <script src="/js/scrollmagic-2.0.5.min.js"></script>
     <script src="/js/scrollmagic-2.0.5.velocity.min.js"></script>
