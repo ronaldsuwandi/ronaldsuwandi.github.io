@@ -11,32 +11,42 @@
     <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Varela|Hind+Siliguri:400,700|Cambay:400,400italic,700italic,700|Work+Sans:400,700|Catamaran:400,700|Stoke' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <section class="main flex items-center justify-center md-p4 border-box">
-        <div class="box p3 max-width-2">
-            <h1>Hi, I'm Ronald</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et mauris maximus, malesuada urna at, ultricies nulla. Pellentesque a posuere libero. Ut dictum facilisis lobortis. Fusce quis est vitae sapien blandit vehicula. Integer egestas, augue non suscipit mattis, orci nisl accumsan velit, eu tristique nunc lectus vitae erat. Aliquam sodales eu neque a convallis. Quisque dignissim odio sit amet justo varius, id tristique erat egestas. Sed at euismod lorem.</p>
+    <section class="main flex items-center justify-center border-box">
+        <div class="p3 max-width-2">
+            <img class="circle mx-auto block border border-box" src="/img/favicon.jpg">
+            <h1>Ronald Suwandi</h1>
+            <p>Self-proclaimed awesome full stack engineer who loves to build high quality products and also a certified barista.</p>
+            <p>Currently my interest lies in Machine Learning, Adtech industry, Clojure and Go. I'm also experienced in JavaScript, Java, and various web frameworks such as Ember, Angular, React and Backbone.</p>
+            <p>I'm also a father to an adorable son and trying to teach him machine learning.</p>
         </div>
     </section>
-    <section class="works md-p4 p2">
+    <section class="works md-p3 p2">
         {{#each works}}
         <h1 class="center">{{title}}</h1>
         <div class="works-entry-container flex flex-column max-width-3 mx-auto">
             {{#each list}}
             <div class="entry flex my2">
-                <div class="entry-icon">
+                <div class="entry-icon flex-none">
+                    {{#if icon}}
                     <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                    {{else}}
+                    <img src="" style="visibility: hidden;"> {{/if}}
                 </div>
                 <div class="entry-content ml1 sm-ml2">
-                    <div class="entry-content-title">
-                        <p class="m0"><strong>{{title}}</strong></p>
-                        <p class="mt0 mb1"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
+                    <div class="entry-content-title-container">
+                        <p class="m0 title"><strong>{{title}}</strong></p>
+                        <p class="mt0 mb1 subtitle"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
                     </div>
                     <div class="entry-content-period">
-                      <small>
-                        <em>{{period}}</em><span class="entry-content-location"> | {{location}}</span>
+                        <small>
+                        <em>{{period}}</em>
+                        {{#if location}}
+                          <span class="entry-content-location"> | {{location}}</span>
+                        {{/if}}
                       </small>
                     </div>
                     <div class="entry-content-description">{{{description}}}
@@ -47,15 +57,8 @@
         </div>
         {{/each}}
     </section>
-    <section class="stream">
-        <!-- LightWidget WIDGET -->
-        <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-        <div class="instagram-wrapper max-width-2 mx-auto">
-            <iframe src="//lightwidget.com/widgets/44e0f961481950ed95cf05d886efd204.html" id="lightwidget_44e0f96148" name="lightwidget_44e0f96148"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
-        </div>
-    </section>
-    <section class="contact">
-    instagram facebook linkedin twitter goodreads
+    <section class="contact md-p3 p2">
+        instagram facebook linkedin twitter goodreads
     </section>
     <script src="/js/velocity-1.2.3.min.js"></script>
     <script src="/js/scrollmagic-2.0.5.min.js"></script>

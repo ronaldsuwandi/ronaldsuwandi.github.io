@@ -1,28 +1,46 @@
 body {
-  font-family: 'Open Sans'
+  font-family: 'Work Sans';
+  // color: #333;
+  color: #011627;
+}
+
+a {
+  text-decoration: none;
+  color: #DE2758;
+  transition: color 0.4s;
+
+  &:hover, &:active {
+    color: lighten(#fa1e30, 15%);
+  }
 }
 
 .main {
-  background: url('/img/bg.jpg');
+  // background: url('/img/bg2.jpg');
+  // background: #fafafa;
+  background: #FFF8F0;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  // background-attachment: fixed;
+  min-height: 100vh;
 
-  color: white;
+  // color: white;
 
   h1 {
-    font-family: 'Oswald'
+    font-family: 'Stoke';
+    text-transform: uppercase;
   }
 
-  .box {
-    background: rgba(0,0,0,0.3);
+  img {
+    width: 300px;
+    border-width: 4px;
+    border-color: #fff;
   }
 }
 
 
 .works {
   h1 {
-    font-family: 'Oswald'
+    font-family: 'Catamaran'
   }
 
   .entry {
@@ -45,5 +63,14 @@ body {
         }
       }
     }
+    .entry-content-title-container {
+      .title {
+        text-transform: uppercase;
+      }
+    }
   }
+}
+
+.contact {
+  background: #C8A1DE;
 }
