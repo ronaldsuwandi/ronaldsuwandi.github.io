@@ -1,0 +1,89 @@
+body {
+  font-family: 'Quicksand', 'Avenir', 'Helvetica', sans-serif;
+  color: #011627;
+  -webkit-overflow-scrolling: touch;
+}
+a {
+  text-decoration: none;
+  color: #FF6E00;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+a:hover,
+a:active {
+  color: #ff7d1a;
+}
+.main {
+  background: #B2EFF5;
+  min-height: 100vh;
+}
+.main h1 {
+  font-family: 'Pacifico', serif;
+}
+.main img {
+  width: 150px;
+  border-width: 4px;
+  border-color: #fff;
+}
+@media (min-width: 40em) {
+  .main img {
+    width: 200px;
+  }
+}
+.main .social a {
+  background: #fff;
+  color: #59BFC9;
+}
+.main .social a:hover,
+.main .social a:active {
+  color: #a6dde2;
+}
+.main .social a li {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+@media (min-width: 40em) {
+  .main .social a li {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+.main .social a li .icon {
+  margin: auto;
+  font-size: 1.2rem;
+}
+.main .scroll-down a {
+  color: #59BFC9;
+}
+.main .scroll-down a:hover,
+.main .scroll-down a:active {
+  color: #7fced6;
+}
+.main .scroll-down .icon {
+  font-size: 2rem;
+}
+.works .entry .entry-icon img {
+  width: 60px;
+}
+@media (min-width: 40em) {
+  .works .entry .entry-icon img {
+    width: 100px;
+  }
+}
+.works .entry .entry-content-title-container .title {
+  text-transform: uppercase;
+}
+.contact {
+  background: #FF756E;
+  color: #fff;
+}
+.contact .scroll-up a {
+  color: #fff;
+}
+.contact .scroll-up a:hover,
+.contact .scroll-up a:active {
+  text-shadow: 0 0 1rem #fff;
+}
+.contact .scroll-up .icon {
+  font-size: 2rem;
+}
