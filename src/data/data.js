@@ -14,9 +14,12 @@ module.exports = {
   }, {
     className: 'icon-facebook',
     link: 'https://facebook.com/ronald.suwandi'
+  }, {
+    className: 'icon-mail-alt',
+    link: 'mailto:ronald@ronaldsuwandi.com'
   }],
   works: [{
-    title: '— Stuff I\'ve worked on —',
+    title: "— Stuff I've worked on —",
     list: [{
       icon: '/img/works/nn.svg',
       iconText: 'Neural Networks Library',
@@ -58,7 +61,7 @@ module.exports = {
     the sentence into a hashtag format and also gives you some suggestion keywords.</p>`
     }]
   }, {
-    title: '— Awesome places where I have worked —',
+    title: "— My workplace —",
     list: [{
       icon: '/img/works/eyeota.png',
       title: 'Software Developer',

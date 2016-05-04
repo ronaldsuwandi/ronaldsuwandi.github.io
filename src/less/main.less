@@ -6,11 +6,11 @@ body {
 a {
   text-decoration: none;
   color: #FF6E00;
-  transition: color 0.4s;
+  transition: all 0.4s;
   cursor: pointer;
 
   &:hover, &:active {
-    color: lighten(#FF6E00, 15%);
+    color: lighten(#FF6E00, 5%);
   }
 }
 
@@ -47,9 +47,8 @@ a {
     a {
       color: #ffe8b8;
       background: #59BFC9;
-      transition: background 0.4s;
       &:hover, &:active {
-        background: lighten(#59BFC9, 5%);
+        background: lighten(#59BFC9, 10%);
       }
       li {
         width: 2.5rem;
@@ -68,7 +67,7 @@ a {
       color: #59BFC9;
 
       &:hover, &:active {
-        color: lighten(#59BFC9, 5%);
+        color: lighten(#59BFC9, 10%);
       }
     }
     .icon {
@@ -106,7 +105,7 @@ a {
       color: #fff;
 
       &:hover, &:active {
-        color: darken(#fff, 5%);
+        text-shadow: 0 0 1rem #fff;
       }
     }
     .icon {

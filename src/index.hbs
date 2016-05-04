@@ -24,7 +24,7 @@
             <p>I'm also a father to an adorable son.</p>
             <ul class="mt3 center list-reset social flex justify-center">
                 {{#each social}}
-                <a href={{link}} class="mr2 flex flex-none circle align-center justify-center" target="_blank">
+                <a href={{link}} class="mx1 flex flex-none circle align-center justify-center" target="_blank">
                     <li class="flex flex-none align-center justify-center">
                         <i class="icon {{className}}"></i>
                     </li>
@@ -55,7 +55,7 @@
                     </div>
                     <div class="entry-content-period">
                         <small>
-                        <em>{{period}}</em>
+                        {{period}}
                         {{#if location}}
                           <span class="entry-content-location"> | {{location}}</span>
                         {{/if}}
