@@ -16,7 +16,7 @@ module.exports = {
     link: 'https://facebook.com/ronald.suwandi'
   }, {
     className: 'icon-mail-alt',
-    link: 'mailto:ronald@ronaldsuwandi.com'
+    link: 'http://www.google.com/recaptcha/mailhide/d?k=01ecAECCw0UTFSy4JfUdnC-A==&c=ZUL6_TMUkGtFIwaQqYWK7VWUZhsmqXYP2rAuJ6O_IY8='
   }],
   works: [{
     title: "— Stuff I've worked on —",
@@ -24,7 +24,7 @@ module.exports = {
       icon: '/img/works/nn.svg',
       iconText: 'Neural Networks Library',
       title: 'Neural networks library',
-      subtitle: 'Github Link',
+      subtitle: 'Project page',
       link: 'http://github.com/ronaldsuwandi/neuralnetworks',
       location: 'Singapore',
       period: 'April 2016 – Present',
@@ -61,7 +61,7 @@ module.exports = {
     the sentence into a hashtag format and also gives you some suggestion keywords.</p>`
     }]
   }, {
-    title: "— My workplace —",
+    title: "— My experience —",
     list: [{
       icon: '/img/works/eyeota.png',
       title: 'Software Developer',

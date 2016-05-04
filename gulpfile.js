@@ -11,6 +11,7 @@ gulp.task('webserver', function() {
     .pipe(webserver({
       livereload: true,
       port: 4000,
+      host: '0.0.0.0'
     }));
 });
 
