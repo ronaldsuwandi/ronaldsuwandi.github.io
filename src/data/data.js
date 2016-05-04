@@ -57,8 +57,8 @@ module.exports = {
       link: 'http://hashtagoverload.me',
       location: 'Sydney',
       period: 'July 2013 – December 2013',
-      description: `<p>Founder and the developer of #hashtagoverload. A simple webapp that translate
-    the sentence into a hashtag format and also gives you some suggestion keywords.</p>`
+      description: `<p>A simple mobile-first webapp that translate the sentence into a hashtag format
+and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thesaurus.</p>`
     }]
   }, {
     title: "— My experience —",
