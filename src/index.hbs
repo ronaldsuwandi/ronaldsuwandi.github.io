@@ -9,9 +9,9 @@
     <link rel="stylesheet" type="text/css" href="/css/basscss-8.0.1.min.css">
     <link rel="stylesheet" type="text/css" href="/css/basscss-addons.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontello.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Oswald' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Varela|Hind+Siliguri:400,700|Cambay:400,400italic,700italic,700|Work+Sans:400,700|Catamaran:400,700|Stoke' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -22,16 +22,27 @@
             <p>Self-proclaimed awesome full stack engineer who loves to build high quality products and also a certified barista.</p>
             <p>Currently my interest lies in Machine Learning, Adtech industry, Clojure and Go. I'm also experienced in JavaScript, Java, and various web frameworks such as Ember, Angular, React and Backbone.</p>
             <p>I'm also a father to an adorable son.</p>
-            <p class="mt3 right-align">facebook twitter linkedin github</p>
+            <ul class="mt3 center list-reset social flex justify-center">
+                {{#each social}}
+                <a href={{link}} class="mr2 flex flex-none circle align-center justify-center" target="_blank">
+                    <li class="flex flex-none align-center justify-center">
+                        <i class="icon {{className}}"></i>
+                    </li>
+                </a>
+                {{/each}}
+            </ul>
+            <p class="center mt3 mb0 scroll-down">
+                <a class="scroll-to-works"><i class="icon icon-down-open"></i></a>
+            </p>
         </div>
     </section>
     <section class="works md-p3 p2">
         {{#each works}}
-        <h1 class="center">{{title}}</h1>
+        <h2 class="center">{{title}}</h2>
         <div class="works-entry-container flex flex-column max-width-3 mx-auto">
             {{#each list}}
-            <div class="entry flex my2">
-                <div class="entry-icon flex-none">
+            <div class="entry flex my2 sm-my3">
+                <div class="entry-icon flex-none mr2">
                     {{#if icon}}
                     <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
                     {{else}}
@@ -58,12 +69,15 @@
         </div>
         {{/each}}
     </section>
-    <section class="contact md-p3 p2">
-        &copy; Ronald Suwandi 2016
+    <section class="contact md-pt2 md-pl3 md-pr3 md-pb3 p2">
+        <p class="center my0 scroll-up">
+            <a class="scroll-to-main"><i class="icon icon-up-open"></i></a>
+        </p>
+        <p class="center">
+            &copy; Ronald Suwandi 2016
+        </p>
     </section>
     <script src="/js/velocity-1.2.3.min.js"></script>
-    <script src="/js/scrollmagic-2.0.5.min.js"></script>
-    <script src="/js/scrollmagic-2.0.5.velocity.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
 

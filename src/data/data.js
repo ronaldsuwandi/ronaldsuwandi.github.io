@@ -1,6 +1,64 @@
 module.exports = {
+  social: [{
+    className: 'icon-linkedin',
+    link: 'https://linkedin.com/in/ronaldsuwandi'
+  }, {
+    className: 'icon-twitter',
+    link: 'https://twitter.com/suwandironald'
+  }, {
+    className: 'icon-github-circled',
+    link: 'https://github.com/ronaldsuwandi'
+  }, {
+    className: 'icon-instagram',
+    link: 'https://instagram.com/gantengx'
+  }, {
+    className: 'icon-facebook',
+    link: 'https://facebook.com/ronald.suwandi'
+  }],
   works: [{
-    title: 'What I have been up to...', // cv
+    title: '— Stuff I\'ve worked on —',
+    list: [{
+      icon: '/img/works/nn.svg',
+      iconText: 'Neural Networks Library',
+      title: 'Neural networks library',
+      subtitle: 'Github Link',
+      link: 'http://github.com/ronaldsuwandi/neuralnetworks',
+      location: 'Singapore',
+      period: 'April 2016 – Present',
+      description: `<p>Clojure-based neural networks library that is built on top of
+    <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. I decided
+    to create this library after completing <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">
+    Andrew Ng's Machine Learning course</a>. The library is very modular where you can easily swap
+    optimizer, activation/sigmoid functions, stopping conditions and cost function.</p>`
+    }, {
+      icon: '/img/works/wearther.svg',
+      iconText: 'wearther',
+      title: 'wearther',
+      subtitle: 'http://wearther.cc',
+      location: 'Sydney',
+      link: 'http://www.wearther.com',
+      period: 'April 2013 – August 2014',
+      description: `<p>wearther is a web application (Node.js, Backbone, Titanium SDK for the native
+    app version) that helps you decide what to wear based on the current weather. wearther's optimizer -
+    MACHO (Multiobjective Ant Colony Heuristic-based Optimisation) is derived from an artificial
+    intelligence algorithm (Ant Colony Optimisation) to calculate the best clothing combinations quickly
+    so you can leave home feeling just right. Not too cold, and not too warm.</p>
+
+    <p>Featured in both <a href="http://startups.fm/2013/08/30/change-your-style-everyday-with-wearther-the-one-stop-mobile-app-for-weather-forecast-and-apparel-suggestion.html" target="_blank">StartupsFM</a>
+    and <a href="http://www.startupdaily.net/2013/09/new-weather-forecasting-app-that-styles-you/" target="_blank">StartupDaily</a></p>`
+    }, {
+      icon: '/img/works/hashtag.svg',
+      iconText: '#hashtagoverload',
+      title: '#hashtagoverload',
+      subtitle: 'http://hashtagoverload.me',
+      link: 'http://hashtagoverload.me',
+      location: 'Sydney',
+      period: 'July 2013 – December 2013',
+      description: `<p>Founder and the developer of #hashtagoverload. A simple webapp that translate
+    the sentence into a hashtag format and also gives you some suggestion keywords.</p>`
+    }]
+  }, {
+    title: '— Awesome places where I have worked —',
     list: [{
       icon: '/img/works/eyeota.png',
       title: 'Software Developer',
@@ -16,19 +74,6 @@ backend system using Clojure, ElasticSearch, and Cassandra stack.</p>
 rules. Our team is also in charge of the operational side of the system, so I learned about
 deployment using Ansible, metrics collection (what to collect and how to read them) with Graphite
 and Grafana, performed various operational tasks.</p>`
-    }, {
-      icon: '/img/works/nn.svg',
-      iconText: 'Neural networks library',
-      title: 'Neural networks library',
-      subtitle: 'http://github.com/ronaldsuwandi/neuralnetworks',
-      link: 'http://github.com/ronaldsuwandi/neuralnetworks',
-      location: 'Singapore',
-      period: 'April 2016 – Present',
-      description: `<p>Clojure-based neural networks library that is built on top of
-<a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. I decided
-to create this library after completing <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">
-Andrew Ng's Machine Learning course</a>. The library is very modular where you can easily swap
-optimizer, activation/sigmoid functions, stopping conditions and cost function.</p>`
     }, {
       icon: '/img/works/krux.png',
       title: 'Software Engineer',
@@ -60,32 +105,6 @@ the posts and send an email notification at a specified time and frequency. This
 using multiple channels in Go. For this project, I was completely in charge in terms of the frontend
 development, I used Angular.js with heavy use of directives to avoid code repetition. I also created
 the Google Chrome Extension for this product.</p>`
-    }, {
-      icon: '/img/works/wearther.svg',
-      iconText: 'wearther',
-      title: 'wearther',
-      subtitle: 'http://wearther.cc',
-      location: 'Sydney',
-      link: 'http://www.wearther.com',
-      period: 'April 2013 – August 2014',
-      description: `<p>wearther is a web application (Node.js, Backbone, Titanium SDK for the native
-app version) that helps you decide what to wear based on the current weather. wearther's optimizer -
-MACHO (Multiobjective Ant Colony Heuristic-based Optimisation) is derived from an artificial
-intelligence algorithm (Ant Colony Optimisation) to calculate the best clothing combinations quickly
-so you can leave home feeling just right. Not too cold, and not too warm.</p>
-
-<p>Featured in both <a href="http://startups.fm/2013/08/30/change-your-style-everyday-with-wearther-the-one-stop-mobile-app-for-weather-forecast-and-apparel-suggestion.html" target="_blank">StartupsFM</a>
-and <a href="http://www.startupdaily.net/2013/09/new-weather-forecasting-app-that-styles-you/" target="_blank">StartupDaily</a></p>`
-    }, {
-      icon: '/img/works/hashtag.svg',
-      iconText: '#hashtagoverload',
-      title: '#hashtagoverload',
-      subtitle: 'http://hashtagoverload.me',
-      link: 'http://hashtagoverload.me',
-      location: 'Sydney',
-      period: 'July 2013 – December 2013',
-      description: `<p>Founder and the developer of #hashtagoverload. A simple webapp that translate
-the sentence into a hashtag format and also gives you some suggestion keywords.</p>`
     }, {
       title: 'Software Engineer (Contract)',
       subtitle: 'Murray Hurps Software Pty Ltd',
