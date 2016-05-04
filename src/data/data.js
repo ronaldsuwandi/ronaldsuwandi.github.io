@@ -21,7 +21,7 @@ module.exports = {
   works: [{
     title: "— Stuff I've worked on —",
     list: [{
-      icon: '/img/works/nn.svg',
+      icon: '/img/works/nn.png',
       iconText: 'Neural Networks Library',
       title: 'Neural networks library',
       subtitle: 'Project page',
@@ -132,7 +132,7 @@ components and API using Java, Swing, MS SQL Server and our Java-based in-house 
 <p>I also work closely with the science team and business analyst to implement Business Rule Management
 that acts as a constraint manager that is directly used by the optimizer.</p>`
     }, {
-      icon: '/img/works/pacnet.svg',
+      icon: '/img/works/pacnet.png',
       iconText: 'Pacnet',
       title: 'Software Engineer',
       subtitle: 'Pacnet',
