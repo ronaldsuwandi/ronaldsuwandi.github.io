@@ -55,6 +55,8 @@ a:active {
 }
 .main .scroll-down a {
   color: #59BFC9;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 .main .scroll-down a:hover,
 .main .scroll-down a:active {
@@ -80,6 +82,8 @@ a:active {
 }
 .contact .scroll-up a {
   color: #fff;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 .contact .scroll-up a:hover,
 .contact .scroll-up a:active {
