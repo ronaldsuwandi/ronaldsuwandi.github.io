@@ -124,7 +124,7 @@ AngularJS, Firebase, and Phonegap</p>`
       subtitle: 'SolveIT Software (now Schneider Electric)',
       link: 'http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page',
       location: 'Adelaide',
-      period: 'April 2016 – Present',
+      period: 'February 2009 – July 2013',
       description: `<p>I worked with various projects including Crew Rostering, Planning and Scheduling
 Optimization and Supply Chain Network Optimization. I am responsible for developing various reusable
 components and API using Java, Swing, MS SQL Server and our Java-based in-house ORM solution.</p>
@@ -138,7 +138,7 @@ that acts as a constraint manager that is directly used by the optimizer.</p>`
       subtitle: 'Pacnet',
       link: 'http://sg.pacnet.com/',
       location: 'Singapore',
-      period: 'April 2016 – Present',
+      period: 'October 2010 – October 2011',
       description: `<p>I was part of a Regional Project Implementation team which was responsible for
 analyzing and providing feedback for various internal project developed by our vendors. I was later
 transferred to the internal development team to enhance existing applications using Java, JSP and
