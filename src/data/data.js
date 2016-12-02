@@ -40,7 +40,7 @@ module.exports = {
       subtitle: 'http://wearther.cc',
       location: 'Sydney',
       link: 'http://www.wearther.com',
-      period: 'April 2013 – August 2014',
+      period: 'April 2013 – Present',
       description: `<p>wearther is a web application (Node.js, Backbone, Titanium SDK for the native
     app version) that helps you decide what to wear based on the current weather. wearther's optimizer -
     MACHO (Multiobjective Ant Colony Heuristic-based Optimisation) is derived from an artificial
@@ -48,7 +48,10 @@ module.exports = {
     so you can leave home feeling just right. Not too cold, and not too warm.</p>
 
     <p>Featured in both <a href="http://startups.fm/2013/08/30/change-your-style-everyday-with-wearther-the-one-stop-mobile-app-for-weather-forecast-and-apparel-suggestion.html" target="_blank">StartupsFM</a>
-    and <a href="http://www.startupdaily.net/2013/09/new-weather-forecasting-app-that-styles-you/" target="_blank">StartupDaily</a></p>`
+    and <a href="http://www.startupdaily.net/2013/09/new-weather-forecasting-app-that-styles-you/" target="_blank">StartupDaily</a></p>
+
+    <p>Currently in the process of rewriting the whole application using React Native and Redux</p>
+    `
     }, {
       icon: '/img/works/hashtag.svg',
       iconText: '#hashtagoverload',
