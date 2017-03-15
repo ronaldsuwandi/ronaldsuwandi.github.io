@@ -19,51 +19,6 @@ module.exports = {
     link: 'http://www.google.com/recaptcha/mailhide/d?k=01ecAECCw0UTFSy4JfUdnC-A==&c=ZUL6_TMUkGtFIwaQqYWK7VWUZhsmqXYP2rAuJ6O_IY8='
   }],
   works: [{
-    title: "— Stuff I've worked on —",
-    list: [{
-      icon: '/img/works/nn.png',
-      iconText: 'Neural Networks Library',
-      title: 'Neural networks library',
-      subtitle: 'Project page',
-      link: 'http://github.com/ronaldsuwandi/neuralnetworks',
-      location: 'Singapore',
-      period: 'April 2016 – Present',
-      description: `<p>Clojure-based neural networks library that is built on top of
-    <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. I decided
-    to create this library after completing <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">
-    Andrew Ng's Machine Learning course</a>. The library is very modular where you can easily swap
-    optimizer, activation/sigmoid functions, stopping conditions and cost function.</p>`
-    }, {
-      icon: '/img/works/wearther.svg',
-      iconText: 'wearther',
-      title: 'wearther',
-      subtitle: 'http://wearther.cc',
-      location: 'Sydney',
-      link: 'http://www.wearther.com',
-      period: 'April 2013 – Present',
-      description: `<p>wearther is a web application (Node.js, Backbone, Titanium SDK for the native
-    app version) that helps you decide what to wear based on the current weather. wearther's optimizer -
-    MACHO (Multiobjective Ant Colony Heuristic-based Optimisation) is derived from an artificial
-    intelligence algorithm (Ant Colony Optimisation) to calculate the best clothing combinations quickly
-    so you can leave home feeling just right. Not too cold, and not too warm.</p>
-
-    <p>Featured in both <a href="http://startups.fm/2013/08/30/change-your-style-everyday-with-wearther-the-one-stop-mobile-app-for-weather-forecast-and-apparel-suggestion.html" target="_blank">StartupsFM</a>
-    and <a href="http://www.startupdaily.net/2013/09/new-weather-forecasting-app-that-styles-you/" target="_blank">StartupDaily</a></p>
-
-    <p>Currently in the process of rewriting the whole application using React Native and Redux</p>
-    `
-    }, {
-      icon: '/img/works/hashtag.svg',
-      iconText: '#hashtagoverload',
-      title: '#hashtagoverload',
-      subtitle: 'http://hashtagoverload.me',
-      link: 'http://hashtagoverload.me',
-      location: 'Sydney',
-      period: 'July 2013 – December 2013',
-      description: `<p>A simple mobile-first webapp that translate the sentence into a hashtag format
-and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thesaurus.</p>`
-    }]
-  }, {
     title: "— My experience —",
     list: [{
       icon: '/img/works/eyeota.png',
@@ -168,6 +123,51 @@ that acts as a constraint manager that is directly used by the optimizer.</p>`
 analyzing and providing feedback for various internal project developed by our vendors. I was later
 transferred to the internal development team to enhance existing applications using Java, JSP and
 PL/SQL.</p>`
+    }]
+  }, {
+    title: "— Stuff I've worked on —",
+    list: [{
+      icon: '/img/works/nn.png',
+      iconText: 'Neural Networks Library',
+      title: 'Neural networks library',
+      subtitle: 'Project page',
+      link: 'http://github.com/ronaldsuwandi/neuralnetworks',
+      location: 'Singapore',
+      period: 'April 2016 – Present',
+      description: `<p>Clojure-based neural networks library that is built on top of
+    <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. I decided
+    to create this library after completing <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">
+    Andrew Ng's Machine Learning course</a>. The library is very modular where you can easily swap
+    optimizer, activation/sigmoid functions, stopping conditions and cost function.</p>`
+    }, {
+      icon: '/img/works/wearther.svg',
+      iconText: 'wearther',
+      title: 'wearther',
+      subtitle: 'http://wearther.cc',
+      location: 'Sydney',
+      link: 'http://www.wearther.com',
+      period: 'April 2013 – Present',
+      description: `<p>wearther is a web application (Node.js, Backbone, Titanium SDK for the native
+    app version) that helps you decide what to wear based on the current weather. wearther's optimizer -
+    MACHO (Multiobjective Ant Colony Heuristic-based Optimisation) is derived from an artificial
+    intelligence algorithm (Ant Colony Optimisation) to calculate the best clothing combinations quickly
+    so you can leave home feeling just right. Not too cold, and not too warm.</p>
+
+    <p>Featured in both <a href="http://startups.fm/2013/08/30/change-your-style-everyday-with-wearther-the-one-stop-mobile-app-for-weather-forecast-and-apparel-suggestion.html" target="_blank">StartupsFM</a>
+    and <a href="http://www.startupdaily.net/2013/09/new-weather-forecasting-app-that-styles-you/" target="_blank">StartupDaily</a></p>
+
+    <p>Currently in the process of rewriting the whole application using React Native and Redux</p>
+    `
+    }, {
+      icon: '/img/works/hashtag.svg',
+      iconText: '#hashtagoverload',
+      title: '#hashtagoverload',
+      subtitle: 'http://hashtagoverload.me',
+      link: 'http://hashtagoverload.me',
+      location: 'Sydney',
+      period: 'July 2013 – December 2013',
+      description: `<p>A simple mobile-first webapp that translate the sentence into a hashtag format
+and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thesaurus.</p>`
     }]
   }]
 }
