@@ -76,6 +76,10 @@ a:active {
 .works .entry .entry-content-title-container .title {
   text-transform: uppercase;
 }
+.works .entry .entry-content p,
+.works .entry .entry-content li {
+  line-height: 1.5;
+}
 .contact {
   background: #FF756E;
   color: #fff;

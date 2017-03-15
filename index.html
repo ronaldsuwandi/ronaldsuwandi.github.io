@@ -51,7 +51,7 @@
             <img class="circle mx-auto block border border-box" src="/img/ronald.jpg">
             <h1 class="center my2">Ronald Suwandi</h1>
             <p>Self-proclaimed awesome full stack engineer who loves to build high quality products and also a certified barista.</p>
-            <p>Currently my interest lies in Machine Learning, Adtech industry, Clojure and Go. I'm also experienced in JavaScript, Java, and various web frameworks such as Ember, React/Redux, Angular, and Backbone.</p>
+            <p>Currently my interest lies in Distributed Systems, Machine Learning, Adtech industry, Clojure and Go. I'm also experienced in JavaScript, Java, and various web frameworks such as Ember, React/Redux, Angular, and Backbone.</p>
             <p>I'm also a father to an adorably cute and weird son.</p>
             <ul class="mt3 center list-reset social flex justify-center">
                 <a href=https://linkedin.com/in/ronaldsuwandi class="mx1 flex flex-none circle align-center justify-center" target="_blank">
@@ -187,27 +187,35 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
                           <span class="entry-content-location"> | Singapore</span>
                       </small>
                     </div>
-                    <div class="entry-content-description"><p>My main role is to develop the new backend for our web application.
-Previously written in Java, the new backend is a complete rewrite using Clojure with
-Elasticsearch and Cassandra for the database.</p>
+                    <div class="entry-content-description"><p>My main role is to develop the new backend for our web application which 
+originally written in Java and PostgreSQL.</p>
 
-<p>The new backend offers much a higher performance, includes various complex business
-rules and able to communicate with our other system efficiently. I'm also
-responsible for refactoring our backend code to use Stuart Sierra's Component
-framework (dependency injection). By doing this, we are able to split the backend
-into multiple components and makes it much easier to write tests and mock components.</p>
-
-<p>Our team is also in charge for the operational side of the system, I learned
-to use Ansible for deployment and metrics collection using Grafana and Graphite.</p>
+<ul>
+<li>Distributed system consisting of multiple nodes for the web server written in Clojure, ElasticSearch and Cassandra.</li>
+<li>Performed DevOps duty - this includes built a metrics dashboard using Grafana and Graphite for monitoring 
+and Ansible for deployment</li>
+<li>Implemented API in REST architecture including various complex business rules</li>
+<li>Implemented queue to communicate with other system</li>
+<li>Fixes various bugs and memory leak issues with the help of VisualVM and Mission Control</li>
+<li>Introduced various optimizations:
+<ul>
+  <li>Optimized inefficient query that can yield up to 150x improvements for certain case (5s to 30ms)</li>
+  <li>Performed data migration that improved Data Ops workflow. This brings over 33x improvements (from manually 
+creating 1000 reports to 30 reports monthly)</li>
+  <li>Caching query that brings over 2x improvements and also prevents cache stampede issue</li>
+</ul>
+</li>
+<li>Component-based code using Stuart Sierra’s Component framework for dependency injection</li>
+<li>Work on our front end webapp using Ember.js</li>
+</ul>
 
 <p>Other things that I've done:</p>
 <ul>
 <li>Implemented queue system to avoid bombarding our reporting system with new
 report requests</li>
-<li>Work on our front end webapp using Ember.js</li>
-<li>Created and open sourced <a href="https://github.com/eyeota/kani" target="_blank">kani</a>,
+<li>Created and open sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>,
 a Clojure-based application for Cassandra backup that works with Unicode</li>
-<li>Worked with marketing team to develop our main mobile-first responsive website
+<li>Worked together with the marketing team to develop our main mobile-first responsive website 
 using a CMS system, Bootstrap and jQuery</li>
                     </div>
                 </div>
