@@ -109,16 +109,15 @@
                           <span class="entry-content-location"> | Singapore</span>
                       </small>
                     </div>
-                    <div class="entry-content-description"><p>My main role is to develop the new backend for our web application which 
-originally written in Java and PostgreSQL.</p>
+                    <div class="entry-content-description"><p>Together with my team we develop the new backend for our internal admin web application which 
+was originally written in Java and PostgreSQL to be a performant distributed system consisting of multiple nodes for 
+web server written in Clojure, ElasticSearch and Cassandra.</p>
 
 <ul>
-<li>Distributed system consisting of multiple nodes for the web server written in Clojure, ElasticSearch and Cassandra.</li>
+<li>REST API architecture which also contains various complex business rules</li>
 <li>Performed DevOps duty - this includes built a metrics dashboard using Grafana and Graphite for monitoring 
 and Ansible for deployment</li>
-<li>Implemented API in REST architecture including various complex business rules</li>
 <li>Implemented queue to communicate with other system</li>
-<li>Fixes various bugs and memory leak issues with the help of VisualVM and Mission Control</li>
 <li>Introduced various optimizations:
 <ul>
   <li>Optimized inefficient query that can yield up to 150x improvements for certain case (5s to 30ms)</li>
@@ -128,7 +127,18 @@ creating 1000 reports to 30 reports monthly)</li>
 </ul>
 </li>
 <li>Component-based code using Stuart Sierra’s Component framework for dependency injection</li>
+<li>Fixes various bugs and memory leak issues with the help of VisualVM and Mission Control</li>
 <li>Work on our front end webapp using Ember.js</li>
+</ul>
+
+<p>Currently I’m also working with the Data Science team to build the backend of a web application to help with 
+manual validation of our segment prediction engine.</p>
+<ul>
+<li>In charge of building the application from start to finish - architecture design to deployment using Ansible</li>
+<li>Written in Go and PostgreSQL</li>
+<li>Heavily tested (both unit and integration tests) covering heavy concurrency usage</li>
+<li>Over 60x performance improvement for queue locking with correct use of multi column index</li>
+<li>Implemented Row Unlocker - a separate goroutine that runs hourly to unlock locked queue item</li>
 </ul>
 
 <p>Other things that I've done:</p>
