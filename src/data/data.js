@@ -137,13 +137,23 @@ PL/SQL.</p>`
   }, {
     title: "— Stuff I've worked on —",
     list: [{
+      icon: '/img/works/logweight.svg',
+      iconText: 'LogWeight',
+      title: 'LogWeight',
+      subtitle: 'App store link',
+      link: 'https://itunes.apple.com/sg/app/logweight-for-health-app/id1271399293',
+      location: 'Singapore',
+      period: 'August 2017',
+      description: `<p>LogWeight is the fastest way to input track weight into iOS Health App with simple and 
+    intuitive design. Written in React Native.</p>`
+    }, {
       icon: '/img/works/nn.png',
       iconText: 'Neural Networks Library',
       title: 'Neural networks library',
       subtitle: 'Project page',
       link: 'http://github.com/ronaldsuwandi/neuralnetworks',
       location: 'Singapore',
-      period: 'April 2016 – Present',
+      period: 'April 2016 – December 2016',
       description: `<p>Clojure-based neural networks library that is built on top of
     <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. I decided
     to create this library after completing <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">
