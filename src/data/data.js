@@ -144,7 +144,7 @@ PL/SQL.</p>`
       link: 'https://itunes.apple.com/sg/app/logweight-for-health-app/id1271399293',
       location: 'Singapore',
       period: 'August 2017',
-      description: `<p>LogWeight is the fastest way to input track weight into iOS Health App with simple and 
+      description: `<p>LogWeight is the fastest way to track weight into iOS Health App with simple and 
     intuitive design. Written in React Native.</p>`
     }, {
       icon: '/img/works/nn.png',
