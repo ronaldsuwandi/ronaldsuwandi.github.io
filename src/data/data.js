@@ -27,46 +27,16 @@ module.exports = {
       link: 'http://www.eyeota.com/',
       location: 'Singapore',
       period: 'July 2015 – Present',
-      description: `<p>Together with my team we develop the new backend for our internal admin web application which 
-was originally written in Java and PostgreSQL to be a performant distributed system consisting of multiple nodes for 
-web server written in Clojure, ElasticSearch and Cassandra.</p>
-
+      description: `
 <ul>
-<li>REST API architecture which also contains various complex business rules</li>
-<li>Performed DevOps duty - this includes built a metrics dashboard using Grafana and Graphite for monitoring 
-and Ansible for deployment</li>
-<li>Implemented queue to communicate with other system</li>
-<li>Introduced various optimizations:
-<ul>
-  <li>Optimized inefficient query that can yield up to 150x improvements for certain case (5s to 30ms)</li>
-  <li>Performed data migration that improved Data Ops workflow. This brings over 33x improvements (from manually 
-creating 1000 reports to 30 reports monthly)</li>
-  <li>Caching query that brings over 2x improvements and also prevents cache stampede issue</li>
+<li>Developed a high performance distributed backend system that interacts with many other systems (web application, configuration provider for our low latency backend system, reporting engine) using Clojure, Elasticsearch and Cassandra.</li>
+<li>Performed DevOps duty, from monitoring metrics to deployment using Grafana, Graphite and Ansible</li>
+<li>Optimized various inefficient queries that can yield up to 150x improvements in certain cases (5s to 30ms)</li>
+<li>Led and developed the backend system for a web application that is used to perform manual validation on segment/url predictions for the Data Science team. System is written in Go and PostgreSQL</li>
+<li>Created and open-sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>, a Clojure-based application for Cassandra backup with Unicode support</li>
+<li>Developed the frontend for our web application using Ember.js</li>
 </ul>
-</li>
-<li>Component-based code using Stuart Sierra’s Component framework for dependency injection</li>
-<li>Fixes various bugs and memory leak issues with the help of VisualVM and Mission Control</li>
-<li>Work on our front end webapp using Ember.js</li>
-</ul>
-
-<p>Currently I’m also working with the Data Science team to build the backend of a web application to help with 
-manual validation of our segment prediction engine.</p>
-<ul>
-<li>In charge of building the application from start to finish - architecture design to deployment using Ansible</li>
-<li>Written in Go and PostgreSQL</li>
-<li>Heavily tested (both unit and integration tests) covering heavy concurrency usage</li>
-<li>Over 60x performance improvement for queue locking with correct use of multi column index</li>
-<li>Implemented Row Unlocker - a separate goroutine that runs hourly to unlock locked queue item</li>
-</ul>
-
-<p>Other things that I've done:</p>
-<ul>
-<li>Implemented queue system to avoid bombarding our reporting system with new
-report requests</li>
-<li>Created and open sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>,
-a Clojure-based application for Cassandra backup that works with Unicode</li>
-<li>Worked together with the marketing team to develop our main mobile-first responsive website 
-using a CMS system, Bootstrap and jQuery</li>`
+`
     }, {
       icon: '/img/works/krux.png',
       title: 'Software Engineer',
@@ -74,15 +44,12 @@ using a CMS system, Bootstrap and jQuery</li>`
       link: 'http://www.krux.com',
       location: 'Sydney',
       period: 'September 2014 – May 2015',
-      description: `<p>Day to day, I worked with Python, Django, Tastypie, AngularJS, CoffeeScript,
-Sass, Node, Java, Chrome Remote Debugging Interface, a bit of Puppet and some AWS stuff (SQS, S3,
-EMR, Redshift, RDS)</p>
-
-<p>I'm also involved with the upgrade of one of our core service that uses Java, Python, Google
-Chrome/Chrome Debugging Interface, and AWS stack (SQS, RDS, Redshift and S3). Google Chrome is used
-to create HAR files and and then we inject custom JavaScript tag to add additional informations.
-The processed file is then further processed by Java/Python service using AWS stack. The result is
-then stored in RDS, Redshift and S3.</p>`
+      description: `
+<ul>
+<li>Developed both backend and frontend for the web application using Python, Django, Tastypie, Amazon Redshift, Angular.js (1.x) and CoffeeScript</li>
+<li>Upgraded one of the core service using Java, Chrome Remote Debugging Interface, Puppet, and AWS stack (SQS, S3, EMR and RDS)</li>
+</ul>
+`
     }, {
       icon: '/img/works/lm.svg',
       iconText: 'Local Measure',
@@ -91,13 +58,13 @@ then stored in RDS, Redshift and S3.</p>`
       link: 'http://github.com/ronaldsuwandi/neuralnetworks',
       location: 'Sydney',
       period: 'February 2014 – September 2014',
-      description: `<p>I joined to develop their new product using Go and MongoDB that monitors
-various social media posts for user-defined conditions (e.g. specific keywords, a minimum number of
-followers, location, etc). If there are any posts that match the defined conditions, we will aggregate
-the posts and send an email notification at a specified time and frequency. This is achieved by
-using multiple channels in Go. For this project, I was completely in charge in terms of the frontend
-development, I used Angular.js with heavy use of directives to avoid code repetition. I also created
-the Google Chrome Extension for this product.</p>`
+      description: `
+<ul>
+<li>Led and developed the frontend for our new product to monitor and notify users from social media posts for user-defined conditions (e.g. keywords, followers count, location, etc) using Angular.js (1.x)</li>
+<li>Developed the backend for social media monitoring web application using Go and MongoDB making use of channels to aggregate posts and sending email notifications</li>
+<li>Created Google Chrome Extension for the application</li>
+</ul>
+`
     }, {
       title: 'Software Engineer (Contract)',
       subtitle: 'Murray Hurps Software Pty Ltd',
@@ -115,24 +82,12 @@ AngularJS, Firebase, and Phonegap</p>`
       link: 'http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page',
       location: 'Adelaide',
       period: 'February 2009 – July 2013',
-      description: `<p>I worked with various projects including Crew Rostering, Planning and Scheduling
-Optimization and Supply Chain Network Optimization. I am responsible for developing various reusable
-components and API using Java, Swing, MS SQL Server and our Java-based in-house ORM solution.</p>
-
-<p>I also work closely with the science team and business analyst to implement Business Rule Management
-that acts as a constraint manager that is directly used by the optimizer.</p>`
-    }, {
-      icon: '/img/works/pacnet.png',
-      iconText: 'Pacnet',
-      title: 'Software Engineer',
-      subtitle: 'Pacnet',
-      link: 'http://sg.pacnet.com/',
-      location: 'Singapore',
-      period: 'October 2010 – October 2011',
-      description: `<p>I was part of a Regional Project Implementation team which was responsible for
-analyzing and providing feedback for various internal project developed by our vendors. I was later
-transferred to the internal development team to enhance existing applications using Java, JSP and
-PL/SQL.</p>`
+      description: `
+<ul>
+<li>Developed various Swing-based applications for various projects including Crew Rostering, Planning and Scheduling Optimization and Supply Chain Network Optimization. Applications are built using Java, Microsoft SQL Server and our Java-based in-house ORM solution</li>
+<li>Work closely with the science team and business analyst to implement Business Rule Management that acts as a constraint manager that is directly used by the scheduling optimizer</li>
+</ul>
+`
     }]
   }, {
     title: "— Stuff I've worked on —",
@@ -188,6 +143,27 @@ PL/SQL.</p>`
       period: 'July 2013 – December 2013',
       description: `<p>A simple mobile-first webapp that translate the sentence into a hashtag format
 and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thesaurus.</p>`
+    }]
+  }, {
+    title: "— Education —",
+    list: [{
+      title: 'Neural Networks and Deep Learning',
+      subtitle: 'Certificate',
+      link: 'https://www.coursera.org/account/accomplishments/verify/WP37PDQFNADP',
+      location: 'Singapore',
+      period: 'September 2017',
+    }, {
+      title: 'Machine Learning',
+      subtitle: 'Certificate',
+      link: 'https://www.coursera.org/account/accomplishments/verify/5XHU8Q8VK7PX',
+      location: 'Singapore',
+      period: 'March 2016 2017',
+    }, {
+      title: 'Honours, Computer Science (Second Upper Class - IIA)',
+      subtitle: 'University of Adelaide',
+      link: 'https://www.adelaide.edu.au',
+      location: 'Singapore',
+      period: '2004 – 2008',
     }]
   }]
 }
