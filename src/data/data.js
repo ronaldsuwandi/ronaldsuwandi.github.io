@@ -157,7 +157,7 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
       subtitle: 'Certificate',
       link: 'https://www.coursera.org/account/accomplishments/verify/5XHU8Q8VK7PX',
       location: 'Singapore',
-      period: 'March 2016 2017',
+      period: 'March 2016',
     }, {
       title: 'Honours, Computer Science (Second Upper Class - IIA)',
       subtitle: 'University of Adelaide',
