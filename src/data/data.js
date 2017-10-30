@@ -147,6 +147,12 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
   }, {
     title: "— Education —",
     list: [{
+      title: 'Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization',
+      subtitle: 'Certificate',
+      link: 'https://www.coursera.org/account/accomplishments/verify/2KMC3Z2DGDTT',
+      location: 'Singapore',
+      period: 'October 2017',
+    }, {
       title: 'Neural Networks and Deep Learning',
       subtitle: 'Certificate',
       link: 'https://www.coursera.org/account/accomplishments/verify/WP37PDQFNADP',
