@@ -147,6 +147,12 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
   }, {
     title: "— Education —",
     list: [{
+      title: 'Structuring Machine Learning Projects',
+      subtitle: 'Certificate',
+      link: 'https://www.coursera.org/account/accomplishments/verify/8NWS3ZLM6ZJZ',
+      location: 'Singapore',
+      period: 'November 2017',
+    }, {
       title: 'Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization',
       subtitle: 'Certificate',
       link: 'https://www.coursera.org/account/accomplishments/verify/2KMC3Z2DGDTT',
