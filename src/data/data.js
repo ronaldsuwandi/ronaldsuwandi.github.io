@@ -22,7 +22,7 @@ module.exports = {
     title: "— My experience —",
     list: [{
       icon: '/img/works/eyeota.png',
-      title: 'Software Developer',
+      title: 'Senior Software Engineer',
       subtitle: 'Eyeota',
       link: 'http://www.eyeota.com/',
       location: 'Singapore',
