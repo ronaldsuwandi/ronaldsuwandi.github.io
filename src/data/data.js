@@ -147,6 +147,12 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
   }, {
     title: "— Education —",
     list: [{
+      title: 'Convolutional Neural Networks',
+      subtitle: 'Certificate',
+      link: 'https://www.coursera.org/account/accomplishments/verify/W6YC9SXP2PRW',
+      location: 'Singapore',
+      period: 'December 2017',
+    }, {
       title: 'Structuring Machine Learning Projects',
       subtitle: 'Certificate',
       link: 'https://www.coursera.org/account/accomplishments/verify/8NWS3ZLM6ZJZ',
