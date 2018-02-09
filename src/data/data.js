@@ -33,6 +33,7 @@ module.exports = {
 <li>Performed DevOps duty, from monitoring metrics to deployment using Grafana, Graphite and Ansible</li>
 <li>Optimized various inefficient queries that can yield up to 150x improvements in certain cases (5s to 30ms)</li>
 <li>Led and developed the backend system for a web application that is used to perform manual validation on segment/url predictions for the Data Science team. System is written in Go and PostgreSQL</li>
+<li>Developed a client to perform third party API integration</li>
 <li>Created and open-sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>, a Clojure-based application for Cassandra backup with Unicode support</li>
 <li>Developed the frontend for our web application using Ember.js</li>
 </ul>
