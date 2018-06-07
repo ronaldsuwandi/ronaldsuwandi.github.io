@@ -148,6 +148,12 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
   }, {
     title: "— Education —",
     list: [{
+      title: 'Docker Mastery: The Complete Toolset From a Docker Captain',
+      subtitle: 'Certificate',
+      link: 'https://ude.my/UC-HRZ4B4W9',
+      location: 'Singapore',
+      period: 'June 2018',
+    }, {
       title: 'Convolutional Neural Networks',
       subtitle: 'Certificate',
       link: 'https://www.coursera.org/account/accomplishments/verify/W6YC9SXP2PRW',
