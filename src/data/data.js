@@ -148,6 +148,12 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
   }, {
     title: "— Education —",
     list: [{
+      title: 'Learn Kubernetes from a DevOps guru (Kubernetes + Docker)',
+      subtitle: 'Certificate',
+      link: 'https://ude.my/UC-PGFKB8IY',
+      location: 'Singapore',
+      period: 'June 2018',
+    }, {
       title: 'Docker Mastery: The Complete Toolset From a Docker Captain',
       subtitle: 'Certificate',
       link: 'https://ude.my/UC-HRZ4B4W9',
