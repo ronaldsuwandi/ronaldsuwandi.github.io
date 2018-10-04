@@ -16,17 +16,32 @@ module.exports = {
     link: 'https://facebook.com/ronald.suwandi'
   }, {
     className: 'icon-mail-alt',
-    link: 'http://www.google.com/recaptcha/mailhide/d?k=01ecAECCw0UTFSy4JfUdnC-A==&c=ZUL6_TMUkGtFIwaQqYWK7VWUZhsmqXYP2rAuJ6O_IY8='
+    link: 'https://spamty.eu/mail/v4/1413/IVjqhiKaZA6c7821ba/'
   }],
   works: [{
     title: "— My experience —",
     list: [{
+      icon: '/img/works/security-risk.png',
+      title: 'Senior Software Engineer / DevOps',
+      subtitle: 'Security Risk',
+      link: 'https://www.securityrisk.com/',
+      location: 'Singapore',
+      period: 'June 2018 – Present',
+      description: `
+<ul>
+<li>Created and manage Kubernetes cluster on both local server through kubeadm and Google Cloud through GKE using Helm as the package manager and deployment to various environments</li>
+<li>Setup CI/CD environment using Bamboo for all projects</li>
+<li>Developed backend application using TypeScript and MongoDB</li>
+<li>Containerized backend applications using Docker</li>
+</ul>
+`
+    },{
       icon: '/img/works/eyeota.png',
       title: 'Senior Software Engineer',
       subtitle: 'Eyeota',
-      link: 'http://www.eyeota.com/',
+      link: 'https://www.eyeota.com/',
       location: 'Singapore',
-      period: 'July 2015 – Present',
+      period: 'July 2015 – June 2018',
       description: `
 <ul>
 <li>Developed a high performance distributed backend system that interacts with many other systems (web application, configuration provider for our low latency backend system, reporting engine) using Clojure, Elasticsearch and Cassandra</li>
