@@ -29,9 +29,9 @@ module.exports = {
       period: 'June 2018 – Present',
       description: `
 <ul>
+<li>Developed backend API using Java, TypeScript, Spring Boot and MongoD</li>
 <li>Created and manage Kubernetes cluster on both local server through kubeadm and Google Cloud through GKE using Helm as the package manager and deployment to various environments</li>
 <li>Setup CI/CD environment using Bamboo for all projects</li>
-<li>Developed backend application using TypeScript and MongoDB</li>
 <li>Containerized backend applications using Docker</li>
 </ul>
 `
