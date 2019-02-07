@@ -22,19 +22,27 @@ module.exports = {
     title: "— My experience —",
     list: [{
       icon: '/img/works/security-risk.png',
-      title: 'Senior Software Engineer / DevOps',
+      title: 'Senior Software Engineer',
       subtitle: 'Security Risk',
       link: 'https://www.securityrisk.com/',
       location: 'Singapore',
       period: 'June 2018 – Present',
       description: `
 <ul>
-<li>Developed backend API using Java, TypeScript, Spring Boot and MongoD</li>
+<li>Developed microservices using Java, TypeScript, Spring Boot and MongoD</li>
 <li>Created and manage Kubernetes cluster on both local server through kubeadm and Google Cloud through GKE using Helm as the package manager and deployment to various environments</li>
 <li>Setup CI/CD environment using Bamboo for all projects</li>
 <li>Containerized backend applications using Docker</li>
 </ul>
 `
+    },{
+      icon: '/img/works/security-risk.png',
+      title: 'DevOps Engineer',
+      subtitle: 'Security Risk',
+      link: 'https://www.securityrisk.com/',
+      location: 'Singapore',
+      period: 'June 2018 – Present',
+      description: ``
     },{
       icon: '/img/works/eyeota.png',
       title: 'Senior Software Engineer',
