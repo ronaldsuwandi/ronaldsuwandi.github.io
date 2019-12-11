@@ -22,11 +22,26 @@ module.exports = {
     title: "— My experience —",
     list: [{
       icon: '/img/works/security-risk.png',
-      title: 'Senior Software Engineer',
+      title: 'Solution Architect & Operations Lead',
       subtitle: 'Security Risk',
       link: 'https://www.securityrisk.com/',
       location: 'Singapore',
-      period: 'June 2018 – Present',
+      period: 'June 2019 – Present',
+      description: `
+<ul>
+<li>Developed and architect performant API service that is consumed by both mobile and web apps using Go and Postgres</li>
+<li>Setup various Ops related flow including managing Kubernetes cluster, logging framework</li>
+<li>Provide extensive documentation for API, business logic, deployment checklist, operations guidelines</li>
+<li>Migrated CI/CD environment to Bitbucket Pipeline</li>
+</ul>
+`
+    },{
+      icon: '/img/works/security-risk.png',
+      title: 'Senior Software Engineer & DevOps Engineer',
+      subtitle: 'Security Risk',
+      link: 'https://www.securityrisk.com/',
+      location: 'Singapore',
+      period: 'June 2018 – June 2019',
       description: `
 <ul>
 <li>Developed microservices using Java 11, TypeScript, Spring Boot and MongoDB</li>
@@ -35,14 +50,6 @@ module.exports = {
 <li>Containerized backend applications using Docker</li>
 </ul>
 `
-    },{
-      icon: '/img/works/security-risk.png',
-      title: 'DevOps Engineer',
-      subtitle: 'Security Risk',
-      link: 'https://www.securityrisk.com/',
-      location: 'Singapore',
-      period: 'June 2018 – Present',
-      description: ``
     },{
       icon: '/img/works/eyeota.png',
       title: 'Senior Software Engineer',
