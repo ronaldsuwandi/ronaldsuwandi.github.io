@@ -42,20 +42,20 @@ gulp.task('template', function() {
   decache('./src/data/data.js');
   var templateData = require('./src/data/data.js');
 
-  gulp.src('src/index.hbs')
+  return gulp.src('src/index.hbs')
     .pipe(handlebars(templateData, {}))
     .pipe(rename('index.html'))
     .pipe(gulp.dest('target'));
 })
 
-gulp.task('watch', ['compile'], function() {
-  gulp.watch(['src/*', 'src/img/**', 'src/lib/**'], ['copy']);
-  gulp.watch(['src/**/*.hbs', 'src/data/**'], ['template']);
-  gulp.watch('src/lib/**', ['copy-lib']);
-  gulp.watch('src/less/**', ['less']);
-  gulp.watch('src/js/**', ['uglify']);
+gulp.task('compile', gulp.series('less', 'copy-lib', 'copy', 'template', 'uglify'));
+
+gulp.task('watch', gulp.series('compile'), function() {
+  gulp.watch(['src/*', 'src/img/**', 'src/lib/**'], gulp.series('copy'));
+  gulp.watch(['src/**/*.hbs', 'src/data/**'], gulp.series('template'));
+  gulp.watch('src/lib/**', gulp.series('copy-lib'));
+  gulp.watch('src/less/**', gulp.series('less'));
+  gulp.watch('src/js/**', gulp.series('uglify'));
 });
 
-gulp.task('compile', ['less', 'copy-lib', 'copy', 'template', 'uglify']);
-
-gulp.task('default', ['watch', 'webserver']);
+gulp.task('default', gulp.series('watch', 'webserver'));
