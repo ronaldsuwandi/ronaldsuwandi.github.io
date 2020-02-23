@@ -29,7 +29,7 @@ module.exports = {
       period: 'June 2019 – Present',
       description: `
 <ul>
-<li>Developed and architect performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go and Postgres/li>
+<li>Developed and architect performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go and Postgres</li>
 <li>Setup various Ops related flow including managing Kubernetes cluster, logging framework</li>
 <li>Provide extensive documentation for API, business logic, deployment checklist, operations guidelines</li>
 <li>Migrated CI/CD environment to Bitbucket Pipeline</li>
