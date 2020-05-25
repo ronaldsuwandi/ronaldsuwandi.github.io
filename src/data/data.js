@@ -30,7 +30,8 @@ module.exports = {
       description: `
 <ul>
 <li>Developed and architect performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go and Postgres</li>
-<li>Setup various Ops related flow including managing Kubernetes cluster, logging framework</li>
+<li>Setup various Ops related flow including incident post-mortem report, managing Kubernetes cluster, logging framework and monitoring using StackDriver</li>
+<li>Developed web-based application using React, Redux, Saga</li>
 <li>Provide extensive documentation for API, business logic, deployment checklist, operations guidelines</li>
 <li>Migrated CI/CD environment to Bitbucket Pipeline</li>
 <li>Led and collaborate with teams in Singapore and Australia</li>
