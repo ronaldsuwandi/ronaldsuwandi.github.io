@@ -80,6 +80,11 @@ a:active {
 .works .entry .entry-content li {
   line-height: 1.5;
 }
+@media (max-width: 40em) {
+  .works .entry .entry-content-description {
+    margin-left: -100px;
+  }
+}
 .contact {
   background: #FF756E;
   color: #fff;
