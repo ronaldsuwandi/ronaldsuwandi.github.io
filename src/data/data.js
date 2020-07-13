@@ -22,7 +22,7 @@ module.exports = {
     title: "— My experience —",
     list: [{
       icon: '/img/works/security-risk.png',
-      title: 'Solutions Architect & Operations Lead',
+      title: 'Platform Architect & Team Lead',
       subtitle: 'Security Risk',
       link: 'https://www.securityrisk.com/',
       location: 'Singapore',
