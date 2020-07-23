@@ -154,7 +154,7 @@ AngularJS, Firebase, and Phonegap</p>`
       subtitle: 'http://wearther.cc',
       location: 'Sydney',
       link: 'http://www.wearther.com',
-      period: 'April 2013 – Present',
+      period: 'April 2013 – July 2015',
       description: `<p>wearther is a web application (Node.js, Backbone, Titanium SDK for the native
     app version) that helps you decide what to wear based on the current weather. wearther's optimizer -
     MACHO (Multiobjective Ant Colony Heuristic-based Optimisation) is derived from an artificial
