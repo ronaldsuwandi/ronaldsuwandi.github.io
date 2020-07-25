@@ -30,7 +30,7 @@ module.exports = {
       description: `
 <ul>
 <li>Developed and architected performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go, Postgres and Postgis</li>
-<li>Setup and maintained various Ops related flow including incident post-mortem report, managing Kubernetes cluster, logging framework using Stackdriver and monitoring various metrics using Prometheus with Stackdriver sidecar</li>
+<li>Setup and maintained various Ops related flow including incident post-mortem report, managing Kubernetes cluster, logging and monitoring infrastructure using both Stackdriver and Prometheus</li>
 <li>Developed web-based application using React, Redux, Saga</li>
 <li>Provided extensive documentation for API, business logic, deployment checklist, operations guidelines</li>
 <li>Migrated CI/CD environment to Bitbucket Pipeline</li>
