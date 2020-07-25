@@ -34,7 +34,7 @@ module.exports = {
 <li>Developed web-based application using React, Redux, Saga</li>
 <li>Provided extensive documentation for API, business logic, deployment checklist, operations guidelines</li>
 <li>Migrated CI/CD environment to Bitbucket Pipeline</li>
-<li>Led and collaborate with teams in Singapore and Australia</li>
+<li>Managed team of engineers based in Singapore and Australia</li>
 </ul>
 `
     },{
@@ -68,6 +68,7 @@ module.exports = {
 <li>Developed a client to perform third party API integration</li>
 <li>Created and open-sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>, a Clojure-based application for Cassandra backup with Unicode support</li>
 <li>Developed the frontend for our web application using Ember.js</li>
+<li>Mentored, interviewed and onboarded new engineers</li>
 </ul>
 `
     }, {
