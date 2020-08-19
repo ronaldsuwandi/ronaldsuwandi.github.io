@@ -34,7 +34,6 @@ module.exports = {
 <li>Managed team of engineers based in Singapore and Australia</li>
 <li>Developed web-based application using React, Redux, Saga</li>
 <li>Provided extensive documentation for API, business logic, deployment checklist, operations guidelines</li>
-<li>Migrated CI/CD environment to Bitbucket Pipeline</li>
 </ul>
 `
     },{
@@ -48,7 +47,7 @@ module.exports = {
 <ul>
 <li>Developed backend API using Java, TypeScript, Spring Boot and MongoDB</li>
 <li>Created and manage Kubernetes cluster on both local server through kubeadm and Google Cloud through GKE using Helm as the package manager and deployment to various environments</li>
-<li>Setup CI/CD environment using Bamboo for all projects</li>
+<li>Setup CI/CD environment</li>
 <li>Containerized backend applications using Docker</li>
 </ul>
 `
