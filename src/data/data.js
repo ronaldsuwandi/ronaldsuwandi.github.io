@@ -29,11 +29,12 @@ module.exports = {
       period: 'June 2019 – Present',
       description: `
 <ul>
-<li>Developed and architected performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go, Postgres and Postgis</li>
+<li>Architected and built a performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go, Postgres and Postgis</li>
 <li>Setup and maintained various Ops related flow including incident post-mortem report, managing Kubernetes cluster, logging and monitoring infrastructure using both Stackdriver and Prometheus</li>
 <li>Managed team of engineers based in Singapore and Australia</li>
-<li>Developed web-based application using React, Redux, Saga</li>
-<li>Provided extensive documentation for API, business logic, deployment checklist, operations guidelines</li>
+<li>Implemented web-based frontend client using React and Redux Saga</li>
+<li>Provided extensive documentation for API, business logic, deployment checklist and operations guidelines</li>
+<li>Established development workflow to maintain high quality codebase by ensuring a mandatory code reviews and useful tests are written prior merging to main branch</li>
 </ul>
 `
     },{
@@ -45,9 +46,9 @@ module.exports = {
       period: 'June 2018 – June 2019',
       description: `
 <ul>
-<li>Developed backend API using Java, TypeScript, Spring Boot and MongoDB</li>
-<li>Created and manage Kubernetes cluster on both local server through kubeadm and Google Cloud through GKE using Helm as the package manager and deployment to various environments</li>
-<li>Setup CI/CD environment</li>
+<li>Developed an initial backend API using Java, TypeScript, Spring Boot and MongoDB</li>
+<li>Created and manage multiple Kubernetes clusters for each environments on both local server and Google Cloud using GKE and Helm for managing deployment</li>
+<li>Setup CI/CD environment to maintain code quality</li>
 <li>Containerized backend applications using Docker</li>
 </ul>
 `
@@ -60,12 +61,11 @@ module.exports = {
       period: 'July 2015 – June 2018',
       description: `
 <ul>
-<li>Developed a high performance distributed backend system that interacts with many other systems (web application, configuration provider for our low latency backend system, reporting engine) using Clojure, Elasticsearch and Cassandra</li>
-<li>Performed DevOps duty, using Grafana and Graphite for monitoring metrics, Ansible for managing deployment and MAT/VisualVM for analyzing JVM heap dumps</li>
+<li>Built a high performance distributed backend system that interacts with many other systems (web application, configuration provider for our low latency backend system, reporting engine) using Clojure, Elasticsearch and Cassandra</li>
+<li>Ensured system is up and running by performing various DevOps duty using Grafana and Graphite for monitoring metrics, Ansible for managing deployment and MAT/VisualVM for analyzing JVM heap dumps</li>
 <li>Optimized various inefficient queries that can yield up to 150x improvements in certain cases (5s to 30ms), also improved stability of JVM heap space usage through an in-depth JVM heap dump analysis</li>
+<li>Led and launched a backend system for a web application that is used to perform manual validation on segment/url predictions for the Data Science team. System is written in Go and PostgreSQL</li>
 <li>Mentored, interviewed and onboarded new engineers</li>
-<li>Led and developed the backend system for a web application that is used to perform manual validation on segment/url predictions for the Data Science team. System is written in Go and PostgreSQL</li>
-<li>Developed a client to perform third party API integration</li>
 <li>Created and open-sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>, a Clojure-based application for Cassandra backup with Unicode support</li>
 <li>Developed the frontend for our web application using Ember.js</li>
 </ul>
@@ -93,7 +93,7 @@ module.exports = {
       period: 'February 2014 – September 2014',
       description: `
 <ul>
-<li>Led and developed the frontend for our new product to monitor and notify users from social media posts for user-defined conditions (e.g. keywords, followers count, location, etc) using Angular.js (1.x)</li>
+<li>Led and built the frontend for our new product to monitor and notify users from social media posts for user-defined conditions (e.g. keywords, followers count, location, etc) using Angular.js (1.x)</li>
 <li>Developed the backend for social media monitoring web application using Go and MongoDB making use of channels to aggregate posts and sending email notifications</li>
 <li>Created Google Chrome Extension for the application</li>
 </ul>
@@ -104,7 +104,7 @@ module.exports = {
       location: 'Sydney',
       period: 'July 2013 – February 2014',
       description: `<p>Worked as a contractor for various projects in Sydney's largest coworking
-space (Fishburners). Projects includes: <a href="http://leaptouch.com" target="_blank">Leap Touch</a>
+space (Fishburners). Projects include: <a href="http://leaptouch.com" target="_blank">Leap Touch</a>
 and <a href="http://feedbackfast.com" target="_blank">Feedback Fast</a>. I worked with JavaScript,
 AngularJS, Firebase, and Phonegap</p>`
     }, {
