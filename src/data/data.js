@@ -21,12 +21,23 @@ module.exports = {
   works: [{
     title: "— My experience —",
     list: [{
+      icon: '/img/works/confluent.png',
+      title: 'Consulting Engineer',
+      subtitle: 'Confluent',
+      link: 'https://www.confluent.io/',
+      location: 'Singapore',
+      period: 'November 2020 – Present',
+      description: `
+<ul>
+</ul>
+`
+    }, {
       icon: '/img/works/security-risk.png',
       title: 'Platform Architect & Team Lead',
       subtitle: 'Security Risk',
       link: 'https://www.securityrisk.com/',
       location: 'Singapore',
-      period: 'June 2019 – Present',
+      period: 'June 2019 – November 2020',
       description: `
 <ul>
 <li>Architected and built a performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go, Postgres and Postgis</li>
