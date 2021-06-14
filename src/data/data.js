@@ -29,6 +29,9 @@ module.exports = {
       period: 'November 2020 – Present',
       description: `
 <ul>
+<li>Helped customers from various industries (banking, game, government) with Confluent products deployment, best practices, administration, security setup and troubleshooting</li>
+<li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, end to end encryption with KMS</li><
+<li>Developed many prototypes with tests to help customers to kick start their Confluent journey (Kafka, Kafka Streams, Confluent Platform, cp-ansible)</li>
 </ul>
 `
     }, {
@@ -40,7 +43,7 @@ module.exports = {
       period: 'June 2019 – November 2020',
       description: `
 <ul>
-<li>Architected and built a performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go, Postgres and Postgis</li>
+<li>Designed and built a performant API service for an environment with a low and unstable Internet connection. The service is consumed by both mobile and web apps using Go, Postgres and Postgis</li>
 <li>Setup and maintained various Ops related flow including incident post-mortem report, managing Kubernetes cluster, logging and monitoring infrastructure using both Stackdriver and Prometheus</li>
 <li>Managed team of engineers based in Singapore and Australia</li>
 <li>Implemented web-based frontend client using React and Redux Saga</li>
