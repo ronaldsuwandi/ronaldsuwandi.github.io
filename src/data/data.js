@@ -30,7 +30,7 @@ module.exports = {
       description: `
 <ul>
 <li>Helped customers from various industries (banking, game, government) with Confluent products deployment, best practices, administration, security setup and troubleshooting</li>
-<li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, end to end encryption with KMS</li><
+<li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, end to end encryption with KMS</li>
 <li>Developed many prototypes with tests to help customers to kick start their Confluent journey (Kafka, Kafka Streams, Confluent Platform, cp-ansible)</li>
 </ul>
 `
