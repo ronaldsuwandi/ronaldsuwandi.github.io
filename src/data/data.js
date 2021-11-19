@@ -29,8 +29,9 @@ module.exports = {
       period: 'November 2020 – Present',
       description: `
 <ul>
-<li>Helped customers from various industries (banking, game, government) with Confluent products deployment, best practices, administration, security setup and troubleshooting</li>
+<li>Helped customers from various industries (banking, game, government) with Confluent products deployment, best practices, administration, security setup, ssl/tls certificates and troubleshooting</li>
 <li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, end to end encryption with KMS</li>
+<li>Built a brand new Kafka Connector to connect Google PubSub Lite with Kafka</li>
 <li>Developed many prototypes with tests to help customers to kick start their Confluent journey (Kafka, Kafka Streams, Confluent Platform, cp-ansible)</li>
 </ul>
 `
@@ -192,6 +193,24 @@ and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thes
   }, {
     title: "— Education —",
     list: [{
+      title: 'AWS Certified Developer – Associate',
+      subtitle: 'Certificate',
+      link: 'https://www.credly.com/badges/8d5b5a9f-62b8-4ef4-bb1c-47cb8b07dbab?source=linked_in_profile',
+      location: 'Singapore',
+      period: 'September 2021 - September 2024',
+    }, {
+      title: 'Confluent Certified Developer for Apache Kafka',
+      subtitle: 'Certificate',
+      link: 'https://www.credential.net/89d758d4-dbab-4176-b2eb-7cb27101449d#gs.gczgc8',
+      location: 'Singapore',
+      period: 'March 2021 - March 2023',
+    }, {
+      title: 'Confluent Certified Administrator for Apache Kafka',
+      subtitle: 'Certificate',
+      link: 'https://www.credential.net/1e1b6761-81b4-4c53-88c4-78dffd64f136#gs.gczgb6',
+      location: 'Singapore',
+      period: 'March 2021 - March 2023',
+    }, { 
       title: 'Learn Kubernetes from a DevOps guru (Kubernetes + Docker)',
       subtitle: 'Certificate',
       link: 'https://ude.my/UC-PGFKB8IY',
