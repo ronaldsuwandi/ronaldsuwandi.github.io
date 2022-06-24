@@ -26,11 +26,12 @@ module.exports = {
       subtitle: 'Confluent',
       link: 'https://www.confluent.io/',
       location: 'Singapore',
-      period: 'November 2020 – Present',
+      period: 'November 2020 – May 2022',
       description: `
 <ul>
 <li>Helped customers from various industries (banking, game, government) with Confluent products deployment, best practices, administration, security setup, ssl/tls certificates and troubleshooting</li>
-<li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, end to end encryption with KMS</li>
+<li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, end to end encryption with KMS on cloud providers (GCP, AWS, Azure) as well as on premise</li>
+<li>Built a POC for a financial sector using fan-out architecture that handles 90,000 messages per second with 27x write amplification rate to downstream 2.5millions messages per second while maintaining 50-100 end to end latency</li>
 <li>Built a brand new Kafka Connector to connect Google PubSub Lite with Kafka</li>
 <li>Developed many prototypes with tests to help customers to kick start their Confluent journey (Kafka, Kafka Streams, Confluent Platform, cp-ansible)</li>
 </ul>
