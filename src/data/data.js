@@ -40,7 +40,7 @@ module.exports = {
       period: 'November 2020 – May 2022',
       description: `
 <ul>
-<li>Engaged customers from various industries (banking, game, government) to implement Confluent products deployment, best practices, administration, security setup, ssl/tls certificates and troubleshooting various issues</li>
+<li>Engaged customers from various industries (banking, game, government) to implement Confluent products deployment (ansible, Kubernetes/OpenShift based), best practices, administration, security setup, ssl/tls certificates and troubleshooting various issues</li>
 <li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, Kafka Streams end to end encryption with KMS on various cloud providers (GCP, AWS, Azure) as well as on premise</li>
 <li>Built a POC for a financial sector using fan-out architecture that handles 90,000 messages per second with 27x write amplification rate to downstream 2.5millions messages per second while maintaining 50-100ms end to end latency</li>
 <li>Built a brand new Kafka Connector to connect Google PubSub Lite with Kafka</li>
