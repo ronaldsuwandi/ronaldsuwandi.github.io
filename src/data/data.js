@@ -22,7 +22,7 @@ module.exports = {
     title: "— My experience —",
     list: [{
       icon: '/img/works/citi.png',
-      title: 'Consulting Engineer',
+      title: 'Tech Lead Analyst',
       subtitle: 'Citibank',
       link: 'https://www.citibank.com.sg/',
       location: 'Singapore',
