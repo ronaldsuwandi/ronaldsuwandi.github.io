@@ -21,6 +21,17 @@ module.exports = {
   works: [{
     title: "— My experience —",
     list: [{
+      icon: '/img/works/citi.png',
+      title: 'Consulting Engineer',
+      subtitle: 'Citibank',
+      link: 'https://www.citibank.com.sg/',
+      location: 'Singapore',
+      period: 'May 2022 – Present',
+      description: `
+<ul>
+</ul>
+`
+}, {
       icon: '/img/works/confluent.png',
       title: 'Consulting Engineer',
       subtitle: 'Confluent',
@@ -29,11 +40,11 @@ module.exports = {
       period: 'November 2020 – May 2022',
       description: `
 <ul>
-<li>Helped customers from various industries (banking, game, government) with Confluent products deployment, best practices, administration, security setup, ssl/tls certificates and troubleshooting</li>
-<li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, end to end encryption with KMS on cloud providers (GCP, AWS, Azure) as well as on premise</li>
-<li>Built a POC for a financial sector using fan-out architecture that handles 90,000 messages per second with 27x write amplification rate to downstream 2.5millions messages per second while maintaining 50-100 end to end latency</li>
+<li>Engaged customers from various industries (banking, game, government) to implement Confluent products deployment, best practices, administration, security setup, ssl/tls certificates and troubleshooting various issues</li>
+<li>Implemented and tested High Availability (HA) and Disaster Recovery (DR) cluster architecture, Kafka Streams end to end encryption with KMS on various cloud providers (GCP, AWS, Azure) as well as on premise</li>
+<li>Built a POC for a financial sector using fan-out architecture that handles 90,000 messages per second with 27x write amplification rate to downstream 2.5millions messages per second while maintaining 50-100ms end to end latency</li>
 <li>Built a brand new Kafka Connector to connect Google PubSub Lite with Kafka</li>
-<li>Developed many prototypes with tests to help customers to kick start their Confluent journey (Kafka, Kafka Streams, Confluent Platform, cp-ansible)</li>
+<li>Collaborated with sales team to understand customers pain points and demonstrated how using streaming platform from Confluent is able to solve their issues</li>
 </ul>
 `
     }, {
