@@ -21,12 +21,29 @@ module.exports = {
   works: [{
     title: "— My experience —",
     list: [{
+      icon: '/img/works/indeed.png',
+      title: 'Senior Software Engineer',
+      subtitle: 'Indeed',
+      link: 'https://https://sg.indeed.com/',
+      location: 'Singapore',
+      period: 'September 2022 – March 2023',
+      description: `
+<ul>
+<li>Led engineering effort and collaboration with cross-region stakeholders to extend their rule-based engine to our platform for our market. Kicked off experiment with 3 targeted markets which yielded the business metrics to have a positive trend</li>
+<li>Contributed to the overall cost reduction of $51k/month (64% cost reduction). Led the engineering effort for Redis to AWS migration and reducing log cost</li>
+<li>Took initiative to create comprehensive metrics dashboards for Redis migration to help team with on call duties</li>
+<li>Collaborated and investigated various issues with multiple stakeholders across regions, figuring out the root cause of the problem and collaborating with the owner to address the problems with the right tradeoff</li>
+<li>Guided team members on the best practices of Terraform, preparing comprehensive documentation on how and why the Terraform code is structured in a specific way</li>
+<li>Debugged and resolved production issues on time</li>
+</ul>
+`
+}, {
       icon: '/img/works/citi.png',
       title: 'Tech Lead Analyst',
       subtitle: 'Citibank',
       link: 'https://www.citibank.com.sg/',
       location: 'Singapore',
-      period: 'May 2022 – Present',
+      period: 'May 2022 – September 2022',
       description: `
 <ul>
 </ul>
@@ -94,7 +111,6 @@ module.exports = {
 <li>Led and launched a backend system for a web application that is used to perform manual validation on segment/url predictions for the Data Science team. System is written in Go and PostgreSQL</li>
 <li>Mentored, interviewed and onboarded new engineers</li>
 <li>Created and open-sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>, a Clojure-based application for Cassandra backup with Unicode support</li>
-<li>Developed the frontend for our web application using Ember.js</li>
 </ul>
 `
     }, {
@@ -106,8 +122,6 @@ module.exports = {
       period: 'September 2014 – May 2015',
       description: `
 <ul>
-<li>Developed both backend and frontend for the web application using Python, Django, Tastypie, Amazon Redshift, Angular.js (1.x) and CoffeeScript</li>
-<li>Upgraded one of the core service using Java, Chrome Remote Debugging Interface, Puppet, and AWS stack (SQS, S3, EMR and RDS)</li>
 </ul>
 `
     }, {
@@ -120,9 +134,6 @@ module.exports = {
       period: 'February 2014 – September 2014',
       description: `
 <ul>
-<li>Led and built the frontend for our new product to monitor and notify users from social media posts for user-defined conditions (e.g. keywords, followers count, location, etc) using Angular.js (1.x)</li>
-<li>Developed the backend for social media monitoring web application using Go and MongoDB making use of channels to aggregate posts and sending email notifications</li>
-<li>Created Google Chrome Extension for the application</li>
 </ul>
 `
     }, {
@@ -130,10 +141,9 @@ module.exports = {
       subtitle: 'Murray Hurps Software Pty Ltd',
       location: 'Sydney',
       period: 'July 2013 – February 2014',
-      description: `<p>Worked as a contractor for various projects in Sydney's largest coworking
-space (Fishburners). Projects include: <a href="http://leaptouch.com" target="_blank">Leap Touch</a>
-and <a href="http://feedbackfast.com" target="_blank">Feedback Fast</a>. I worked with JavaScript,
-AngularJS, Firebase, and Phonegap</p>`
+      description: `
+<ul>
+</ul>`
     }, {
       icon: '/img/works/solveit.jpg',
       iconText: 'SolveIT Software (now Schneider Electric)',
@@ -144,8 +154,6 @@ AngularJS, Firebase, and Phonegap</p>`
       period: 'February 2009 – July 2013',
       description: `
 <ul>
-<li>Developed various Swing-based applications for various projects including Crew Rostering, Planning and Scheduling Optimization and Supply Chain Network Optimization. Applications are built using Java, Microsoft SQL Server and our Java-based in-house ORM solution</li>
-<li>Work closely with the science team and business analyst to implement Business Rule Management that acts as a constraint manager that is directly used by the scheduling optimizer</li>
 </ul>
 `
     }]
