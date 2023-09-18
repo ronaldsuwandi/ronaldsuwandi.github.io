@@ -36,9 +36,9 @@
     <section class="main flex items-center justify-center border-box">
         <div class="p3 max-width-2">
             <img class="circle mx-auto block border border-box" src="/img/ronald.jpg">
-            <h1 class="center my2">Ronald Suwandi</h1>
-            <p>As a passionate engineer with a love for building high-quality products and leading teams, I bring a wealth of experience to the table. With expertise in Java, Golang, and Clojure, as well as proficiency in JavaScript, I have the skills needed to build robust, efficient services and tackle complex challenges. My interests lie in developing large scale distributed systems as well as exploring machine learning pipelines</p>
-            <p>I'm also a father to two adorably cute and weird sons.</p>
+            <h1 class="center my2">{{basic.name}}</h1>
+            {{paragraphSplit basic.headline}}
+
             <ul class="mt3 center list-reset social flex justify-center">
                 {{#each social}}
                 <a href={{link}} class="mx1 flex flex-none circle align-center justify-center" target="_blank">
@@ -49,43 +49,115 @@
                 {{/each}}
             </ul>
             <p class="center mt3 mb0 scroll-down">
-                <a class="scroll-to-works"><i class="icon icon-down-open"></i></a>
+                <a class="scroll-to-experiences"><i class="icon icon-down-open"></i></a>
             </p>
         </div>
     </section>
-    <section class="works md-p3 p2">
-        {{#each works}}
-        <h2 class="center">{{title}}</h2>
-        <div class="works-entry-container flex flex-column max-width-3 mx-auto">
-            {{#each list}}
-            <div class="entry flex my2 sm-my3">
-                <div class="entry-icon flex-none mr2">
-                    {{#if icon}}
-                    <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
-                    {{else}}
-                    <img style="visibility: hidden;"> 
-                    {{/if}}
-                </div>
-                <div class="entry-content ml1 sm-ml2">
-                    <div class="entry-content-title-container">
-                        <p class="m0 title"><strong>{{title}}</strong></p>
-                        <p class="mt0 mb1 subtitle"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
-                    </div>
-                    <div class="entry-content-period">
-                        <small>
-                        {{period}}
-                        {{#if location}}
-                          <span class="entry-content-location"> | {{location}}</span>
+    <section class="experiences md-p3 p2">
+        {{#with experiences}}
+            <h2 class="center">{{title}}</h2>
+            <div class="flex flex-column max-width-3 mx-auto">
+                {{#each list}}
+                <div class="entry flex my2 sm-my3">
+                    <div class="entry-icon flex-none mr2">
+                        {{#if icon}}
+                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                        {{else}}
+                        <img style="visibility: hidden;"> 
                         {{/if}}
-                      </small>
                     </div>
-                    <div class="entry-content-description">{{{description}}}
+                    <div class="entry-content ml1 sm-ml2">
+                        <div class="entry-content-title-container">
+                            <p class="m0 title"><strong>{{title}}</strong></p>
+                            <p class="mt0 mb1 subtitle"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
+                        </div>
+                        <div class="entry-content-period">
+                            <small>
+                            {{period}}
+                            {{#if location}}
+                              <span class="entry-content-location"> | {{location}}</span>
+                            {{/if}}
+                          </small>
+                        </div>                        
+                        <div class="entry-content-description">
+                            <ul>
+                                {{#each description}}
+                                    <li>{{{this}}}</li>
+                                {{/each}}
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                {{/each}}
             </div>
-            {{/each}}
-        </div>
-        {{/each}}
+        {{/with}}
+    </section>
+    <section class="projects md-p3 p2">
+        {{#with projects}}
+            <h2 class="center">{{title}}</h2>
+            <div class="flex flex-column max-width-3 mx-auto">
+                {{#each list}}
+                <div class="entry flex my2 sm-my3">
+                    <div class="entry-icon flex-none mr2">
+                        {{#if icon}}
+                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                        {{else}}
+                        <img style="visibility: hidden;"> 
+                        {{/if}}
+                    </div>
+                    <div class="entry-content ml1 sm-ml2">
+                        <div class="entry-content-title-container">
+                            <p class="m0 title"><strong>{{title}}</strong></p>
+                            <p class="mt0 mb1 subtitle"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
+                        </div>
+                        <div class="entry-content-period">
+                            <small>
+                            {{period}}
+                            {{#if location}}
+                              <span class="entry-content-location"> | {{location}}</span>
+                            {{/if}}
+                          </small>
+                        </div>
+                        <div class="entry-content-description">
+                            {{{paragraphSplit description}}}
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        {{/with}}
+    </section>
+    <section class="educations md-p3 p2">    
+        {{#with educations}}
+            <h2 class="center">{{title}}</h2>
+            <div class="flex flex-column max-width-3 mx-auto">
+                {{#each list}}
+                <div class="entry flex my2 sm-my3">
+                    <div class="entry-icon flex-none mr2">
+                        {{#if icon}}
+                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                        {{else}}
+                        <img style="visibility: hidden;"> 
+                        {{/if}}
+                    </div>
+                    <div class="entry-content ml1 sm-ml2">
+                        <div class="entry-content-title-container">
+                            <p class="m0 title"><strong>{{title}}</strong></p>
+                            <p class="mt0 mb1 subtitle"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
+                        </div>
+                        <div class="entry-content-period">
+                            <small>
+                            {{period}}
+                            {{#if location}}
+                              <span class="entry-content-location"> | {{location}}</span>
+                            {{/if}}
+                          </small>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        {{/with}}
     </section>
     <section class="contact md-pt2 md-pl3 md-pr3 md-pb3 p2">
         <p class="center my0 scroll-up">
@@ -95,7 +167,7 @@
             &copy; Ronald Suwandi 2016<script>new Date().getFullYear()>2016&&document.write(" – "+new Date().getFullYear());</script>
         </p>
     </section>
-    <script src="/js/velocity-1.2.3.min.js"></script>
+    <script src="/js/velocity-1.5.2.min.js"></script>
     <script src="/js/main.js"></script>
 
 </body>

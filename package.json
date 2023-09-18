@@ -1,9 +1,7 @@
 {
   "name": "website",
   "dependencies": {
-    "ajv": "^6.7.0",
-    "decache": "^3.1.0",
-    "graceful-fs": "^4.1.11",
+    "graceful-fs": "^4.2.11",
     "gulp": "^4.0.2",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-less": "^4.0.1",
@@ -14,6 +12,7 @@
     "natives": "^1.1.5"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "compile": "gulp compile"
   }
 }

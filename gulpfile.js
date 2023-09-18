@@ -1,10 +1,24 @@
-var gulp = require('gulp');
-var handlebars = require('gulp-compile-handlebars');
-var webserver = require('gulp-webserver');
-var less = require('gulp-less');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var decache = require('decache');
+const gulp = require('gulp');
+const Handlebars  = require('handlebars');
+const handlebars = require('gulp-compile-handlebars');
+const webserver = require('gulp-webserver');
+const less = require('gulp-less');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const yaml = require('js-yaml');
+const fs = require('fs');
+
+// split multiline: https://stackoverflow.com/a/17975102
+Handlebars.registerHelper('paragraphSplit', function(plaintext) {
+    var i, output = '',
+        lines = plaintext.split(/\r\n|\r|\n/g);
+    for (i = 0; i < lines.length; i++) {
+        if(lines[i]) {
+            output += '<p>' + lines[i] + '</p>';
+        }
+    }
+    return new Handlebars.SafeString(output);
+});
 
 gulp.task('webserver', function() {
   gulp.src(['target'])
@@ -39,8 +53,9 @@ gulp.task('uglify', function() {
 });
 
 gulp.task('template', function() {
-  decache('./src/data/data.js');
-  var templateData = require('./src/data/data.js');
+  const yamlData = fs.readFileSync('src/data/data.yaml', 'utf8');
+  const templateData = yaml.load(yamlData);
+
 
   return gulp.src('src/index.hbs')
     .pipe(handlebars(templateData, {}))
