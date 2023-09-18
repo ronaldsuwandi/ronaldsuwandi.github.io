@@ -65,23 +65,35 @@ a:active {
 .main .scroll-down .icon {
   font-size: 2rem;
 }
-.works .entry .entry-icon img {
+.experiences .entry .entry-icon img,
+.projects .entry .entry-icon img,
+.educations .entry .entry-icon img {
   width: 60px;
 }
 @media (min-width: 40em) {
-  .works .entry .entry-icon img {
+  .experiences .entry .entry-icon img,
+  .projects .entry .entry-icon img,
+  .educations .entry .entry-icon img {
     width: 100px;
   }
 }
-.works .entry .entry-content-title-container .title {
+.experiences .entry .entry-content-title-container .title,
+.projects .entry .entry-content-title-container .title,
+.educations .entry .entry-content-title-container .title {
   text-transform: uppercase;
 }
-.works .entry .entry-content p,
-.works .entry .entry-content li {
+.experiences .entry .entry-content p,
+.projects .entry .entry-content p,
+.educations .entry .entry-content p,
+.experiences .entry .entry-content li,
+.projects .entry .entry-content li,
+.educations .entry .entry-content li {
   line-height: 1.5;
 }
 @media (max-width: 40em) {
-  .works .entry .entry-content-description {
+  .experiences .entry .entry-content-description,
+  .projects .entry .entry-content-description,
+  .educations .entry .entry-content-description {
     margin-left: -100px;
   }
 }
