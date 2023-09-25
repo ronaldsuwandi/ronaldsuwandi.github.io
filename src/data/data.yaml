@@ -27,7 +27,14 @@ social:
 experiences:
   title: "— My experiences —"
   list:
-    - icon: '/img/works/indeed.png'
+    - icon: '/img/works/shopback.svg'
+      title: 'Senior Software Engineer'
+      subtitle: 'ShopBack'
+      link: 'https://shopback.com/'
+      location: 'Singapore'
+      period: 'September 2023 – Present'
+      description: 
+    - icon: '/img/works/indeed.svg'
       title: 'Senior Software Engineer'
       subtitle: 'Indeed'
       link: 'https://sg.indeed.com/'
@@ -48,14 +55,14 @@ experiences:
           on the structure and rationale behind the Terraform code
         - Swiftly diagnosed and resolved critical production issues, ensuring adherence to SLO 
           and minimizing customer impact
-    - icon: '/img/works/citi.png'
+    - icon: '/img/works/citi.svg'
       title: 'Tech Lead Analyst'
       subtitle: 'Citibank'
       link: 'https://www.citibank.com.sg/'
       location: 'Singapore'
       period: 'May 2022 – September 2022'
       description: 
-    - icon: '/img/works/confluent.png'
+    - icon: '/img/works/confluent.svg'
       title: 'Consulting Engineer'
       subtitle: 'Confluent'
       link: 'https://www.confluent.io/'
