@@ -49,13 +49,6 @@ experiences:
           Service Level Objectives (SLOs) and minimizing customer impact
         - Provided mentorship and guided team members on best practices in Terraform, ensuring a robust 
           infrastructure foundation
-    - icon: '/img/works/citi.svg'
-      title: 'Tech Lead Analyst'
-      subtitle: 'Citibank'
-      link: 'https://www.citibank.com.sg/'
-      location: 'Singapore'
-      period: 'May 2022 – September 2022'
-      description: 
     - icon: '/img/works/confluent.svg'
       title: 'Consulting Engineer'
       subtitle: 'Confluent'
