@@ -32,6 +32,10 @@ experiences:
       location: 'Singapore'
       period: 'September 2023 – Present'
       description: 
+        - Led the team's implementation of Kafka Connect as part of the organization-wide directive to regionalize platform, ensuring seamless cross-country operations
+        - Strategically broke down the implementation into milestones, fostering a structured approach to project management. Proactively addressed concerns, guided the team through each phase, and contributed to a successful overall implementation
+        - Played a pivotal role in providing support beyond my team, actively engaging with other teams to unblock challenges, swiftly addressing queries, and sharing insights gained from the milestone-based approach to ensure the successful adoption of streaming solutions
+        - Identified and addressed various issues during the streaming journey, contributing to an updated runbook and knowledge-sharing initiatives to prevent similar challenges in other teams
     - icon: '/img/works/indeed.svg'
       title: 'Senior Software Engineer'
       subtitle: 'Indeed'
