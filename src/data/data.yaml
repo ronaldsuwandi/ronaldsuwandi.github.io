@@ -25,6 +25,14 @@ social:
 experiences:
   title: "— My experiences —"
   list:
+    - icon: '/img/works/oliver-wyman.svg'
+      title: 'Senior Software Engineer (Contract)'
+      subtitle: 'Oliver Wyman'
+      link: 'https://http://oliverwyman.com/'
+      location: 'Singapore'
+      period: 'June 2024 – Present'
+      description: 
+        - Subcontracted via Aryan Solutions
     - icon: '/img/works/shopback.svg'
       title: 'Senior Software Engineer'
       subtitle: 'ShopBack'
