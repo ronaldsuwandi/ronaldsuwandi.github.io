@@ -2,12 +2,11 @@ basic:
   name: Ronald Suwandi
   image: /img/ronald.jpg
   headline: >
-    Experienced engineer with a strong track record in building high-quality products and 
-    leading teams to success. Adept in Java, Golang, JavaScript, Kafka and known for 
-    efficiently tackling complex challenges. Proven ability to manage multi-discipline teams 
-    and align technical efforts with business objectives. Passionate about both technology and 
-    people management. Father to two wonderful sons
-
+    Seasoned engineer with 15+ years of experience in building high-quality products and leading 
+    teams to success. Proficient in Java, Golang, JavaScript, Kafka and reputation for 
+    efficiently solving complex challenges. Proven ability to manage multi-discipline teams and 
+    align technical efforts with business objectives. Passionate about both technology and 
+    leadership. Father to two wonderful sons
 social:
   - className: 'icon-linkedin'
     link: 'https://linkedin.com/in/ronaldsuwandi'
