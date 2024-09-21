@@ -2,11 +2,12 @@ basic:
   name: Ronald Suwandi
   image: /img/ronald.jpg
   headline: >
-    Seasoned engineer with 15+ years of experience in building high-quality products and leading 
-    teams to success. Proficient in Java, Golang, JavaScript, Kafka and reputation for 
-    efficiently solving complex challenges. Proven ability to manage multi-discipline teams and 
-    align technical efforts with business objectives. Passionate about both technology and 
-    leadership. Father to two wonderful sons
+    Seasoned engineer with 15+ years of experience crafting high-quality products and driving technical 
+    excellence in cross-functional teams. 4 years of expertise in adtech, consistently aligning complex 
+    technical solutions with business goals in fast-paced environments. Proficient in Java, Golang, 
+    JavaScript, and Kafka. Proven track record of collaborating with product teams and stakeholders to 
+    solve challenging problems and deliver impactful results. Passionate about technology and fostering 
+    a culture of innovation. Father of two wonderful sons      
 social:
   - className: 'icon-linkedin'
     link: 'https://linkedin.com/in/ronaldsuwandi'
@@ -27,11 +28,17 @@ experiences:
     - icon: '/img/works/oliver-wyman.svg'
       title: 'Senior Software Engineer (Contract)'
       subtitle: 'Oliver Wyman'
-      link: 'https://http://oliverwyman.com/'
+      link: 'https://oliverwyman.com/'
       location: 'Singapore'
       period: 'June 2024 – Present'
       description: 
-        - Subcontracted via Aryan Solutions
+        - Built a digital lending platform for a banking client, with a focus on backend engineering
+        - Provided strategic guidance on technical approaches, aligning development with client 
+          requirements and business goals
+        - Proposed improvements in testing frameworks, Kafka version upgrades, and environment setup to 
+          enhance platform robustness and scalability
+        - Collaborated with stakeholders to anticipate potential issues and create actionable plans, ensuring 
+          smooth project execution
     - icon: '/img/works/shopback.svg'
       title: 'Senior Software Engineer'
       subtitle: 'ShopBack'
@@ -95,8 +102,8 @@ experiences:
           challenges
     - icon: '/img/works/security-risk.png'
       title: 'Platform Architect & Team Lead'
-      subtitle: 'Security Risk'
-      link: 'https://www.securityrisk.com/'
+      subtitle: 'Security Risk (now Software Risk)'
+      link: 'https://softwarerisk.com'
       location: 'Singapore'
       period: 'June 2019 – November 2020'
       description:
@@ -115,8 +122,8 @@ experiences:
           excellence
     - icon: '/img/works/security-risk.png'
       title: 'Senior Software Engineer & DevOps Engineer'
-      subtitle: 'Security Risk'
-      link: 'https://www.securityrisk.com/'
+      subtitle: 'Security Risk (now Software Risk)'
+      link: 'https://softwarerisk.com'
       location: 'Singapore'
       period: 'June 2018 – June 2019'
       description: 
@@ -131,7 +138,7 @@ experiences:
           scalability and maintainability in alignment with the directive of the CTO
     - icon: '/img/works/eyeota.png'
       title: 'Senior Software Engineer'
-      subtitle: 'Eyeota'
+      subtitle: 'Eyeota (now '
       link: 'https://www.eyeota.com/'
       location: 'Singapore'
       period: 'July 2015 – June 2018'
@@ -154,8 +161,8 @@ experiences:
           knowledge sharing and community contribution
     - icon: '/img/works/krux.png'
       title: 'Software Engineer'
-      subtitle: 'Krux Digital'
-      link: 'http://www.krux.com'
+      subtitle: 'Krux Digital (now Salesforce)'
+      link: 'https://www.salesforce.com/'
       location: 'Sydney'
       period: 'September 2014 – May 2015'
       description: 
@@ -163,7 +170,7 @@ experiences:
       iconText: 'Local Measure'
       title: 'Software Engineer'
       subtitle: 'Local Measure'
-      link: 'http://github.com/ronaldsuwandi/neuralnetworks'
+      link: 'https://www.localmeasure.com'
       location: 'Sydney'
       period: 'February 2014 – September 2014'
       description: 
@@ -182,18 +189,16 @@ experiences:
       description: 
 
 projects:
-  title: "— Stuff I've worked on —"
+  title: "— My personal projects —"
   list:
     - icon: '/img/works/logweight.svg'
       iconText: 'LogWeight'
       title: 'LogWeight'
-      subtitle: 'App store link'
-      link: 'https://itunes.apple.com/sg/app/logweight-for-health-app/id1271399293'
       location: 'Singapore'
       period: 'August 2017'
       description: >
-        LogWeight is the fastest way to track weight into iOS Health App with simple and 
-        intuitive design. Written in React Native.
+        Developed a React Native app for iOS that allows users to quickly log their weight into the Health 
+        App, featuring a simple and intuitive design.
     - icon: '/img/works/nn.png'
       iconText: 'Neural Networks Library'
       title: 'Neural networks library'
@@ -202,32 +207,22 @@ projects:
       location: 'Singapore'
       period: 'April 2016 – December 2016'
       description: >
-        Clojure-based neural networks library that is built on top of
-        <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. I decided
-        to create this library after completing <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">
-        Andrew Ng's Machine Learning course</a>. The library is very modular where you can easily swap
-        optimizer, activation/sigmoid functions, stopping conditions and cost function.
+        Built a Clojure-based neural networks library on top of the 
+        <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. 
+        Inspired by Andrew Ng's Machine Learning course, the library is modular, allowing for easy 
+        swapping of optimizers, activation functions, stopping conditions, and cost functions.
     - icon: '/img/works/wearther.svg'
       iconText: 'wearther'
       title: 'wearther'
-      subtitle: 'http://wearther.cc'
       location: 'Sydney'
-      link: 'http://www.wearther.com'
       period: 'April 2013 – July 2015'
       description: >
-        wearther is a web application (Node.js, Backbone, Titanium SDK for the native
-        app version) that helps you decide what to wear based on the current weather. wearther's optimizer -
-        MACHO (Multiobjective Ant Colony Heuristic-based Optimisation) is derived from an artificial
-        intelligence algorithm (Ant Colony Optimisation) to calculate the best clothing combinations quickly
-        so you can leave home feeling just right. Not too cold, and not too warm.
-        
-        Featured in both <a href="http://startups.fm/2013/08/30/change-your-style-everyday-with-wearther-the-one-stop-mobile-app-for-weather-forecast-and-apparel-suggestion.html" target="_blank">StartupsFM</a>
-        and <a href="http://www.startupdaily.net/2013/09/new-weather-forecasting-app-that-styles-you/" target="_blank">StartupDaily</a>
+        Created a web application that helps users decide what to wear based on the current weather. 
+        Developed an optimizer called MACHO, based on Ant Colony Optimization algorithms, to quickly 
+        calculate the best clothing combinations. Featured in both StartupsFM and StartupDaily.
     - icon: '/img/works/hashtag.svg'
       iconText: '#hashtagoverload'
       title: '#hashtagoverload'
-      subtitle: 'http://hashtagoverload.me'
-      link: 'http://hashtagoverload.me'
       location: 'Sydney'
       period: 'July 2013 – December 2013'
       description: >
