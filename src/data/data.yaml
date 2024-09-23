@@ -46,18 +46,16 @@ experiences:
       location: 'Singapore'
       period: 'September 2023 – March 2024'
       description: 
-        - Led the team's implementation of Kafka Connect in response to the organization-wide directive to 
-          regionalize the platform, ensuring seamless cross-country operations
-        - Strategically broke down the implementation into milestones, fostering a structured approach to 
-          project management. Proactively addressed concerns, guided the team through each phase, and contributed to a successful overall implementation
-        - Played a pivotal role in providing support beyond my team, actively engaging with other teams to 
-          unblock challenges, swiftly addressing queries, and sharing insights gained from the milestone-based approach to ensure the successful adoption of streaming solutions
-        - Identified and addressed various issues during the streaming journey, contributing to an updated 
-          runbook and knowledge-sharing initiatives to prevent similar challenges in other teams
-        - Directed the launch of new country operations, collaborating closely with product teams and other 
-          departments to gather essential information, and refined the country launch checklist to streamline future expansions
-        - Applied in-depth debugging skills to resolve Postgres slow queries, delving into the TypeORM code 
-          base. Improved query performance significantly from 6 seconds down to 200 milliseconds
+        - Played a key role in the company-wide Multi-Tenancy initiative, contributing to cost savings of $2.1M/year 
+          and reducing new country launch times from 6 months to 1 month
+        - Collaborated with cross-functional teams, ensuring seamless integration of Kafka Connect for database 
+          streaming and addressing technical gaps with Data Engineers
+        - Led the database streaming efforts for the team, defining goals, planning milestones, and unblocking 
+          other teams during their onboarding process
+        - Debugged and optimized query performance, reducing execution times significantly by over 90% from 6 seconds 
+          to 200ms
+        - Contributed to roadmap planning and project management, working closely with team members and product teams 
+          to ensure alignment with business priorities
     - icon: '/img/works/indeed.svg'
       title: 'Senior Software Engineer'
       subtitle: 'Indeed'
@@ -65,18 +63,16 @@ experiences:
       location: 'Singapore'
       period: 'September 2022 – March 2023'
       description: 
-        - Led engineering effort and collaboration with cross-region stakeholders to extend their rule-based engine to 
-          our platform for our market. Kicked off experiment with 3 targeted markets which yielded the business 
-          metrics to have a positive trend
-        - Engineered a 64% reduction in monthly costs ($51k) by leading the migration from Redis to AWS as well as 
-          log cost reduction, closely working with team leads and other relevant stakeholders
-        - Initiated and executed a comprehensive metrics dashboard project for the Redis migration, optimizing 
-          on-call duties and team efficiency in collaboration with global partners
-        - Investigated and resolved critical production issues with multiple stakeholders across regions, 
-          figuring out the root cause and collaborating with theem to address the problems with the right tradeoff
-        - Provided technical leadership within my team by guiding members on Terraform best practices and creating 
-          comprehensive documentation which is shared company-wide that includes insights into the tradeoffs and 
-          rationale behind the code structure
+        - Led a cost-reduction initiative, cutting monthly expenses by 64% ($51k) through infrastructure 
+          optimizations, including Redis migration to AWS
+        - Collaborated with stakeholders across regions (US and Japan) to revamp and scale a rule-based engine, 
+          integrating it with A/B testing tools, resulting in improved business outcomes
+        - Engineered a comprehensive metrics dashboard for monitoring Redis migration, improving team efficiency and 
+          enhancing on-call workflows
+        - Quickly resolved critical system outages, leading to improved system reliability and performance 
+          stability bringing response times back from minutes to the normal 100ms range
+        - Introduced best practices for Terraform, ensuring code quality and scalability, sharing knowledge across 
+          the company
     - icon: '/img/works/confluent.svg'
       title: 'Consulting Engineer'
       subtitle: 'Confluent'
@@ -84,22 +80,20 @@ experiences:
       location: 'Singapore'
       period: 'November 2020 – May 2022'
       description: 
-        - Engaged customers across diverse industries (banking, game, government) to lead the implementation of 
-          Confluent products deployment (Ansible, Kubernetes/OpenShift based), establishing best practices, 
-          overseeing administration, configuring security setups, SSL/TLS certificates, and effectively 
-          troubleshooting various issues.
-        - Led the design and testing of High Availability (HA) and Disaster Recovery (DR) cluster architectures, 
-          executed Kafka Streams end-to-end encryption with KMS on various cloud providers (GCP, AWS, Azure), 
-          as well as on-premise environments
-        - Led the development of a proof-of-concept for a financial sector, implementing fan-out architecture to 
-          handle 90,000 messages per second—double their current peak traffic spike. Successfully scaled 
-          downstream to 2.5 million messages per second while maintaining an impressive 50-100ms end-to-end 
-          latency maintaining stability and running smoothly throughout
-        - Initiated and developed a new Kafka Connector to seamlessly connect Google PubSub Lite with Kafka, 
-          expanding clients' data processing capabilities and enhancing their toolset
-        - Collaborated closely with the sales team, gaining insights into customers' pain points, and effectively 
-          demonstrated how leveraging the Confluent streaming platform could address and solve their specific 
-          challenges
+        - Led technical consulting and strategic implementation of Confluent products across diverse industries, 
+          including banking, gaming, and government, ensuring that deployments aligned with client objectives and 
+          industry best practices
+        - Advised clients on the design and architecture of High Availability (HA) and Disaster Recovery (DR) 
+          solutions, enabling them to scale Kafka clusters across cloud (GCP, AWS, Azure) and on-premise 
+          environments, ensuring system resilience and business continuity
+        - Collaborated with client stakeholders, including technical leads, to identify business-critical use cases 
+          and drive the successful implementation of high-performance, low-latency streaming solutions
+        - Developed a proof-of-concept for financial clients, showcasing Confluent’s capabilities in handling 
+          massive data throughput (90,000+ messages per second) with low latency (100ms), resulting in long-term 
+          client adoption
+        - Acted as the regional go-to expert, partnering with sales teams to tailor technical solutions to client 
+          needs, providing consultative guidance to address high-scale data processing challenges and help clients 
+          achieve their business goals
     - icon: '/img/works/security-risk.png'
       title: 'Platform Architect & Team Lead'
       subtitle: 'Security Risk (now Software Risk)'
@@ -107,19 +101,17 @@ experiences:
       location: 'Singapore'
       period: 'June 2019 – November 2020'
       description:
-        - Collaborated closely with the CTO and product management, leveraging direct client interaction to 
-          shape product requirements and improve project outcomes
-        - Spearheaded the design and implementation of a high-performance API service crucial for low and 
-          unstable internet environments, utilized Go, Postgres, and Postgis
-        - Led a distributed team of engineers based in Singapore and Australia, providing mentorship and 
-          establishing development workflows. Guided the team through best practices, ensuring a high-quality 
-          codebase through tests and code reviews
-        - Drove the initiative to set up and maintained various Ops-related workflows, including incident p
-          ost-mortem reporting, Kubernetes cluster management, and logging/monitoring infrastructure. This 
-          significantly enhanced the team's efficiency and the overall reliability of the system
-        - Delivered engineering excellence through extensive documentation, deployment checklists, and 
-          operational guidelines. Maintained a high standard of code quality and contributed to the team's overall 
-          excellence
+        - Provided mentorship and conducted interviews (Backend and DevOps, primarily for senior engineers), 
+          ensuring candidates were assessed on both technical skills and alignment with company culture, motivation, 
+          and soft skills
+        - Led the onboarding and quality assessment process for new hires, offering strategic guidance to senior 
+          management on probation evaluations and setting engineers up for long-term success
+        - Collaborated with the CTO and product management to shape product requirements, incorporating client 
+          feedback and driving improvements in roadmap planning
+        - Led engineering process improvements, including code review workflows, CI/CD pipeline setup, and incident 
+          post-mortem analysis, ensuring operational reliability and engineering excellence
+        - Promoted to lead platform architecture, overseeing the development of high-performance services and managing 
+          critical initiatives for the engineering team
     - icon: '/img/works/security-risk.png'
       title: 'Senior Software Engineer & DevOps Engineer'
       subtitle: 'Security Risk (now Software Risk)'
@@ -127,15 +119,6 @@ experiences:
       location: 'Singapore'
       period: 'June 2018 – June 2019'
       description: 
-        - Spearheaded the design and development of a critical Java-based backend API using Spring Boot, 
-          TypeScript, and MongoDB, establishing the foundation for the application's functionality and performance
-        - Orchestrated the creation and management of multiple Kubernetes clusters, seamlessly deploying 
-          applications across diverse environments, including on-premise and Google Cloud Platform. This 
-          streamlined deployment processes and ensured consistent operational efficiency
-        - Implemented a robust CI/CD environment to improve code quality and reduce potential issues, 
-          significantly enhancing operational efficiency across the development lifecycle
-        - Played a pivotal role in implementing Docker for seamless deployments, contributing to improved 
-          scalability and maintainability in alignment with the directive of the CTO
     - icon: '/img/works/eyeota.png'
       title: 'Senior Software Engineer'
       subtitle: 'Eyeota (now '
@@ -143,22 +126,15 @@ experiences:
       location: 'Singapore'
       period: 'July 2015 – June 2018'
       description: 
-        - Architected and constructed a high-performance, distributed backend system interfacing with critical 
-          components, such as a web application, configuration provider, and reporting engine, using Clojure, 
-          Elasticsearch, and Cassandra
-        - Ensured system stability and uptime through comprehensive DevOps responsibilities, including metric 
-          monitoring with Grafana and Graphite, deployment management with Ansible, and JVM heap dump analysis 
-          using MAT/VisualVM
-        - Optimized a range of inefficient queries, achieving notable performance improvements of up to 150x 
-          and reducing query times from 5 seconds to just 30 milliseconds. Additionally, employed advanced JVM 
-          heap dump analysis techniques to enhance heap space usage stability
-        - Led the successful launch of a backend system supporting manual validation for the Data Science 
-          team, achieving optimal performance and reliability with Go and PostgreSQL
-        - Provided mentorship, conducted interviews, and facilitated onboarding for new engineers, ensuring 
-          they were equipped to excel in their roles.
-        - Developed and open-sourced <a href="https://github.com/eyeota/kani" target="_blank">Kani</a>, a 
-          Clojure-based application for Cassandra backup with Unicode support, showcasing a commitment to 
-          knowledge sharing and community contribution
+        - Mentored and conducted interviews for senior-level engineers, ensuring that new hires aligned with company 
+          culture, motivation, and soft skills, in addition to technical proficiency. Led onboarding efforts, 
+          helping new engineers get up to speed quickly and contribute effectively
+        - Led a key initiative to develop and manage a business-critical backend system for the adtech platform, 
+          responsible for audience segment mapping, reporting, and targeting, directly impacting revenue generation
+        - Drove the architecture and design of a manual machine learning validation system for the Data Science 
+          team, ensuring reliability and performance in a high-stakes, data-driven environment
+        - Ensured operational excellence by setting up and overseeing DevOps practices, improving system stability, 
+          and proactively identifying performance bottlenecks
     - icon: '/img/works/krux.png'
       title: 'Software Engineer'
       subtitle: 'Krux Digital (now Salesforce)'
