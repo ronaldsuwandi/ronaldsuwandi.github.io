@@ -2,205 +2,205 @@ basic:
   name: Ronald Suwandi
   image: /img/ronald.jpg
   headline: >
-    Seasoned engineer with 15+ years of experience crafting high-quality products and driving technical 
-    excellence in cross-functional teams. 4 years of expertise in adtech, consistently aligning complex 
-    technical solutions with business goals in fast-paced environments. Proficient in Java, Golang, 
-    JavaScript, and Kafka. Proven track record of collaborating with product teams and stakeholders to 
-    solve challenging problems and deliver impactful results. Passionate about technology and fostering 
-    a culture of innovation. Father of two wonderful sons      
+    Seasoned engineer with 15+ years of experience crafting high-quality products and
+    driving technical excellence in cross-functional teams. Proficient in Java, Golang,
+    JavaScript, and Kafka. Demonstrated success in aligning complex technical solutions with
+    business goals and collaborating with product teams to solve critical challenges.
+    Passionate about fostering a culture of innovation and delivering impactful results. Father
+    of two wonderful sons
 social:
-  - className: 'icon-linkedin'
-    link: 'https://linkedin.com/in/ronaldsuwandi'
-  - className: 'icon-twitter'
-    link: 'https://twitter.com/suwandironald'
-  - className: 'icon-github-circled'
-    link: 'https://github.com/ronaldsuwandi'
-  - className: 'icon-instagram'
-    link: 'https://instagram.com/gantengx'
-  - className: 'icon-facebook'
-    link: 'https://facebook.com/ronald.suwandi'
-  - className: 'icon-mail-alt'
-    link: 'https://spamty.eu/mail/v4/1413/IVjqhiKaZA6c7821ba/'
+  - className: "icon-linkedin"
+    link: "https://linkedin.com/in/ronaldsuwandi"
+  - className: "icon-twitter"
+    link: "https://twitter.com/suwandironald"
+  - className: "icon-github-circled"
+    link: "https://github.com/ronaldsuwandi"
+  - className: "icon-instagram"
+    link: "https://instagram.com/gantengx"
+  - className: "icon-facebook"
+    link: "https://facebook.com/ronald.suwandi"
+  - className: "icon-mail-alt"
+    link: "https://spamty.eu/mail/v4/1413/IVjqhiKaZA6c7821ba/"
 
 experiences:
   title: "— My experiences —"
   list:
-    - icon: '/img/works/oliver-wyman.svg'
-      title: 'Senior Software Engineer (Contract)'
-      subtitle: 'Oliver Wyman'
-      link: 'https://oliverwyman.com/'
-      location: 'Singapore'
-      period: 'June 2024 – Present'
-      description: 
-        - Built a digital lending platform for a banking client, with a focus on backend engineering
-        - Provided strategic guidance on technical approaches, aligning development with client 
-          requirements and business goals
-        - Proposed improvements in testing frameworks, Kafka version upgrades, and environment setup to 
-          enhance platform robustness and scalability
-        - Collaborated with stakeholders to anticipate potential issues and create actionable plans, ensuring 
-          smooth project execution
-    - icon: '/img/works/shopback.svg'
-      title: 'Senior Software Engineer'
-      subtitle: 'ShopBack'
-      link: 'https://shopback.com/'
-      location: 'Singapore'
-      period: 'September 2023 – March 2024'
-      description: 
-        - Played a key role in the company-wide Multi-Tenancy initiative, contributing to cost savings of $2.1M/year 
-          and reducing new country launch times from 6 months to 1 month
-        - Collaborated with cross-functional teams, ensuring seamless integration of Kafka Connect for database 
-          streaming and addressing technical gaps with Data Engineers
-        - Led the database streaming efforts for the team, defining goals, planning milestones, and unblocking 
-          other teams during their onboarding process
-        - Debugged and optimized query performance, reducing execution times significantly by over 90% from 6 seconds 
-          to 200ms
-        - Contributed to roadmap planning and project management, working closely with team members and product teams 
-          to ensure alignment with business priorities
-    - icon: '/img/works/indeed.svg'
-      title: 'Senior Software Engineer'
-      subtitle: 'Indeed'
-      link: 'https://sg.indeed.com/'
-      location: 'Singapore'
-      period: 'September 2022 – March 2023'
-      description: 
-        - Led a cost-reduction initiative, cutting monthly expenses by 64% ($51k) through infrastructure 
-          optimizations, including Redis migration to AWS
-        - Collaborated with stakeholders across regions (US and Japan) to revamp and scale a rule-based engine, 
-          integrating it with A/B testing tools, resulting in improved business outcomes
-        - Engineered a comprehensive metrics dashboard for monitoring Redis migration, improving team efficiency and 
-          enhancing on-call workflows
-        - Quickly resolved critical system outages, leading to improved system reliability and performance 
-          stability bringing response times back from minutes to the normal 100ms range
-        - Introduced best practices for Terraform, ensuring code quality and scalability, sharing knowledge across 
-          the company
-    - icon: '/img/works/confluent.svg'
-      title: 'Consulting Engineer'
-      subtitle: 'Confluent'
-      link: 'https://www.confluent.io/'
-      location: 'Singapore'
-      period: 'November 2020 – May 2022'
-      description: 
-        - Led technical consulting and strategic implementation of Confluent products across diverse industries, 
-          including banking, gaming, and government, ensuring that deployments aligned with client objectives and 
-          industry best practices
-        - Advised clients on the design and architecture of High Availability (HA) and Disaster Recovery (DR) 
-          solutions, enabling them to scale Kafka clusters across cloud (GCP, AWS, Azure) and on-premise 
-          environments, ensuring system resilience and business continuity
-        - Collaborated with client stakeholders, including technical leads, to identify business-critical use cases 
-          and drive the successful implementation of high-performance, low-latency streaming solutions
-        - Developed a proof-of-concept for financial clients, showcasing Confluent’s capabilities in handling 
-          massive data throughput (90,000+ messages per second) with low latency (100ms), resulting in long-term 
-          client adoption
-        - Acted as the regional go-to expert, partnering with sales teams to tailor technical solutions to client 
-          needs, providing consultative guidance to address high-scale data processing challenges and help clients 
-          achieve their business goals
-    - icon: '/img/works/security-risk.png'
-      title: 'Platform Architect & Team Lead'
-      subtitle: 'Security Risk (now Software Risk)'
-      link: 'https://softwarerisk.com'
-      location: 'Singapore'
-      period: 'June 2019 – November 2020'
+    - icon: "/img/works/oliver-wyman.svg"
+      title: "Senior Software Engineer (Contract)"
+      subtitle: "Oliver Wyman"
+      link: "https://oliverwyman.com/"
+      location: "Singapore"
+      period: "June 2024 – November 2024"
       description:
-        - Provided mentorship and conducted interviews (Backend and DevOps, primarily for senior engineers), 
-          ensuring candidates were assessed on both technical skills and alignment with company culture, motivation, 
+        - Built a digital lending platform for a banking client, with a focus on backend engineering
+        - Provided strategic guidance on technical approaches, aligning development with client
+          requirements and business goals
+        - Proposed improvements in testing frameworks, Kafka version upgrades, and environment setup to
+          enhance platform robustness and scalability
+        - Collaborated with stakeholders to anticipate potential issues and create actionable plans, ensuring
+          smooth project execution
+    - icon: "/img/works/shopback.svg"
+      title: "Senior Software Engineer"
+      subtitle: "ShopBack"
+      link: "https://shopback.com/"
+      location: "Singapore"
+      period: "September 2023 – March 2024"
+      description:
+        - Played a key role in the company-wide Multi-Tenancy initiative, contributing to cost savings of $2.1M/year
+          and reducing new country launch times from 6 months to 1 month
+        - Collaborated with cross-functional teams, ensuring seamless integration of Kafka Connect for database
+          streaming and addressing technical gaps with Data Engineers
+        - Led the database streaming efforts for the team, defining goals, planning milestones, and unblocking
+          other teams during their onboarding process
+        - Debugged and optimized query performance, reducing execution times significantly by over 90% from 6 seconds
+          to 200ms
+        - Contributed to roadmap planning and project management, working closely with team members and product teams
+          to ensure alignment with business priorities
+    - icon: "/img/works/indeed.svg"
+      title: "Senior Software Engineer"
+      subtitle: "Indeed"
+      link: "https://sg.indeed.com/"
+      location: "Singapore"
+      period: "September 2022 – March 2023"
+      description:
+        - Led a cost-reduction initiative, cutting monthly expenses by 64% ($51k) through infrastructure
+          optimizations, including Redis migration to AWS
+        - Collaborated with stakeholders across regions (US and Japan) to revamp and scale a rule-based engine,
+          integrating it with A/B testing tools, resulting in improved business outcomes
+        - Engineered a comprehensive metrics dashboard for monitoring Redis migration, improving team efficiency and
+          enhancing on-call workflows
+        - Quickly resolved critical system outages, leading to improved system reliability and performance
+          stability bringing response times back from minutes to the normal 100ms range
+        - Introduced best practices for Terraform, ensuring code quality and scalability, sharing knowledge across
+          the company
+    - icon: "/img/works/confluent.svg"
+      title: "Consulting Engineer"
+      subtitle: "Confluent"
+      link: "https://www.confluent.io/"
+      location: "Singapore"
+      period: "November 2020 – May 2022"
+      description:
+        - Led technical consulting and strategic implementation of Confluent products across diverse industries,
+          including banking, gaming, and government, ensuring that deployments aligned with client objectives and
+          industry best practices
+        - Advised clients on the design and architecture of High Availability (HA) and Disaster Recovery (DR)
+          solutions, enabling them to scale Kafka clusters across cloud (GCP, AWS, Azure) and on-premise
+          environments, ensuring system resilience and business continuity
+        - Collaborated with client stakeholders, including technical leads, to identify business-critical use cases
+          and drive the successful implementation of high-performance, low-latency streaming solutions
+        - Developed a proof-of-concept for financial clients, showcasing Confluent’s capabilities in handling
+          massive data throughput (90,000+ messages per second) with low latency (100ms), resulting in long-term
+          client adoption
+        - Acted as the regional go-to expert, partnering with sales teams to tailor technical solutions to client
+          needs, providing consultative guidance to address high-scale data processing challenges and help clients
+          achieve their business goals
+    - icon: "/img/works/security-risk.png"
+      title: "Platform Architect & Team Lead"
+      subtitle: "Security Risk (now Software Risk)"
+      link: "https://softwarerisk.com"
+      location: "Singapore"
+      period: "June 2019 – November 2020"
+      description:
+        - Provided mentorship and conducted interviews (Backend and DevOps, primarily for senior engineers),
+          ensuring candidates were assessed on both technical skills and alignment with company culture, motivation,
           and soft skills
-        - Led the onboarding and quality assessment process for new hires, offering strategic guidance to senior 
+        - Led the onboarding and quality assessment process for new hires, offering strategic guidance to senior
           management on probation evaluations and setting engineers up for long-term success
-        - Collaborated with the CTO and product management to shape product requirements, incorporating client 
+        - Collaborated with the CTO and product management to shape product requirements, incorporating client
           feedback and driving improvements in roadmap planning
-        - Led engineering process improvements, including code review workflows, CI/CD pipeline setup, and incident 
+        - Led engineering process improvements, including code review workflows, CI/CD pipeline setup, and incident
           post-mortem analysis, ensuring operational reliability and engineering excellence
-        - Promoted to lead platform architecture, overseeing the development of high-performance services and managing 
+        - Promoted to lead platform architecture, overseeing the development of high-performance services and managing
           critical initiatives for the engineering team
-    - icon: '/img/works/security-risk.png'
-      title: 'Senior Software Engineer & DevOps Engineer'
-      subtitle: 'Security Risk (now Software Risk)'
-      link: 'https://softwarerisk.com'
-      location: 'Singapore'
-      period: 'June 2018 – June 2019'
-      description: 
-    - icon: '/img/works/eyeota.png'
-      title: 'Senior Software Engineer'
-      subtitle: 'Eyeota (now '
-      link: 'https://www.eyeota.com/'
-      location: 'Singapore'
-      period: 'July 2015 – June 2018'
-      description: 
-        - Mentored and conducted interviews for senior-level engineers, ensuring that new hires aligned with company 
-          culture, motivation, and soft skills, in addition to technical proficiency. Led onboarding efforts, 
+    - icon: "/img/works/security-risk.png"
+      title: "Senior Software Engineer & DevOps Engineer"
+      subtitle: "Security Risk (now Software Risk)"
+      link: "https://softwarerisk.com"
+      location: "Singapore"
+      period: "June 2018 – June 2019"
+      description:
+    - icon: "/img/works/eyeota.png"
+      title: "Senior Software Engineer"
+      subtitle: "Eyeota (now "
+      link: "https://www.eyeota.com/"
+      location: "Singapore"
+      period: "July 2015 – June 2018"
+      description:
+        - Mentored and conducted interviews for senior-level engineers, ensuring that new hires aligned with company
+          culture, motivation, and soft skills, in addition to technical proficiency. Led onboarding efforts,
           helping new engineers get up to speed quickly and contribute effectively
-        - Led a key initiative to develop and manage a business-critical backend system for the adtech platform, 
+        - Led a key initiative to develop and manage a business-critical backend system for the adtech platform,
           responsible for audience segment mapping, reporting, and targeting, directly impacting revenue generation
-        - Drove the architecture and design of a manual machine learning validation system for the Data Science 
+        - Drove the architecture and design of a manual machine learning validation system for the Data Science
           team, ensuring reliability and performance in a high-stakes, data-driven environment
-        - Ensured operational excellence by setting up and overseeing DevOps practices, improving system stability, 
+        - Ensured operational excellence by setting up and overseeing DevOps practices, improving system stability,
           and proactively identifying performance bottlenecks
-    - icon: '/img/works/krux.png'
-      title: 'Software Engineer'
-      subtitle: 'Krux Digital (now Salesforce)'
-      link: 'https://www.salesforce.com/'
-      location: 'Sydney'
-      period: 'September 2014 – May 2015'
-      description: 
-    - icon: '/img/works/lm.svg'
-      iconText: 'Local Measure'
-      title: 'Software Engineer'
-      subtitle: 'Local Measure'
-      link: 'https://www.localmeasure.com'
-      location: 'Sydney'
-      period: 'February 2014 – September 2014'
-      description: 
-    - title: 'Software Engineer (Contract)'
-      subtitle: 'Murray Hurps Software Pty Ltd'
-      location: 'Sydney'
-      period: 'July 2013 – February 2014'
-      description: 
-    - icon: '/img/works/solveit.jpg'
-      iconText: 'SolveIT Software (now Schneider Electric)'
-      title: 'Senior Software Engineer'
-      subtitle: 'SolveIT Software (now Schneider Electric)'
-      link: 'http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page'
-      location: 'Adelaide'
-      period: 'February 2009 – July 2013'
-      description: 
+    - icon: "/img/works/krux.png"
+      title: "Software Engineer"
+      subtitle: "Krux Digital (now Salesforce)"
+      link: "https://www.salesforce.com/"
+      location: "Sydney"
+      period: "September 2014 – May 2015"
+      description:
+    - icon: "/img/works/lm.svg"
+      iconText: "Local Measure"
+      title: "Software Engineer"
+      subtitle: "Local Measure"
+      link: "https://www.localmeasure.com"
+      location: "Sydney"
+      period: "February 2014 – September 2014"
+      description:
+    - title: "Software Engineer (Contract)"
+      subtitle: "Murray Hurps Software Pty Ltd"
+      location: "Sydney"
+      period: "July 2013 – February 2014"
+      description:
+    - icon: "/img/works/solveit.jpg"
+      iconText: "SolveIT Software (now Schneider Electric)"
+      title: "Senior Software Engineer"
+      subtitle: "SolveIT Software (now Schneider Electric)"
+      link: "http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page"
+      location: "Adelaide"
+      period: "February 2009 – July 2013"
+      description:
 
 projects:
   title: "— My personal projects —"
   list:
-    - icon: '/img/works/logweight.svg'
-      iconText: 'LogWeight'
-      title: 'LogWeight'
-      location: 'Singapore'
-      period: 'August 2017'
+    - icon: "/img/works/logweight.svg"
+      iconText: "LogWeight"
+      title: "LogWeight"
+      location: "Singapore"
+      period: "August 2017"
       description: >
-        Developed a React Native app for iOS that allows users to quickly log their weight into the Health 
+        Developed a React Native app for iOS that allows users to quickly log their weight into the Health
         App, featuring a simple and intuitive design.
-    - icon: '/img/works/nn.png'
-      iconText: 'Neural Networks Library'
-      title: 'Neural networks library'
-      subtitle: 'Project page'
-      link: 'http://github.com/ronaldsuwandi/neuralnetworks'
-      location: 'Singapore'
-      period: 'April 2016 – December 2016'
+    - icon: "/img/works/nn.png"
+      iconText: "Neural Networks Library"
+      title: "Neural networks library"
+      subtitle: "Project page"
+      link: "http://github.com/ronaldsuwandi/neuralnetworks"
+      location: "Singapore"
+      period: "April 2016 – December 2016"
       description: >
-        Built a Clojure-based neural networks library on top of the 
-        <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package. 
-        Inspired by Andrew Ng's Machine Learning course, the library is modular, allowing for easy 
+        Built a Clojure-based neural networks library on top of the
+        <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package.
+        Inspired by Andrew Ng's Machine Learning course, the library is modular, allowing for easy
         swapping of optimizers, activation functions, stopping conditions, and cost functions.
-    - icon: '/img/works/wearther.svg'
-      iconText: 'wearther'
-      title: 'wearther'
-      location: 'Sydney'
-      period: 'April 2013 – July 2015'
+    - icon: "/img/works/wearther.svg"
+      iconText: "wearther"
+      title: "wearther"
+      location: "Sydney"
+      period: "April 2013 – July 2015"
       description: >
-        Created a web application that helps users decide what to wear based on the current weather. 
-        Developed an optimizer called MACHO, based on Ant Colony Optimization algorithms, to quickly 
+        Created a web application that helps users decide what to wear based on the current weather.
+        Developed an optimizer called MACHO, based on Ant Colony Optimization algorithms, to quickly
         calculate the best clothing combinations. Featured in both StartupsFM and StartupDaily.
-    - icon: '/img/works/hashtag.svg'
-      iconText: '#hashtagoverload'
-      title: '#hashtagoverload'
-      location: 'Sydney'
-      period: 'July 2013 – December 2013'
+    - icon: "/img/works/hashtag.svg"
+      iconText: "#hashtagoverload"
+      title: "#hashtagoverload"
+      location: "Sydney"
+      period: "July 2013 – December 2013"
       description: >
         A simple mobile-first webapp that translate the sentence into a hashtag format
         and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thesaurus.
@@ -208,58 +208,58 @@ projects:
 educations:
   title: "— Educations —"
   list:
-    - title: 'AWS Certified Developer – Associate'
-      subtitle: 'Certificate'
-      link: 'https://www.credly.com/badges/8d5b5a9f-62b8-4ef4-bb1c-47cb8b07dbab?source=linked_in_profile'
-      location: 'Singapore'
-      period: 'September 2021 - September 2024'
-    - title: 'Confluent Certified Developer for Apache Kafka'
-      subtitle: 'Certificate'
-      link: 'https://www.credential.net/89d758d4-dbab-4176-b2eb-7cb27101449d#gs.gczgc8'
-      location: 'Singapore'
-      period: 'March 2021 - March 2023'
-    - title: 'Confluent Certified Administrator for Apache Kafka'
-      subtitle: 'Certificate'
-      link: 'https://www.credential.net/1e1b6761-81b4-4c53-88c4-78dffd64f136#gs.gczgb6'
-      location: 'Singapore'
-      period: 'March 2021 - March 2023'
-    - title: 'Learn Kubernetes from a DevOps guru (Kubernetes + Docker)'
-      subtitle: 'Certificate'
-      link: 'https://ude.my/UC-PGFKB8IY'
-      location: 'Singapore'
-      period: 'June 2018'
-    - title: 'Docker Mastery: The Complete Toolset From a Docker Captain'
-      subtitle: 'Certificate'
-      link: 'https://ude.my/UC-HRZ4B4W9'
-      location: 'Singapore'
-      period: 'June 2018'
-    - title: 'Convolutional Neural Networks'
-      subtitle: 'Certificate'
-      link: 'https://www.coursera.org/account/accomplishments/verify/W6YC9SXP2PRW'
-      location: 'Singapore'
-      period: 'December 2017'
-    - title: 'Structuring Machine Learning Projects'
-      subtitle: 'Certificate'
-      link: 'https://www.coursera.org/account/accomplishments/verify/8NWS3ZLM6ZJZ'
-      location: 'Singapore'
-      period: 'November 2017'
-    - title: 'Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization'
-      subtitle: 'Certificate'
-      link: 'https://www.coursera.org/account/accomplishments/verify/2KMC3Z2DGDTT'
-      location: 'Singapore'
-      period: 'October 2017'
-    - title: 'Neural Networks and Deep Learning'
-      subtitle: 'Certificate'
-      link: 'https://www.coursera.org/account/accomplishments/verify/WP37PDQFNADP'
-      location: 'Singapore'
-      period: 'September 2017'
-    - title: 'Machine Learning'
-      subtitle: 'Certificate'
-      link: 'https://www.coursera.org/account/accomplishments/verify/5XHU8Q8VK7PX'
-      location: 'Singapore'
-      period: 'March 2016'
-    - title: 'Honours, Computer Science (Second Upper Class - IIA)'
-      subtitle: 'University of Adelaide'
-      link: 'https://www.adelaide.edu.au'
-      location: 'Singapore'
-      period: '2004 – 2008'
+    - title: "AWS Certified Developer – Associate"
+      subtitle: "Certificate"
+      link: "https://www.credly.com/badges/8d5b5a9f-62b8-4ef4-bb1c-47cb8b07dbab?source=linked_in_profile"
+      location: "Singapore"
+      period: "September 2021 - September 2024"
+    - title: "Confluent Certified Developer for Apache Kafka"
+      subtitle: "Certificate"
+      link: "https://www.credential.net/89d758d4-dbab-4176-b2eb-7cb27101449d#gs.gczgc8"
+      location: "Singapore"
+      period: "March 2021 - March 2023"
+    - title: "Confluent Certified Administrator for Apache Kafka"
+      subtitle: "Certificate"
+      link: "https://www.credential.net/1e1b6761-81b4-4c53-88c4-78dffd64f136#gs.gczgb6"
+      location: "Singapore"
+      period: "March 2021 - March 2023"
+    - title: "Learn Kubernetes from a DevOps guru (Kubernetes + Docker)"
+      subtitle: "Certificate"
+      link: "https://ude.my/UC-PGFKB8IY"
+      location: "Singapore"
+      period: "June 2018"
+    - title: "Docker Mastery: The Complete Toolset From a Docker Captain"
+      subtitle: "Certificate"
+      link: "https://ude.my/UC-HRZ4B4W9"
+      location: "Singapore"
+      period: "June 2018"
+    - title: "Convolutional Neural Networks"
+      subtitle: "Certificate"
+      link: "https://www.coursera.org/account/accomplishments/verify/W6YC9SXP2PRW"
+      location: "Singapore"
+      period: "December 2017"
+    - title: "Structuring Machine Learning Projects"
+      subtitle: "Certificate"
+      link: "https://www.coursera.org/account/accomplishments/verify/8NWS3ZLM6ZJZ"
+      location: "Singapore"
+      period: "November 2017"
+    - title: "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
+      subtitle: "Certificate"
+      link: "https://www.coursera.org/account/accomplishments/verify/2KMC3Z2DGDTT"
+      location: "Singapore"
+      period: "October 2017"
+    - title: "Neural Networks and Deep Learning"
+      subtitle: "Certificate"
+      link: "https://www.coursera.org/account/accomplishments/verify/WP37PDQFNADP"
+      location: "Singapore"
+      period: "September 2017"
+    - title: "Machine Learning"
+      subtitle: "Certificate"
+      link: "https://www.coursera.org/account/accomplishments/verify/5XHU8Q8VK7PX"
+      location: "Singapore"
+      period: "March 2016"
+    - title: "Honours, Computer Science (Second Upper Class - IIA)"
+      subtitle: "University of Adelaide"
+      link: "https://www.adelaide.edu.au"
+      location: "Singapore"
+      period: "2004 – 2008"
