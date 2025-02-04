@@ -167,6 +167,18 @@ experiences:
 projects:
   title: "— My personal projects —"
   list:
+    - icon: "/img/works/chessterm.svg"
+      iconText: "chessterm"
+      title: "chessterm"
+      subtitle: "Project page"
+      link: "http://github.com/ronaldsuwandi/chessterm"
+      location: "Singapore"
+      period: "December 2024 – February 2025"
+      description: >
+        Developed a terminal-based chess engine from scratch in Rust using bitboard data structures for efficient
+        move validation. Implemented comprehensive chess rules including complex edge cases for pins, checks,
+        stalemate detection, and en passant captures. Built a terminal UI using ratatui with custom PNG rendering,
+        focusing on PGN notation input to improve tournament preparation skills
     - icon: "/img/works/logweight.svg"
       iconText: "LogWeight"
       title: "LogWeight"
