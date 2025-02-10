@@ -167,6 +167,19 @@ experiences:
 projects:
   title: "— My personal projects —"
   list:
+    - icon: "/img/works/thinkfish.svg"
+      iconText: "ThinkFish"
+      title: "ThinkFish"
+      subtitle: "Project page"
+      link: "https://github.com/ronaldsuwandi/thinkfish"
+      location: "Singapore"
+      period: "February 2025"
+      description: >
+        Built a prototype that integrates Stockfish with LLM-generated explanations to analyze chess moves, aiming
+        to bridge the gap between engine calculations and human reasoning. Developed in one day as a rapid prototype,
+        it highlighted key AI limitations—LLMs often misinterpret board states, struggle with structured logic, and
+        hallucinate explanations. Tested GPT-4o and GPT-4o-mini, with GPT-4o performing better but still unreliable
+        for structured reasoning. Completed as a proof-of-concept with no plans for further development
     - icon: "/img/works/chessterm.svg"
       iconText: "chessterm"
       title: "chessterm"
