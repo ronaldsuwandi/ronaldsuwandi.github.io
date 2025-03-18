@@ -25,6 +25,13 @@ social:
 experiences:
   title: "— My experiences —"
   list:
+    - icon: "/img/works/bitcraft-solutions.png"
+      title: "Founder"
+      subtitle: "BitCraft Solutions"
+      link: "https://bitcraftsolutions.com/"
+      location: "Singapore"
+      period: "March 2025 – Present"
+      description:
     - icon: "/img/works/oliver-wyman.svg"
       title: "Senior Software Engineer (Contract)"
       subtitle: "Oliver Wyman"
