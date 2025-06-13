@@ -39,6 +39,8 @@ experiences:
         - Leading the design and implementation of an event tracking and analytics system for an interactive
           exhibition, including a dynamic dashboard and performance optimization to handle high traffic during
           key events
+        - Developing a frontend interface for visualizing trading activity and detecting suspicious patterns as 
+          part of a financial monitoring platform  
     - icon: "/img/works/oliver-wyman.svg"
       title: "Senior Software Engineer (Contract)"
       subtitle: "Oliver Wyman"
