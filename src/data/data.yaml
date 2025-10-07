@@ -34,13 +34,13 @@ experiences:
       description:
         - Founded a software consulting and product development company focused on high-quality engineering
           and scalable systems
-        - Built and currently private beta testing a mobile app to help parents guide their children through 
-          structured daily routines, with features like task timers, photo-based proof, and reward systems
+        - Launched Oh Yah!, a mobile app helping parents guide children through structured daily routines
+          with focused timers, photo-based task completion, and reward systems. Available on iOS App Store
         - Leading the design and implementation of an event tracking and analytics system for an interactive
           exhibition, including a dynamic dashboard and performance optimisation to handle high traffic during
           key events
-        - Developing a frontend interface for visualising trading activity and detecting suspicious patterns as 
-          part of a financial monitoring platform  
+        - Developing a frontend interface for visualising trading activity and detecting suspicious patterns as
+          part of a financial monitoring platform
     - icon: "/img/works/oliver-wyman.svg"
       title: "Senior Software Engineer (Contract)"
       subtitle: "Oliver Wyman"
@@ -183,6 +183,17 @@ experiences:
 projects:
   title: "— My personal projects —"
   list:
+    - icon: "/img/works/ohyah.svg"
+      iconText: "Oh Yah! - Daily Routine Management for Kids"
+      title: "Oh Yah! - Daily Routine Management for Kids"
+      subtitle: "Project page"
+      link: "https://ohyahapp.com"
+      location: "Singapore"
+      period: "March 2025 – Present"
+      description: >
+        A mobile app designed to help parents guide children ages 5-12 through structured daily routines.
+        Features include distraction-free timers, photo-based task completion, parent review system with
+        automated rewards, and support for multiple child profiles. Available on iOS App Store
     - icon: "/img/works/thinkfish.svg"
       iconText: "ThinkFish"
       title: "ThinkFish"
