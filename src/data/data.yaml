@@ -2,12 +2,13 @@ basic:
   name: Ronald Suwandi
   image: /img/ronald.jpg
   headline: >
-    Seasoned engineer with 16+ years of experience crafting high-quality products and
-    driving technical excellence in cross-functional teams. Proficient in Java, Golang,
-    JavaScript, and Kafka. Demonstrated success in aligning complex technical solutions with
-    business goals and collaborating with product teams to solve critical challenges.
-    Passionate about fostering a culture of innovation and delivering impactful results. Father
-    of two wonderful sons
+    Seasoned engineer with 16+ years of experience designing and delivering high-throughput 
+    backend and data systems. Proficient in Java, Golang, JavaScript, and Kafka, with 
+    additional hands-on Rust through real-world projects including a load balancer, a NATS 
+    server and a chess engine. Proven success in aligning complex technical solutions with 
+    business goals, solving critical challenges, and collaborating with cross-functional 
+    teams in fast-paced environments. Father of two wonderful sons based in Singapore
+
 social:
   - className: "icon-linkedin"
     link: "https://linkedin.com/in/ronaldsuwandi"
@@ -26,7 +27,7 @@ experiences:
   title: "— My experiences —"
   list:
     - icon: "/img/works/bitcraft-solutions.png"
-      title: "Founder & Principal Engineer"
+      title: "Independent Software Consultant"
       subtitle: "BitCraft Solutions"
       link: "https://bitcraftsolutions.com/"
       location: "Singapore"
