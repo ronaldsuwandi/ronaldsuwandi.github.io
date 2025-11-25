@@ -35,6 +35,9 @@ experiences:
       description:
         - Founded a software consulting and product development company focused on high-quality engineering
           and scalable systems
+        - Contracted to Confluent to lead Kafka/Confluent Platform deployments for enterprise clients, 
+          designing multi-datacenter stretch cluster architectures and implementing infrastructure automation 
+          using Ansible and Kubernetes          
         - Launched Oh Yah!, a mobile app helping parents guide children through structured daily routines
           with focused timers, photo-based task completion, and reward systems. Available on iOS App Store
         - Leading the design and implementation of an event tracking and analytics system for an interactive
