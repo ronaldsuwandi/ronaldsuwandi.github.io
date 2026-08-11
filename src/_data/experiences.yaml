@@ -1,5 +1,17 @@
 title: "— My experiences —"
 list:
+  - icon: "/img/works/thoughtworks.svg"
+    title: "Staff Software Engineer"
+    subtitle: "Thoughtworks"
+    link: "https://thoughtworks.com/"
+    location: "Singapore"
+    period: "April 2026 – Present"
+    description:
+      - Led feasibility research and technical validation for the modernisation of a legacy case management system
+        for a Government Agency, weighing incremental migration vs. rebuild tradeoffs and validating a proposed
+        Outlook/SharePoint plugin architecture
+      - Assessed engineering practices and code quality of the existing system, helping shape the case for shifting
+        from a blackbox vendor model to product ownership and informing the modernisation roadmap
   - icon: "/img/works/bitcraft-solutions.png"
     title: "Independent Software Consultant"
     subtitle: "BitCraft Solutions"
