@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ronald Suwandi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- TODO - use template to use cdn for prod -->
+    <link rel="stylesheet" type="text/css" href="/css/basscss-8.0.1.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/basscss-addons.css">
+    <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
+
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="5f4b01f8-0728-49c2-a6cc-77775716fd6c"></script>
+</head>
+
+<body>
+    <section class="main flex items-center justify-center border-box">
+        <div class="p3 max-width-2">
+            <img class="circle mx-auto block border border-box" src="/img/ronald.jpg">
+            <h1 class="center my2">{{basic.name}}</h1>
+            {{paragraphSplit basic.headline}}
+
+            <ul class="mt3 center list-reset social flex justify-center">
+                {{#each social}}
+                <a href={{link}} class="mx1 flex flex-none circle align-center justify-center" target="_blank">
+                    <li class="flex flex-none align-center justify-center">
+                        <i class="icon {{className}}"></i>
+                    </li>
+                </a>
+                {{/each}}
+            </ul>
+            <p class="center mt3 mb0 scroll-down">
+                <a class="scroll-to-experiences"><i class="icon icon-down-open"></i></a>
+            </p>
+        </div>
+    </section>
+    <section class="experiences md-p3 p2">
+        {{#with experiences}}
+            <h2 class="center">{{title}}</h2>
+            <div class="flex flex-column max-width-3 mx-auto">
+                {{#each list}}
+                <div class="entry flex my2 sm-my3">
+                    <div class="entry-icon flex-none mr2">
+                        {{#if icon}}
+                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                        {{else}}
+                        <img style="visibility: hidden;">
+                        {{/if}}
+                    </div>
+                    <div class="entry-content ml1 sm-ml2">
+                        <div class="entry-content-title-container">
+                            <p class="m0 title"><strong>{{title}}</strong></p>
+                            {{#if subtitle}}
+                            <p class="mt0 mb1 subtitle">
+                                {{#if link}}
+                                <a class="inline-block" href={{link}} target="_blank">
+                                    {{subtitle}}
+                                </a>
+                                {{else}}
+                                {{subtitle}}
+                                {{/if}}
+                            </p>
+                            {{/if}}
+                        </div>
+                        <div class="entry-content-period">
+                            <small>
+                            {{period}}
+                            {{#if location}}
+                            <span class="entry-content-location"> | {{location}}</span>
+                            {{/if}}
+                          </small>
+                        </div>
+                        <div class="entry-content-description">
+                            <ul>
+                                {{#each description}}
+                                    <li>{{{this}}}</li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        {{/with}}
+    </section>
+    <section class="projects md-p3 p2">
+        {{#with projects}}
+            <h2 class="center">{{title}}</h2>
+            <div class="flex flex-column max-width-3 mx-auto">
+                {{#each list}}
+                <div class="entry flex my2 sm-my3">
+                    <div class="entry-icon flex-none mr2">
+                        {{#if icon}}
+                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                        {{else}}
+                        <img style="visibility: hidden;">
+                        {{/if}}
+                    </div>
+                    <div class="entry-content ml1 sm-ml2">
+                        <div class="entry-content-title-container">
+                            <p class="m0 title"><strong>{{title}}</strong></p>
+                            {{#if subtitle}}
+                            <p class="mt0 mb1 subtitle">
+                                {{#if link}}
+                                <a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a>
+                                {{else}}
+                                {{subtitle}}
+                                {{/if}}
+                            </p>
+                            {{/if}}
+                        </div>
+                        <div class="entry-content-period">
+                            <small>
+                            {{period}}
+                            {{#if location}}
+                            <span class="entry-content-location"> | {{location}}</span>
+                            {{/if}}
+                          </small>
+                        </div>
+                        <div class="entry-content-description">
+                            {{{paragraphSplit description}}}
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        {{/with}}
+    </section>
+    <section class="educations md-p3 p2">
+        {{#with educations}}
+            <h2 class="center">{{title}}</h2>
+            <div class="flex flex-column max-width-3 mx-auto">
+                {{#each list}}
+                <div class="entry flex my2 sm-my3">
+                    <div class="entry-icon flex-none mr2">
+                        {{#if icon}}
+                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
+                        {{else}}
+                        <img style="visibility: hidden;">
+                        {{/if}}
+                    </div>
+                    <div class="entry-content ml1 sm-ml2">
+                        <div class="entry-content-title-container">
+                            <p class="m0 title"><strong>{{title}}</strong></p>
+                            <p class="mt0 mb1 subtitle"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
+                        </div>
+                        <div class="entry-content-period">
+                            <small>
+                            {{period}}
+                            {{#if location}}
+                            <span class="entry-content-location"> | {{location}}</span>
+                            {{/if}}
+                          </small>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        {{/with}}
+    </section>
+    <section class="contact md-pt2 md-pl3 md-pr3 md-pb3 p2">
+        <p class="center my0 scroll-up">
+            <a class="scroll-to-main"><i class="icon icon-up-open"></i></a>
+        </p>
+        <p class="center">
+            &copy; Ronald Suwandi 2016<script>new Date().getFullYear()>2016&&document.write(" – "+new Date().getFullYear());</script>
+        </p>
+    </section>
+    <script src="/js/velocity-1.5.2.min.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
