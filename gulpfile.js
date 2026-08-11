@@ -2,7 +2,6 @@ const gulp = require('gulp');
 const Handlebars  = require('handlebars');
 const handlebars = require('gulp-compile-handlebars');
 const webserver = require('gulp-webserver');
-const less = require('gulp-less');
 const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 const yaml = require('js-yaml');
@@ -29,15 +28,9 @@ gulp.task('webserver', function() {
     }));
 });
 
-gulp.task('less', function () {
-  return gulp.src('src/less/**/*.less')
-    .pipe(less({}))
-    .pipe(gulp.dest('docs/css'));
-});
-
 gulp.task('copy', function() {
   return gulp.src(['src/**/*', '!src/**/*.hbs', '!src/data{,/**}', '!src/lib{,/**}',
-                   '!src/less{,/**}', '!src/js{,/**}', '!src/LICENSE', '!src/README.md'])
+                   '!src/js{,/**}', '!src/LICENSE', '!src/README.md'])
     .pipe(gulp.dest('./docs'));
 });
 
@@ -63,13 +56,12 @@ gulp.task('template', function() {
     .pipe(gulp.dest('docs'));
 })
 
-gulp.task('compile', gulp.series('less', 'copy-lib', 'copy', 'template', 'uglify'));
+gulp.task('compile', gulp.series('copy-lib', 'copy', 'template', 'uglify'));
 
 gulp.task('watch', gulp.series('compile'), function() {
-  gulp.watch(['src/*', 'src/img/**', 'src/lib/**'], gulp.series('copy'));
+  gulp.watch(['src/*', 'src/img/**', 'src/lib/**', 'src/css/**'], gulp.series('copy'));
   gulp.watch(['src/**/*.hbs', 'src/data/**'], gulp.series('template'));
   gulp.watch('src/lib/**', gulp.series('copy-lib'));
-  gulp.watch('src/less/**', gulp.series('less'));
   gulp.watch('src/js/**', gulp.series('uglify'));
 });
 

@@ -11,7 +11,7 @@ a {
   cursor: pointer;
 
   &:hover, &:active {
-    color: lighten(#FF6E00, 5%);
+    color: hsl(from #FF6E00 h s calc(l + 15));
   }
 }
 
@@ -38,7 +38,7 @@ a {
       background: #fff;
       color: #59BFC9;
       &:hover, &:active {
-        color: lighten(#59BFC9, 20%);
+        color: hsl(from #59BFC9 h s calc(l + 20));
       }
       li {
         width: 2.5rem;
@@ -63,7 +63,7 @@ a {
       -webkit-tap-highlight-color: rgba(0,0,0,0);
       -webkit-tap-highlight-color: transparent;
       &:hover, &:active {
-        color: lighten(#59BFC9, 10%);
+        color: hsl(from #59BFC9 h s calc(l + 10));
       }
     }
     .icon {
