@@ -37,7 +37,7 @@ gulp.task('less', function () {
 
 gulp.task('copy', function() {
   return gulp.src(['src/**/*', '!src/**/*.hbs', '!src/data{,/**}', '!src/lib{,/**}',
-                   '!src/less{,/**}', '!src/js{,/**}'])
+                   '!src/less{,/**}', '!src/js{,/**}', '!src/LICENSE', '!src/README.md'])
     .pipe(gulp.dest('./docs'));
 });
 
