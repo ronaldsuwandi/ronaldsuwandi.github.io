@@ -17,7 +17,6 @@
     <link rel="stylesheet" type="text/css" href="/css/basscss-8.0.1.min.css">
     <link rel="stylesheet" type="text/css" href="/css/basscss-addons.css">
     <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
-    <link rel="stylesheet" type="text/css" href="/css/fontello.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
 
@@ -33,15 +32,15 @@
 
             <ul class="mt3 center list-reset social flex justify-center">
                 {{#each social}}
-                <a href={{link}} class="mx1 flex flex-none circle align-center justify-center" target="_blank">
+                <a href={{link}} class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="{{label}}">
                     <li class="flex flex-none align-center justify-center">
-                        <i class="icon {{className}}"></i>
+                        <svg class="icon" aria-hidden="true"><use href="/icons.svg#{{className}}"></use></svg>
                     </li>
                 </a>
                 {{/each}}
             </ul>
             <p class="center mt3 mb0 scroll-down">
-                <a class="scroll-to-experiences"><i class="icon icon-down-open"></i></a>
+                <a class="scroll-to-experiences" aria-label="Scroll to experiences"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-down-open"></use></svg></a>
             </p>
         </div>
     </section>
@@ -171,7 +170,7 @@
     </section>
     <section class="contact md-pt2 md-pl3 md-pr3 md-pb3 p2">
         <p class="center my0 scroll-up">
-            <a class="scroll-to-main"><i class="icon icon-up-open"></i></a>
+            <a class="scroll-to-main" aria-label="Scroll to top"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-up-open"></use></svg></a>
         </p>
         <p class="center">
             &copy; Ronald Suwandi 2016<script>new Date().getFullYear()>2016&&document.write(" – "+new Date().getFullYear());</script>

@@ -4,6 +4,13 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
   color: #FF6E00;
@@ -112,7 +119,7 @@ a {
       -webkit-tap-highlight-color: rgba(0,0,0,0);
       -webkit-tap-highlight-color: transparent;
       &:hover, &:active {
-        text-shadow: 0 0 1rem #fff;
+        filter: drop-shadow(0 0 1rem #fff);
       }
     }
     .icon {
