@@ -1,0 +1,77 @@
+title: "— My personal projects —"
+list:
+  - icon: "/img/works/ohyah.svg"
+    iconText: "Oh Yah! - Daily Routine Management for Kids"
+    title: "Oh Yah! - Daily Routine Management for Kids"
+    subtitle: "Project page"
+    link: "https://ohyahapp.com"
+    location: "Singapore"
+    period: "March 2025 – Present"
+    description: >
+      A mobile app designed to help parents guide children ages 5-12 through structured daily routines.
+      Features include distraction-free timers, photo-based task completion, parent review system with
+      automated rewards, and support for multiple child profiles. Available on iOS App Store
+  - icon: "/img/works/thinkfish.svg"
+    iconText: "ThinkFish"
+    title: "ThinkFish"
+    subtitle: "Project page"
+    link: "https://github.com/ronaldsuwandi/thinkfish"
+    location: "Singapore"
+    period: "February 2025"
+    description: >
+      Built a rapid prototype integrating Stockfish with LLM-generated explanations to analyse chess moves, aiming
+      to bridge the gap between engine calculations and human reasoning. Found key AI limitations—LLMs often
+      misinterpret board states and struggle with structured logic, leading to subtle hallucinations and
+      explanations. Recently refined by adding FEN for better context and testing a game review feature to improve
+      output quality. Tested GPT-4o and GPT-4o-mini, with GPT-4o performing better but still unreliable. Completed
+      as a proof-of-concept with no plans for further development
+  - icon: "/img/works/chessterm.svg"
+    iconText: "chessterm"
+    title: "chessterm"
+    subtitle: "Project page"
+    link: "http://github.com/ronaldsuwandi/chessterm"
+    location: "Singapore"
+    period: "December 2024 – February 2025"
+    description: >
+      Developed a terminal-based chess engine from scratch in Rust using bitboard data structures for efficient
+      move validation. Implemented comprehensive chess rules including complex edge cases for pins, checks,
+      stalemate detection, and en passant captures. Built a terminal UI using ratatui with custom PNG rendering,
+      focusing on PGN notation input to improve tournament preparation skills
+  - icon: "/img/works/logweight.svg"
+    iconText: "LogWeight"
+    title: "LogWeight"
+    location: "Singapore"
+    period: "August 2017"
+    description: >
+      Developed a React Native app for iOS that allows users to quickly log their weight into the Health
+      App, featuring a simple and intuitive design.
+  - icon: "/img/works/nn.png"
+    iconText: "Neural Networks Library"
+    title: "Neural networks library"
+    subtitle: "Project page"
+    link: "http://github.com/ronaldsuwandi/neuralnetworks"
+    location: "Singapore"
+    period: "April 2016 – December 2016"
+    description: >
+      Built a Clojure-based neural networks library on top of the
+      <a href="https://github.com/mikera/core.matrix" target="_blank">core.matrix</a> package.
+      Inspired by Andrew Ng's Machine Learning course, the library is modular, allowing for easy
+      swapping of optimisers, activation functions, stopping conditions, and cost functions.
+  - icon: "/img/works/wearther.svg"
+    iconText: "wearther"
+    title: "wearther"
+    location: "Sydney"
+    period: "April 2013 – July 2015"
+    description: >
+      Created a web application that helps users decide what to wear based on the current weather.
+      Developed an optimiser called MACHO, based on Ant Colony Optimisation algorithms, to quickly
+      calculate the best clothing combinations. Featured in both StartupsFM and StartupDaily.
+  - icon: "/img/works/hashtag.svg"
+    iconText: "#hashtagoverload"
+    title: "#hashtagoverload"
+    location: "Sydney"
+    period: "July 2013 – December 2013"
+    description: >
+      A simple mobile-first webapp that translate the sentence into a hashtag format
+      and also gives you some suggestion keywords. Powered by jQuery and Big Huge Thesaurus.
+
