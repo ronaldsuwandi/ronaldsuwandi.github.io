@@ -27,17 +27,17 @@
     <section class="main flex items-center justify-center border-box">
         <div class="p3 max-width-2">
             <img class="circle mx-auto block border border-box" src="/img/ronald.jpg">
-            <h1 class="center my2">{{basic.name}}</h1>
-            {{paragraphSplit basic.headline}}
+            <h1 class="center my2">{{ basic.name }}</h1>
+            {{ basic.headline | paragraphSplit | safe }}
 
             <ul class="mt3 center list-reset social flex justify-center">
-                {{#each social}}
-                <a href={{link}} class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="{{label}}">
+                {% for item in social %}
+                <a href="{{ item.link }}" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="{{ item.label }}">
                     <li class="flex flex-none align-center justify-center">
-                        <svg class="icon" aria-hidden="true"><use href="/icons.svg#{{className}}"></use></svg>
+                        <svg class="icon" aria-hidden="true"><use href="/icons.svg#{{ item.className }}"></use></svg>
                     </li>
                 </a>
-                {{/each}}
+                {% endfor %}
             </ul>
             <p class="center mt3 mb0 scroll-down">
                 <a class="scroll-to-experiences" aria-label="Scroll to experiences"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-down-open"></use></svg></a>
@@ -45,128 +45,122 @@
         </div>
     </section>
     <section class="experiences md-p3 p2">
-        {{#with experiences}}
-            <h2 class="center">{{title}}</h2>
+            <h2 class="center">{{ experiences.title }}</h2>
             <div class="flex flex-column max-width-3 mx-auto">
-                {{#each list}}
+                {% for entry in experiences.list %}
                 <div class="entry flex my2 sm-my3">
                     <div class="entry-icon flex-none mr2">
-                        {{#if icon}}
-                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
-                        {{else}}
+                        {% if entry.icon %}
+                        <a class="inline-block" href="{{ entry.link }}" target="_blank"><img class="rounded border-none" src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
+                        {% else %}
                         <img style="visibility: hidden;">
-                        {{/if}}
+                        {% endif %}
                     </div>
                     <div class="entry-content ml1 sm-ml2">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>{{title}}</strong></p>
-                            {{#if subtitle}}
+                            <p class="m0 title"><strong>{{ entry.title }}</strong></p>
+                            {% if entry.subtitle %}
                             <p class="mt0 mb1 subtitle">
-                                {{#if link}}
-                                <a class="inline-block" href={{link}} target="_blank">
-                                    {{subtitle}}
+                                {% if entry.link %}
+                                <a class="inline-block" href="{{ entry.link }}" target="_blank">
+                                    {{ entry.subtitle }}
                                 </a>
-                                {{else}}
-                                {{subtitle}}
-                                {{/if}}
+                                {% else %}
+                                {{ entry.subtitle }}
+                                {% endif %}
                             </p>
-                            {{/if}}
+                            {% endif %}
                         </div>
                         <div class="entry-content-period">
                             <small>
-                            {{period}}
-                            {{#if location}}
-                            <span class="entry-content-location"> | {{location}}</span>
-                            {{/if}}
+                            {{ entry.period }}
+                            {% if entry.location %}
+                            <span class="entry-content-location"> | {{ entry.location }}</span>
+                            {% endif %}
                           </small>
                         </div>
                         <div class="entry-content-description">
                             <ul>
-                                {{#each description}}
-                                    <li>{{{this}}}</li>
-                                {{/each}}
+                                {% for desc in entry.description %}
+                                    <li>{{ desc | safe }}</li>
+                                {% endfor %}
                             </ul>
                         </div>
                     </div>
                 </div>
-                {{/each}}
+                {% endfor %}
             </div>
-        {{/with}}
     </section>
     <section class="projects md-p3 p2">
-        {{#with projects}}
-            <h2 class="center">{{title}}</h2>
+            <h2 class="center">{{ projects.title }}</h2>
             <div class="flex flex-column max-width-3 mx-auto">
-                {{#each list}}
+                {% for entry in projects.list %}
                 <div class="entry flex my2 sm-my3">
                     <div class="entry-icon flex-none mr2">
-                        {{#if icon}}
-                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
-                        {{else}}
+                        {% if entry.icon %}
+                        <a class="inline-block" href="{{ entry.link }}" target="_blank"><img class="rounded border-none" src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
+                        {% else %}
                         <img style="visibility: hidden;">
-                        {{/if}}
+                        {% endif %}
                     </div>
                     <div class="entry-content ml1 sm-ml2">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>{{title}}</strong></p>
-                            {{#if subtitle}}
+                            <p class="m0 title"><strong>{{ entry.title }}</strong></p>
+                            {% if entry.subtitle %}
                             <p class="mt0 mb1 subtitle">
-                                {{#if link}}
-                                <a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a>
-                                {{else}}
-                                {{subtitle}}
-                                {{/if}}
+                                {% if entry.link %}
+                                <a class="inline-block" href="{{ entry.link }}" target="_blank">{{ entry.subtitle }}</a>
+                                {% else %}
+                                {{ entry.subtitle }}
+                                {% endif %}
                             </p>
-                            {{/if}}
+                            {% endif %}
                         </div>
                         <div class="entry-content-period">
                             <small>
-                            {{period}}
-                            {{#if location}}
-                            <span class="entry-content-location"> | {{location}}</span>
-                            {{/if}}
+                            {{ entry.period }}
+                            {% if entry.location %}
+                            <span class="entry-content-location"> | {{ entry.location }}</span>
+                            {% endif %}
                           </small>
                         </div>
                         <div class="entry-content-description">
-                            {{{paragraphSplit description}}}
+                            {{ entry.description | paragraphSplit | safe }}
                         </div>
                     </div>
                 </div>
-                {{/each}}
+                {% endfor %}
             </div>
-        {{/with}}
     </section>
     <section class="educations md-p3 p2">
-        {{#with educations}}
-            <h2 class="center">{{title}}</h2>
+            <h2 class="center">{{ educations.title }}</h2>
             <div class="flex flex-column max-width-3 mx-auto">
-                {{#each list}}
+                {% for entry in educations.list %}
                 <div class="entry flex my2 sm-my3">
                     <div class="entry-icon flex-none mr2">
-                        {{#if icon}}
-                        <a class="inline-block" href={{link}} target="_blank"><img class="rounded border-none" src="{{icon}}" alt="{{iconText}}"></a>
-                        {{else}}
+                        {% if entry.icon %}
+                        <a class="inline-block" href="{{ entry.link }}" target="_blank"><img class="rounded border-none" src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
+                        {% else %}
                         <img style="visibility: hidden;">
-                        {{/if}}
+                        {% endif %}
                     </div>
                     <div class="entry-content ml1 sm-ml2">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>{{title}}</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href={{link}} target="_blank">{{subtitle}}</a></p>
+                            <p class="m0 title"><strong>{{ entry.title }}</strong></p>
+                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="{{ entry.link }}" target="_blank">{{ entry.subtitle }}</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
-                            {{period}}
-                            {{#if location}}
-                            <span class="entry-content-location"> | {{location}}</span>
-                            {{/if}}
+                            {{ entry.period }}
+                            {% if entry.location %}
+                            <span class="entry-content-location"> | {{ entry.location }}</span>
+                            {% endif %}
                           </small>
                         </div>
                     </div>
                 </div>
-                {{/each}}
+                {% endfor %}
             </div>
-        {{/with}}
     </section>
     <section class="contact md-pt2 md-pl3 md-pr3 md-pb3 p2">
         <p class="center my0 scroll-up">

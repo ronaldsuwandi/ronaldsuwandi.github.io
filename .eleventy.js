@@ -1,8 +1,7 @@
-const Handlebars = require('handlebars');
 const yaml = require('js-yaml');
 
 // split multiline: https://stackoverflow.com/a/17975102
-Handlebars.registerHelper('paragraphSplit', function(plaintext) {
+function paragraphSplit(plaintext) {
   var i, output = '',
       lines = plaintext.split(/\r\n|\r|\n/g);
   for (i = 0; i < lines.length; i++) {
@@ -10,17 +9,11 @@ Handlebars.registerHelper('paragraphSplit', function(plaintext) {
       output += '<p>' + lines[i] + '</p>';
     }
   }
-  return new Handlebars.SafeString(output);
-});
+  return output;
+}
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addExtension('hbs', {
-    compile: (inputContent) => {
-      const template = Handlebars.compile(inputContent);
-      return (data) => template(data);
-    }
-  });
-  eleventyConfig.addTemplateFormats('hbs');
+  eleventyConfig.addFilter('paragraphSplit', paragraphSplit);
   eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
 
   eleventyConfig.addPassthroughCopy({'src/lib/css': 'css'});
