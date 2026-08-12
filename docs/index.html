@@ -13,10 +13,7 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- TODO - use template to use cdn for prod -->
-    <link rel="stylesheet" type="text/css" href="/css/basscss-8.0.1.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/basscss-addons.css">
-    <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
+    <link rel="stylesheet" type="text/css" href="/css/modern-normalize-3.0.1.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
 
@@ -24,73 +21,73 @@
 </head>
 
 <body>
-    <section class="main flex items-center justify-center border-box">
-        <div class="p3 max-width-2">
-            <img class="circle mx-auto block border border-box" src="/img/ronald.jpg">
-            <h1 class="center my2">Ronald Suwandi</h1>
+    <section class="main">
+        <div class="main-content">
+            <img src="/img/ronald.jpg">
+            <h1>Ronald Suwandi</h1>
             <p>Seasoned engineer with 16+ years of experience designing and delivering high-throughput  backend and data systems. Proficient in Java, Golang, JavaScript, and Kafka, with  additional hands-on Rust through real-world projects including a load balancer, a NATS  server and a chess engine. Proven success in aligning complex technical solutions with  business goals, solving critical challenges, and collaborating with cross-functional  teams in fast-paced environments. Father of two wonderful sons based in Singapore</p>
 
-            <ul class="mt3 center list-reset social flex justify-center">
+            <ul class="social">
                 
-                <a href="https://linkedin.com/in/ronaldsuwandi" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="LinkedIn">
-                    <li class="flex flex-none align-center justify-center">
+                <a href="https://linkedin.com/in/ronaldsuwandi" target="_blank" aria-label="LinkedIn">
+                    <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-linkedin"></use></svg>
                     </li>
                 </a>
                 
-                <a href="https://github.com/ronaldsuwandi" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="GitHub">
-                    <li class="flex flex-none align-center justify-center">
+                <a href="https://github.com/ronaldsuwandi" target="_blank" aria-label="GitHub">
+                    <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-github-circled"></use></svg>
                     </li>
                 </a>
                 
-                <a href="https://www.chess.com/member/gantengx15" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="Chess.com">
-                    <li class="flex flex-none align-center justify-center">
+                <a href="https://www.chess.com/member/gantengx15" target="_blank" aria-label="Chess.com">
+                    <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-chess"></use></svg>
                     </li>
                 </a>
                 
-                <a href="https://instagram.com/gantengx" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="Instagram">
-                    <li class="flex flex-none align-center justify-center">
+                <a href="https://instagram.com/gantengx" target="_blank" aria-label="Instagram">
+                    <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-instagram"></use></svg>
                     </li>
                 </a>
                 
-                <a href="https://facebook.com/ronald.suwandi" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="Facebook">
-                    <li class="flex flex-none align-center justify-center">
+                <a href="https://facebook.com/ronald.suwandi" target="_blank" aria-label="Facebook">
+                    <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-facebook"></use></svg>
                     </li>
                 </a>
                 
-                <a href="https://spamty.eu/mail/v4/1413/IVjqhiKaZA6c7821ba/" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="Email">
-                    <li class="flex flex-none align-center justify-center">
+                <a href="https://spamty.eu/mail/v4/1413/IVjqhiKaZA6c7821ba/" target="_blank" aria-label="Email">
+                    <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-mail-alt"></use></svg>
                     </li>
                 </a>
                 
             </ul>
-            <p class="center mt3 mb0 scroll-down">
+            <p class="scroll-down">
                 <a class="scroll-to-experiences" aria-label="Scroll to experiences"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-down-open"></use></svg></a>
             </p>
         </div>
     </section>
-    <section class="experiences md-p3 p2">
-            <h2 class="center">— My experiences —</h2>
-            <div class="flex flex-column max-width-3 mx-auto">
+    <section class="experiences">
+            <h2>— My experiences —</h2>
+            <div class="entries">
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://thoughtworks.com/" target="_blank"><img class="rounded border-none" src="/img/works/thoughtworks.svg" alt=""></a>
+                        <a href="https://thoughtworks.com/" target="_blank"><img src="/img/works/thoughtworks.svg" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Staff Software Engineer</strong></p>
+                            <p class="title"><strong>Staff Software Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://thoughtworks.com/" target="_blank">
+                                <a href="https://thoughtworks.com/" target="_blank">
                                     Thoughtworks
                                 </a>
                                 
@@ -117,19 +114,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://bitcraftsolutions.com/" target="_blank"><img class="rounded border-none" src="/img/works/bitcraft-solutions.png" alt=""></a>
+                        <a href="https://bitcraftsolutions.com/" target="_blank"><img src="/img/works/bitcraft-solutions.png" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Independent Software Consultant</strong></p>
+                            <p class="title"><strong>Independent Software Consultant</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://bitcraftsolutions.com/" target="_blank">
+                                <a href="https://bitcraftsolutions.com/" target="_blank">
                                     BitCraft Solutions
                                 </a>
                                 
@@ -162,19 +159,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://oliverwyman.com/" target="_blank"><img class="rounded border-none" src="/img/works/oliver-wyman.svg" alt=""></a>
+                        <a href="https://oliverwyman.com/" target="_blank"><img src="/img/works/oliver-wyman.svg" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Senior Software Engineer (Contract)</strong></p>
+                            <p class="title"><strong>Senior Software Engineer (Contract)</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://oliverwyman.com/" target="_blank">
+                                <a href="https://oliverwyman.com/" target="_blank">
                                     Oliver Wyman
                                 </a>
                                 
@@ -205,19 +202,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://shopback.com/" target="_blank"><img class="rounded border-none" src="/img/works/shopback.svg" alt=""></a>
+                        <a href="https://shopback.com/" target="_blank"><img src="/img/works/shopback.svg" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Senior Software Engineer</strong></p>
+                            <p class="title"><strong>Senior Software Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://shopback.com/" target="_blank">
+                                <a href="https://shopback.com/" target="_blank">
                                     ShopBack
                                 </a>
                                 
@@ -250,19 +247,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://sg.indeed.com/" target="_blank"><img class="rounded border-none" src="/img/works/indeed.svg" alt=""></a>
+                        <a href="https://sg.indeed.com/" target="_blank"><img src="/img/works/indeed.svg" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Senior Software Engineer</strong></p>
+                            <p class="title"><strong>Senior Software Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://sg.indeed.com/" target="_blank">
+                                <a href="https://sg.indeed.com/" target="_blank">
                                     Indeed
                                 </a>
                                 
@@ -295,19 +292,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://www.confluent.io/" target="_blank"><img class="rounded border-none" src="/img/works/confluent.svg" alt=""></a>
+                        <a href="https://www.confluent.io/" target="_blank"><img src="/img/works/confluent.svg" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Consulting Engineer</strong></p>
+                            <p class="title"><strong>Consulting Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://www.confluent.io/" target="_blank">
+                                <a href="https://www.confluent.io/" target="_blank">
                                     Confluent
                                 </a>
                                 
@@ -340,19 +337,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://softwarerisk.com" target="_blank"><img class="rounded border-none" src="/img/works/security-risk.png" alt=""></a>
+                        <a href="https://softwarerisk.com" target="_blank"><img src="/img/works/security-risk.png" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Platform Architect &amp; Team Lead</strong></p>
+                            <p class="title"><strong>Platform Architect &amp; Team Lead</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://softwarerisk.com" target="_blank">
+                                <a href="https://softwarerisk.com" target="_blank">
                                     Security Risk (now Software Risk)
                                 </a>
                                 
@@ -385,19 +382,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://softwarerisk.com" target="_blank"><img class="rounded border-none" src="/img/works/security-risk.png" alt=""></a>
+                        <a href="https://softwarerisk.com" target="_blank"><img src="/img/works/security-risk.png" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Senior Software Engineer &amp; DevOps Engineer</strong></p>
+                            <p class="title"><strong>Senior Software Engineer &amp; DevOps Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://softwarerisk.com" target="_blank">
+                                <a href="https://softwarerisk.com" target="_blank">
                                     Security Risk (now Software Risk)
                                 </a>
                                 
@@ -420,19 +417,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://www.eyeota.com/" target="_blank"><img class="rounded border-none" src="/img/works/eyeota.png" alt=""></a>
+                        <a href="https://www.eyeota.com/" target="_blank"><img src="/img/works/eyeota.png" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Senior Software Engineer</strong></p>
+                            <p class="title"><strong>Senior Software Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://www.eyeota.com/" target="_blank">
+                                <a href="https://www.eyeota.com/" target="_blank">
                                     Eyeota (now 
                                 </a>
                                 
@@ -463,19 +460,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://www.salesforce.com/" target="_blank"><img class="rounded border-none" src="/img/works/krux.png" alt=""></a>
+                        <a href="https://www.salesforce.com/" target="_blank"><img src="/img/works/krux.png" alt=""></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Software Engineer</strong></p>
+                            <p class="title"><strong>Software Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://www.salesforce.com/" target="_blank">
+                                <a href="https://www.salesforce.com/" target="_blank">
                                     Krux Digital (now Salesforce)
                                 </a>
                                 
@@ -498,19 +495,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://www.localmeasure.com" target="_blank"><img class="rounded border-none" src="/img/works/lm.svg" alt="Local Measure"></a>
+                        <a href="https://www.localmeasure.com" target="_blank"><img src="/img/works/lm.svg" alt="Local Measure"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Software Engineer</strong></p>
+                            <p class="title"><strong>Software Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://www.localmeasure.com" target="_blank">
+                                <a href="https://www.localmeasure.com" target="_blank">
                                     Local Measure
                                 </a>
                                 
@@ -533,17 +530,17 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Software Engineer (Contract)</strong></p>
+                            <p class="title"><strong>Software Engineer (Contract)</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
                                 Murray Hurps Software Pty Ltd
                                 
@@ -566,19 +563,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page" target="_blank"><img class="rounded border-none" src="/img/works/solveit.jpg" alt="SolveIT Software (now Schneider Electric)"></a>
+                        <a href="http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page" target="_blank"><img src="/img/works/solveit.jpg" alt="SolveIT Software (now Schneider Electric)"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Senior Software Engineer</strong></p>
+                            <p class="title"><strong>Senior Software Engineer</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page" target="_blank">
+                                <a href="http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page" target="_blank">
                                     SolveIT Software (now Schneider Electric)
                                 </a>
                                 
@@ -603,23 +600,23 @@
                 
             </div>
     </section>
-    <section class="projects md-p3 p2">
-            <h2 class="center">— My personal projects —</h2>
-            <div class="flex flex-column max-width-3 mx-auto">
+    <section class="projects">
+            <h2>— My personal projects —</h2>
+            <div class="entries">
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://ohyahapp.com" target="_blank"><img class="rounded border-none" src="/img/works/ohyah.svg" alt="Oh Yah! - Daily Routine Management for Kids"></a>
+                        <a href="https://ohyahapp.com" target="_blank"><img src="/img/works/ohyah.svg" alt="Oh Yah! - Daily Routine Management for Kids"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Oh Yah! - Daily Routine Management for Kids</strong></p>
+                            <p class="title"><strong>Oh Yah! - Daily Routine Management for Kids</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://ohyahapp.com" target="_blank">Project page</a>
+                                <a href="https://ohyahapp.com" target="_blank">Project page</a>
                                 
                             </p>
                             
@@ -638,19 +635,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="https://github.com/ronaldsuwandi/thinkfish" target="_blank"><img class="rounded border-none" src="/img/works/thinkfish.svg" alt="ThinkFish"></a>
+                        <a href="https://github.com/ronaldsuwandi/thinkfish" target="_blank"><img src="/img/works/thinkfish.svg" alt="ThinkFish"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>ThinkFish</strong></p>
+                            <p class="title"><strong>ThinkFish</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="https://github.com/ronaldsuwandi/thinkfish" target="_blank">Project page</a>
+                                <a href="https://github.com/ronaldsuwandi/thinkfish" target="_blank">Project page</a>
                                 
                             </p>
                             
@@ -669,19 +666,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="http://github.com/ronaldsuwandi/chessterm" target="_blank"><img class="rounded border-none" src="/img/works/chessterm.svg" alt="chessterm"></a>
+                        <a href="http://github.com/ronaldsuwandi/chessterm" target="_blank"><img src="/img/works/chessterm.svg" alt="chessterm"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>chessterm</strong></p>
+                            <p class="title"><strong>chessterm</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="http://github.com/ronaldsuwandi/chessterm" target="_blank">Project page</a>
+                                <a href="http://github.com/ronaldsuwandi/chessterm" target="_blank">Project page</a>
                                 
                             </p>
                             
@@ -700,15 +697,15 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="" target="_blank"><img class="rounded border-none" src="/img/works/logweight.svg" alt="LogWeight"></a>
+                        <a href="" target="_blank"><img src="/img/works/logweight.svg" alt="LogWeight"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>LogWeight</strong></p>
+                            <p class="title"><strong>LogWeight</strong></p>
                             
                         </div>
                         <div class="entry-content-period">
@@ -725,19 +722,19 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="http://github.com/ronaldsuwandi/neuralnetworks" target="_blank"><img class="rounded border-none" src="/img/works/nn.png" alt="Neural Networks Library"></a>
+                        <a href="http://github.com/ronaldsuwandi/neuralnetworks" target="_blank"><img src="/img/works/nn.png" alt="Neural Networks Library"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Neural networks library</strong></p>
+                            <p class="title"><strong>Neural networks library</strong></p>
                             
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 
-                                <a class="inline-block" href="http://github.com/ronaldsuwandi/neuralnetworks" target="_blank">Project page</a>
+                                <a href="http://github.com/ronaldsuwandi/neuralnetworks" target="_blank">Project page</a>
                                 
                             </p>
                             
@@ -756,15 +753,15 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="" target="_blank"><img class="rounded border-none" src="/img/works/wearther.svg" alt="wearther"></a>
+                        <a href="" target="_blank"><img src="/img/works/wearther.svg" alt="wearther"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>wearther</strong></p>
+                            <p class="title"><strong>wearther</strong></p>
                             
                         </div>
                         <div class="entry-content-period">
@@ -781,15 +778,15 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
-                        <a class="inline-block" href="" target="_blank"><img class="rounded border-none" src="/img/works/hashtag.svg" alt="#hashtagoverload"></a>
+                        <a href="" target="_blank"><img src="/img/works/hashtag.svg" alt="#hashtagoverload"></a>
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>#hashtagoverload</strong></p>
+                            <p class="title"><strong>#hashtagoverload</strong></p>
                             
                         </div>
                         <div class="entry-content-period">
@@ -808,20 +805,20 @@
                 
             </div>
     </section>
-    <section class="educations md-p3 p2">
-            <h2 class="center">— Educations —</h2>
-            <div class="flex flex-column max-width-3 mx-auto">
+    <section class="educations">
+            <h2>— Educations —</h2>
+            <div class="entries">
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Generative AI with Large Language Models</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://learn.deeplearning.ai/certificates/2adec3b5-2a37-472b-8400-692aa171380b" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Generative AI with Large Language Models</strong></p>
+                            <p class="subtitle"><a href="https://learn.deeplearning.ai/certificates/2adec3b5-2a37-472b-8400-692aa171380b" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -834,16 +831,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Ultimate Rust 2: Intermediate Concepts</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.udemy.com/certificate/UC-72d65242-966a-451e-a3b0-13987e58b4f2/" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Ultimate Rust 2: Intermediate Concepts</strong></p>
+                            <p class="subtitle"><a href="https://www.udemy.com/certificate/UC-72d65242-966a-451e-a3b0-13987e58b4f2/" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -856,16 +853,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Ultimate Rust Crash Course</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.udemy.com/certificate/UC-48d03126-21a7-4574-b13d-b607341037c2/" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Ultimate Rust Crash Course</strong></p>
+                            <p class="subtitle"><a href="https://www.udemy.com/certificate/UC-48d03126-21a7-4574-b13d-b607341037c2/" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -878,16 +875,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>AWS Certified Developer – Associate</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.credly.com/badges/8d5b5a9f-62b8-4ef4-bb1c-47cb8b07dbab?source=linked_in_profile" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>AWS Certified Developer – Associate</strong></p>
+                            <p class="subtitle"><a href="https://www.credly.com/badges/8d5b5a9f-62b8-4ef4-bb1c-47cb8b07dbab?source=linked_in_profile" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -900,16 +897,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Confluent Certified Developer for Apache Kafka</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.credential.net/89d758d4-dbab-4176-b2eb-7cb27101449d#gs.gczgc8" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Confluent Certified Developer for Apache Kafka</strong></p>
+                            <p class="subtitle"><a href="https://www.credential.net/89d758d4-dbab-4176-b2eb-7cb27101449d#gs.gczgc8" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -922,16 +919,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Confluent Certified Administrator for Apache Kafka</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.credential.net/1e1b6761-81b4-4c53-88c4-78dffd64f136#gs.gczgb6" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Confluent Certified Administrator for Apache Kafka</strong></p>
+                            <p class="subtitle"><a href="https://www.credential.net/1e1b6761-81b4-4c53-88c4-78dffd64f136#gs.gczgb6" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -944,16 +941,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Learn Kubernetes from a DevOps guru (Kubernetes + Docker)</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://ude.my/UC-PGFKB8IY" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Learn Kubernetes from a DevOps guru (Kubernetes + Docker)</strong></p>
+                            <p class="subtitle"><a href="https://ude.my/UC-PGFKB8IY" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -966,16 +963,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Docker Mastery: The Complete Toolset From a Docker Captain</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://ude.my/UC-HRZ4B4W9" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Docker Mastery: The Complete Toolset From a Docker Captain</strong></p>
+                            <p class="subtitle"><a href="https://ude.my/UC-HRZ4B4W9" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -988,16 +985,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Convolutional Neural Networks</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.coursera.org/account/accomplishments/verify/W6YC9SXP2PRW" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Convolutional Neural Networks</strong></p>
+                            <p class="subtitle"><a href="https://www.coursera.org/account/accomplishments/verify/W6YC9SXP2PRW" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -1010,16 +1007,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Structuring Machine Learning Projects</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.coursera.org/account/accomplishments/verify/8NWS3ZLM6ZJZ" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Structuring Machine Learning Projects</strong></p>
+                            <p class="subtitle"><a href="https://www.coursera.org/account/accomplishments/verify/8NWS3ZLM6ZJZ" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -1032,16 +1029,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.coursera.org/account/accomplishments/verify/2KMC3Z2DGDTT" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</strong></p>
+                            <p class="subtitle"><a href="https://www.coursera.org/account/accomplishments/verify/2KMC3Z2DGDTT" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -1054,16 +1051,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Neural Networks and Deep Learning</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.coursera.org/account/accomplishments/verify/WP37PDQFNADP" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Neural Networks and Deep Learning</strong></p>
+                            <p class="subtitle"><a href="https://www.coursera.org/account/accomplishments/verify/WP37PDQFNADP" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -1076,16 +1073,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Machine Learning</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.coursera.org/account/accomplishments/verify/5XHU8Q8VK7PX" target="_blank">Certificate</a></p>
+                            <p class="title"><strong>Machine Learning</strong></p>
+                            <p class="subtitle"><a href="https://www.coursera.org/account/accomplishments/verify/5XHU8Q8VK7PX" target="_blank">Certificate</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -1098,16 +1095,16 @@
                     </div>
                 </div>
                 
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         
                         <img style="visibility: hidden;">
                         
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>Honours, Computer Science (Second Upper Class - IIA)</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="https://www.adelaide.edu.au" target="_blank">University of Adelaide</a></p>
+                            <p class="title"><strong>Honours, Computer Science (Second Upper Class - IIA)</strong></p>
+                            <p class="subtitle"><a href="https://www.adelaide.edu.au" target="_blank">University of Adelaide</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -1122,11 +1119,11 @@
                 
             </div>
     </section>
-    <section class="contact md-pt2 md-pl3 md-pr3 md-pb3 p2">
-        <p class="center my0 scroll-up">
+    <section class="contact">
+        <p class="scroll-up">
             <a class="scroll-to-main" aria-label="Scroll to top"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-up-open"></use></svg></a>
         </p>
-        <p class="center">
+        <p class="copyright">
             &copy; Ronald Suwandi 2016<script>new Date().getFullYear()>2016&&document.write(" – "+new Date().getFullYear());</script>
         </p>
     </section>

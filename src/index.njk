@@ -13,10 +13,7 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- TODO - use template to use cdn for prod -->
-    <link rel="stylesheet" type="text/css" href="/css/basscss-8.0.1.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/basscss-addons.css">
-    <link rel="stylesheet" type="text/css" href="/css/normalize-4.1.1.css">
+    <link rel="stylesheet" type="text/css" href="/css/modern-normalize-3.0.1.css">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
 
@@ -24,45 +21,45 @@
 </head>
 
 <body>
-    <section class="main flex items-center justify-center border-box">
-        <div class="p3 max-width-2">
-            <img class="circle mx-auto block border border-box" src="/img/ronald.jpg">
-            <h1 class="center my2">{{ basic.name }}</h1>
+    <section class="main">
+        <div class="main-content">
+            <img src="/img/ronald.jpg">
+            <h1>{{ basic.name }}</h1>
             {{ basic.headline | paragraphSplit | safe }}
 
-            <ul class="mt3 center list-reset social flex justify-center">
+            <ul class="social">
                 {% for item in social %}
-                <a href="{{ item.link }}" class="mx1 flex flex-none circle align-center justify-center" target="_blank" aria-label="{{ item.label }}">
-                    <li class="flex flex-none align-center justify-center">
+                <a href="{{ item.link }}" target="_blank" aria-label="{{ item.label }}">
+                    <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#{{ item.className }}"></use></svg>
                     </li>
                 </a>
                 {% endfor %}
             </ul>
-            <p class="center mt3 mb0 scroll-down">
+            <p class="scroll-down">
                 <a class="scroll-to-experiences" aria-label="Scroll to experiences"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-down-open"></use></svg></a>
             </p>
         </div>
     </section>
-    <section class="experiences md-p3 p2">
-            <h2 class="center">{{ experiences.title }}</h2>
-            <div class="flex flex-column max-width-3 mx-auto">
+    <section class="experiences">
+            <h2>{{ experiences.title }}</h2>
+            <div class="entries">
                 {% for entry in experiences.list %}
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         {% if entry.icon %}
-                        <a class="inline-block" href="{{ entry.link }}" target="_blank"><img class="rounded border-none" src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
+                        <a href="{{ entry.link }}" target="_blank"><img src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
                         {% else %}
                         <img style="visibility: hidden;">
                         {% endif %}
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>{{ entry.title }}</strong></p>
+                            <p class="title"><strong>{{ entry.title }}</strong></p>
                             {% if entry.subtitle %}
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 {% if entry.link %}
-                                <a class="inline-block" href="{{ entry.link }}" target="_blank">
+                                <a href="{{ entry.link }}" target="_blank">
                                     {{ entry.subtitle }}
                                 </a>
                                 {% else %}
@@ -91,25 +88,25 @@
                 {% endfor %}
             </div>
     </section>
-    <section class="projects md-p3 p2">
-            <h2 class="center">{{ projects.title }}</h2>
-            <div class="flex flex-column max-width-3 mx-auto">
+    <section class="projects">
+            <h2>{{ projects.title }}</h2>
+            <div class="entries">
                 {% for entry in projects.list %}
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         {% if entry.icon %}
-                        <a class="inline-block" href="{{ entry.link }}" target="_blank"><img class="rounded border-none" src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
+                        <a href="{{ entry.link }}" target="_blank"><img src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
                         {% else %}
                         <img style="visibility: hidden;">
                         {% endif %}
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>{{ entry.title }}</strong></p>
+                            <p class="title"><strong>{{ entry.title }}</strong></p>
                             {% if entry.subtitle %}
-                            <p class="mt0 mb1 subtitle">
+                            <p class="subtitle">
                                 {% if entry.link %}
-                                <a class="inline-block" href="{{ entry.link }}" target="_blank">{{ entry.subtitle }}</a>
+                                <a href="{{ entry.link }}" target="_blank">{{ entry.subtitle }}</a>
                                 {% else %}
                                 {{ entry.subtitle }}
                                 {% endif %}
@@ -132,22 +129,22 @@
                 {% endfor %}
             </div>
     </section>
-    <section class="educations md-p3 p2">
-            <h2 class="center">{{ educations.title }}</h2>
-            <div class="flex flex-column max-width-3 mx-auto">
+    <section class="educations">
+            <h2>{{ educations.title }}</h2>
+            <div class="entries">
                 {% for entry in educations.list %}
-                <div class="entry flex my2 sm-my3">
-                    <div class="entry-icon flex-none mr2">
+                <div class="entry">
+                    <div class="entry-icon">
                         {% if entry.icon %}
-                        <a class="inline-block" href="{{ entry.link }}" target="_blank"><img class="rounded border-none" src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
+                        <a href="{{ entry.link }}" target="_blank"><img src="{{ entry.icon }}" alt="{{ entry.iconText }}"></a>
                         {% else %}
                         <img style="visibility: hidden;">
                         {% endif %}
                     </div>
-                    <div class="entry-content ml1 sm-ml2">
+                    <div class="entry-content">
                         <div class="entry-content-title-container">
-                            <p class="m0 title"><strong>{{ entry.title }}</strong></p>
-                            <p class="mt0 mb1 subtitle"><a class="inline-block" href="{{ entry.link }}" target="_blank">{{ entry.subtitle }}</a></p>
+                            <p class="title"><strong>{{ entry.title }}</strong></p>
+                            <p class="subtitle"><a href="{{ entry.link }}" target="_blank">{{ entry.subtitle }}</a></p>
                         </div>
                         <div class="entry-content-period">
                             <small>
@@ -162,11 +159,11 @@
                 {% endfor %}
             </div>
     </section>
-    <section class="contact md-pt2 md-pl3 md-pr3 md-pb3 p2">
-        <p class="center my0 scroll-up">
+    <section class="contact">
+        <p class="scroll-up">
             <a class="scroll-to-main" aria-label="Scroll to top"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-up-open"></use></svg></a>
         </p>
-        <p class="center">
+        <p class="copyright">
             &copy; Ronald Suwandi 2016<script>new Date().getFullYear()>2016&&document.write(" – "+new Date().getFullYear());</script>
         </p>
     </section>
