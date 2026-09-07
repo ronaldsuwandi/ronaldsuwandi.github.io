@@ -1,5 +1,17 @@
 title: "— My personal projects —"
 list:
+  - icon: "/img/works/chessnotate.svg"
+    iconText: "ChessNotate"
+    title: "ChessNotate"
+    subtitle: "Project page"
+    link: "https://chessnotate.app"
+    location: "Singapore"
+    period: "August 2025 – Present"
+    description: >
+      An iOS app for converting handwritten chess scoresheets into valid PGN, using legal-move validation
+      that flags errors on an interactive board for in-place correction rather than blocking on the first 
+      mistake, plus Stockfish-powered move evaluation. Also built a companion web app for quick validation 
+      from any browser. Available on iOS App Store and web
   - icon: "/img/works/ohyah.svg"
     iconText: "Oh Yah! - Daily Routine Management for Kids"
     title: "Oh Yah! - Daily Routine Management for Kids"
