@@ -145,7 +145,7 @@ list:
     title: "Software Engineer"
     subtitle: "Krux Digital (now Salesforce)"
     link: "https://www.salesforce.com/"
-    location: "Sydney"
+    location: "Sydney, Australia"
     period: "September 2014 – May 2015"
     description:
   - icon: "/img/works/lm.svg"
@@ -153,12 +153,12 @@ list:
     title: "Software Engineer"
     subtitle: "Local Measure"
     link: "https://www.localmeasure.com"
-    location: "Sydney"
+    location: "Sydney, Australia"
     period: "February 2014 – September 2014"
     description:
   - title: "Software Engineer (Contract)"
     subtitle: "Murray Hurps Software Pty Ltd"
-    location: "Sydney"
+    location: "Sydney, Australia"
     period: "July 2013 – February 2014"
     description:
   - icon: "/img/works/solveit.jpg"
@@ -166,7 +166,7 @@ list:
     title: "Senior Software Engineer"
     subtitle: "SolveIT Software (now Schneider Electric)"
     link: "http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page"
-    location: "Adelaide"
+    location: "Adelaide, Australia"
     period: "February 2009 – July 2013"
     description:
 
