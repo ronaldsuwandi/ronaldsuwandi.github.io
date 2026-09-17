@@ -81,7 +81,7 @@ list:
         the company
   - icon: "/img/works/confluent.svg"
     title: "Consulting Engineer"
-    subtitle: "Confluent"
+    subtitle: "Confluent (an IBM company)"
     link: "https://www.confluent.io/"
     location: "Singapore"
     period: "November 2020 – May 2022"
@@ -102,7 +102,7 @@ list:
         achieve their business goals
   - icon: "/img/works/security-risk.png"
     title: "Platform Architect & Team Lead"
-    subtitle: "Security Risk (now Software Risk)"
+    subtitle: "Security Risk (Software Risk)"
     link: "https://softwarerisk.com"
     location: "Singapore"
     period: "June 2019 – November 2020"
@@ -120,14 +120,14 @@ list:
         critical initiatives for the engineering team
   - icon: "/img/works/security-risk.png"
     title: "Senior Software Engineer & DevOps Engineer"
-    subtitle: "Security Risk (now Software Risk)"
+    subtitle: "Security Risk (Software Risk)"
     link: "https://softwarerisk.com"
     location: "Singapore"
     period: "June 2018 – June 2019"
     description:
   - icon: "/img/works/eyeota.png"
     title: "Senior Software Engineer"
-    subtitle: "Eyeota (now "
+    subtitle: "Eyeota (a Dun & Bradstreet company)"
     link: "https://www.eyeota.com/"
     location: "Singapore"
     period: "July 2015 – June 2018"
@@ -143,7 +143,7 @@ list:
         and proactively identifying performance bottlenecks
   - icon: "/img/works/krux.png"
     title: "Software Engineer"
-    subtitle: "Krux Digital (now Salesforce)"
+    subtitle: "Krux Digital (Salesforce)"
     link: "https://www.salesforce.com/"
     location: "Sydney, Australia"
     period: "September 2014 – May 2015"
@@ -162,9 +162,8 @@ list:
     period: "July 2013 – February 2014"
     description:
   - icon: "/img/works/solveit.jpg"
-    iconText: "SolveIT Software (now Schneider Electric)"
     title: "Senior Software Engineer"
-    subtitle: "SolveIT Software (now Schneider Electric)"
+    subtitle: "SolveIT Software (Schneider Electric)"
     link: "http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page"
     location: "Adelaide, Australia"
     period: "February 2009 – July 2013"
