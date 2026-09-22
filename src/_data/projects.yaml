@@ -8,10 +8,12 @@ list:
     location: "Singapore"
     period: "August 2025 – Present"
     description: >
-      An iOS app for converting handwritten chess scoresheets into valid PGN, using legal-move validation
-      that flags errors on an interactive board for in-place correction rather than blocking on the first 
-      mistake, plus Stockfish-powered move evaluation. Also built a companion web app for quick validation 
-      from any browser. Available on iOS App Store and web
+      An iOS app for capturing chess games as valid PGN via manual scoresheet transcription, with legal-move 
+      validation that flags errors on an interactive board for in-place correction rather than blocking on the 
+      first mistake, plus Stockfish-powered move evaluation. Evaluated VisionKit-based OCR for scoresheet capture 
+      but found accuracy insufficient for production use; prioritized fast, low-friction manual entry and 
+      validation UX instead. Also built a companion web app for quick validation from any browser. Available on 
+      iOS App Store and web
   - icon: "/img/works/ohyah.svg"
     iconText: "Oh Yah! - Daily Routine Management for Kids"
     title: "Oh Yah! - Daily Routine Management for Kids"
