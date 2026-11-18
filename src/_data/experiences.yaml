@@ -1,4 +1,4 @@
-title: "— My experiences —"
+title: "— Experience —"
 list:
   - icon: "/img/works/thoughtworks.svg"
     title: "Staff Software Engineer"
@@ -101,6 +101,7 @@ list:
         needs, providing consultative guidance to address high-scale data processing challenges and help clients
         achieve their business goals
   - icon: "/img/works/security-risk.png"
+    earlier: true
     title: "Platform Architect & Team Lead"
     subtitle: "Security Risk (Software Risk)"
     link: "https://softwarerisk.com"
@@ -119,6 +120,7 @@ list:
       - Promoted to lead platform architecture, overseeing the development of high-performance services and managing
         critical initiatives for the engineering team
   - icon: "/img/works/security-risk.png"
+    earlier: true
     title: "Senior Software Engineer & DevOps Engineer"
     subtitle: "Security Risk (Software Risk)"
     link: "https://softwarerisk.com"
@@ -126,6 +128,7 @@ list:
     period: "June 2018 – June 2019"
     description:
   - icon: "/img/works/eyeota.png"
+    earlier: true
     title: "Senior Software Engineer"
     subtitle: "Eyeota (a Dun & Bradstreet company)"
     link: "https://www.eyeota.com/"
@@ -142,6 +145,7 @@ list:
       - Ensured operational excellence by setting up and overseeing DevOps practices, improving system stability,
         and proactively identifying performance bottlenecks
   - icon: "/img/works/krux.png"
+    earlier: true
     title: "Software Engineer"
     subtitle: "Krux Digital (Salesforce)"
     link: "https://www.salesforce.com/"
@@ -149,6 +153,7 @@ list:
     period: "September 2014 – May 2015"
     description:
   - icon: "/img/works/lm.svg"
+    earlier: true
     iconText: "Local Measure"
     title: "Software Engineer"
     subtitle: "Local Measure"
@@ -157,11 +162,13 @@ list:
     period: "February 2014 – September 2014"
     description:
   - title: "Software Engineer (Contract)"
+    earlier: true
     subtitle: "Murray Hurps Software Pty Ltd"
     location: "Sydney, Australia"
     period: "July 2013 – February 2014"
     description:
   - icon: "/img/works/solveit.jpg"
+    earlier: true
     title: "Senior Software Engineer"
     subtitle: "SolveIT Software (Schneider Electric)"
     link: "http://www2.schneider-electric.com/sites/corporate/en/products-services/former-brands/solveit/solveitsoftware.page"

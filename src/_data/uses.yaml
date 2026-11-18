@@ -1,0 +1,18 @@
+title: "Uses"
+intro: ""
+sections:
+  - name: "Hardware / desk setup"
+    items: []
+  - name: "macOS + window management"
+    items: []
+  - name: "Dev environment"
+    items: []
+  - name: "Editors / terminal"
+    items: []
+  - name: "Productivity"
+    items: []
+  - name: "Coffee gear"
+    items: []
+  - name: "Chess"
+    items: []
+# item shape: { name: "...", note: "optional", link: "optional" }

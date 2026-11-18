@@ -1,31 +1,14 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Ronald Suwandi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#ffffff">
-
-    <link rel="stylesheet" type="text/css" href="/css/modern-normalize-3.0.1.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
-
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="5f4b01f8-0728-49c2-a6cc-77775716fd6c"></script>
-</head>
-
-<body>
+---
+layout: base.njk
+---
     <section class="main">
         <div class="main-content">
             <img src="/img/ronald.jpg">
             <h1>{{ basic.name }}</h1>
             {{ basic.headline | paragraphSplit | safe }}
+            <p class="site-links">
+                {% for item in links %}<a href="{{ item.link }}"{% if item.download %} download="{{ item.download }}"{% endif %}>{{ item.label }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+            </p>
 
             <ul class="social">
                 {% for item in social %}
@@ -37,14 +20,26 @@
                 {% endfor %}
             </ul>
             <p class="scroll-down">
-                <a class="scroll-to-experiences" aria-label="Scroll to experiences"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-down-open"></use></svg></a>
+                <a class="scroll-to-experiences" aria-label="Scroll down"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-down-open"></use></svg></a>
             </p>
+        </div>
+    </section>
+    <section class="featured">
+        <h2>— Featured —</h2>
+        <div class="cards">
+            {% for entry in projects.list | selectattr("featured") | sort(false, false, "featured") %}
+            <a class="card" href="{{ entry.link }}" target="_blank">
+                <img src="{{ entry.icon }}" alt="">
+                <strong>{{ entry.featuredTitle or entry.title }}</strong>
+                <span>{{ entry.tagline }}</span>
+            </a>
+            {% endfor %}
         </div>
     </section>
     <section class="experiences">
             <h2>{{ experiences.title }}</h2>
             <div class="entries">
-                {% for entry in experiences.list %}
+                {% for entry in experiences.list | rejectattr("earlier") %}
                 <div class="entry">
                     <div class="entry-icon">
                         {% if entry.icon %}
@@ -87,6 +82,11 @@
                 </div>
                 {% endfor %}
             </div>
+            <p class="earlier">
+                <strong>Earlier:</strong>
+                {% for company, roles in experiences.list | selectattr("earlier") | groupby("subtitle") %}{{ company }}{% if not loop.last %} · {% endif %}{% endfor %}
+                <br><a href="/cv.pdf" download="Ronald-Suwandi-CV.pdf">Download CV (PDF)</a>
+            </p>
     </section>
     <section class="projects">
             <h2>{{ projects.title }}</h2>
@@ -123,12 +123,23 @@
                         </div>
                         <div class="entry-content-description">
                             {{ entry.description | paragraphSplit | safe }}
+                            {% if entry.challenge %}<p><strong>Interesting challenge:</strong> {{ entry.challenge }}</p>{% endif %}
                         </div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
     </section>
+    {% if writing.list | length %}
+    <section class="writing">
+        <h2>{{ writing.title }}</h2>
+        <ul>
+            {% for item in writing.list %}
+            <li><a href="{{ item.link }}" target="_blank">{{ item.title }}</a>{% if item.date %} <small>{{ item.date }}</small>{% endif %}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
     <section class="educations">
             <h2>{{ educations.title }}</h2>
             <div class="entries">
@@ -168,7 +179,3 @@
         </p>
     </section>
     <script src="/js/main.js"></script>
-
-</body>
-
-</html>

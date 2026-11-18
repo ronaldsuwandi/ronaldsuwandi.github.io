@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/js');
   eleventyConfig.addPassthroughCopy('src/icons.svg');
   eleventyConfig.addPassthroughCopy('src/CNAME');
-  eleventyConfig.addPassthroughCopy('src/*.{ico,png,json,xml}');
+  eleventyConfig.addPassthroughCopy('src/*.{ico,png,json,xml,pdf}');
 
   return {
     dir: {

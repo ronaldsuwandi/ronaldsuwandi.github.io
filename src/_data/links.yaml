@@ -1,0 +1,7 @@
+- label: "my dotfiles"
+  link: "/dotfiles"
+# - label: "what I use"
+#   link: "/uses"
+- label: "CV"
+  link: "/cv.pdf"
+  download: "Ronald-Suwandi-CV.pdf"

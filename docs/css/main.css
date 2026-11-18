@@ -108,9 +108,26 @@ a {
       font-size: 2rem;
     }
   }
+
+  .site-links {
+    text-align: center;
+    margin: 2rem 0 0;
+    color: #011627;
+
+    a {
+      color: #011627;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: #59BFC9;
+      text-underline-offset: 4px;
+      &:hover, &:active {
+        color: #59BFC9;
+      }
+    }
+  }
 }
 
-.experiences, .projects, .educations {
+.featured, .experiences, .projects, .writing, .educations, .uses {
   padding: 1rem;
   @media (min-width: 52em) {
     padding: 2rem;
@@ -181,6 +198,59 @@ a {
         padding: 0 1rem;
       }
     }
+  }
+}
+
+.featured {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1rem;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+    padding: 1.5rem 1rem;
+    border-radius: 8px;
+    background: #F2FBFC;
+    color: #011627;
+    line-height: 1.5;
+
+    img {
+      width: 60px;
+    }
+
+    &:hover, &:active {
+      box-shadow: 0 4px 12px rgba(1, 22, 39, .1);
+      color: #011627;
+    }
+  }
+}
+
+.experiences .earlier {
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+
+  a {
+    display: inline-block;
+    margin-top: 1.5rem;
+  }
+}
+
+.uses, .writing {
+  max-width: 48rem;
+  margin: 0 auto;
+
+  li {
+    line-height: 1.5;
   }
 }
 

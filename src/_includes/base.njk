@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% if title %}{{ title }} – {% endif %}Ronald Suwandi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% set pageTitle %}{% if title %}{{ title }} – {% endif %}{{ basic.name }}{% endset %}
+    {% set pageDesc = basic.headline | trim | truncate(160) %}
+    <meta name="description" content="{{ pageDesc }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ pageTitle }}">
+    <meta property="og:description" content="{{ pageDesc }}">
+    <meta property="og:url" content="https://ronaldsuwandi.com{{ page.url }}">
+    <meta property="og:image" content="https://ronaldsuwandi.com{{ basic.image }}">
+    <meta name="twitter:card" content="summary">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="/css/modern-normalize-3.0.1.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
+
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="5f4b01f8-0728-49c2-a6cc-77775716fd6c"></script>
+</head>
+
+<body>
+{{ content | safe }}
+</body>
+
+</html>

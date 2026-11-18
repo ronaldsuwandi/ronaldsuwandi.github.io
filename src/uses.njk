@@ -1,0 +1,23 @@
+---
+layout: base.njk
+#permalink: /uses
+permalink: false
+title: Uses
+---
+
+<section class="uses">
+    <h2>{{ uses.title }}</h2>
+    {% if uses.intro %}<p>{{ uses.intro }}</p>{% endif %}
+    {% for section in uses.sections %}
+    <h3>{{ section.name }}</h3>
+    <ul>
+        {% for item in section.items %}
+        <li>
+            {% if item.link %}<a href="{{ item.link }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+            {% if item.note %}: {{ item.note }}{% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+    <p><a href="/">← back</a></p>
+</section>
