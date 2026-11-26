@@ -12,7 +12,7 @@ layout: base.njk
 
             <ul class="social">
                 {% for item in social %}
-                <a href="{{ item.link }}" target="_blank" aria-label="{{ item.label }}">
+                <a href="{{ item.link }}"{% if 'mailto:' not in item.link %} target="_blank"{% endif %} aria-label="{{ item.label }}">
                     <li>
                         <svg class="icon" aria-hidden="true"><use href="/icons.svg#{{ item.className }}"></use></svg>
                     </li>
