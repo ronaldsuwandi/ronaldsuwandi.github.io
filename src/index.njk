@@ -14,13 +14,13 @@ layout: base.njk
                 {% for item in social %}
                 <a href="{{ item.link }}"{% if 'mailto:' not in item.link %} target="_blank"{% endif %} aria-label="{{ item.label }}">
                     <li>
-                        <svg class="icon" aria-hidden="true"><use href="/icons.svg#{{ item.className }}"></use></svg>
+                        <svg class="icon" aria-hidden="true"><use href="/icons.svg?v={{ '/icons.svg' | hash }}#{{ item.className }}"></use></svg>
                     </li>
                 </a>
                 {% endfor %}
             </ul>
             <p class="scroll-down">
-                <a class="scroll-to-experiences" aria-label="Scroll down"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-down-open"></use></svg></a>
+                <a class="scroll-to-experiences" aria-label="Scroll down"><svg class="icon" aria-hidden="true"><use href="/icons.svg?v={{ '/icons.svg' | hash }}#icon-down-open"></use></svg></a>
             </p>
         </div>
     </section>
@@ -172,7 +172,7 @@ layout: base.njk
     </section>
     <section class="contact">
         <p class="scroll-up">
-            <a class="scroll-to-main" aria-label="Scroll to top"><svg class="icon" aria-hidden="true"><use href="/icons.svg#icon-up-open"></use></svg></a>
+            <a class="scroll-to-main" aria-label="Scroll to top"><svg class="icon" aria-hidden="true"><use href="/icons.svg?v={{ '/icons.svg' | hash }}#icon-up-open"></use></svg></a>
         </p>
         <p class="copyright">
             &copy; Ronald Suwandi 2016<script>new Date().getFullYear()>2016&&document.write(" – "+new Date().getFullYear());</script>
